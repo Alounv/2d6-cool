@@ -42,7 +42,7 @@
 
             .chart-controls {
                 position: absolute;
-                top: 10px;
+                top: 50px;
                 right: 10px;
                 z-index: 30;
                 display: flex;
@@ -167,6 +167,7 @@
                 height: 100%;
                 display: flex;
                 align-items: center;
+                padding-right: 100px;
             }
 
             .year-header-label {
@@ -180,7 +181,7 @@
             .series-row {
                 display: flex;
                 align-items: center;
-                margin-bottom: 15px;
+                margin-bottom: 5px;
                 min-height: 40px;
             }
 
@@ -207,6 +208,7 @@
                 flex: 1;
                 position: relative;
                 height: 40px;
+                padding-right: 100px;
             }
 
             .episode {
@@ -242,7 +244,7 @@
                 position: absolute;
                 top: 0;
                 left: 250px;
-                right: 0;
+                right: 100px;
                 bottom: 0;
                 pointer-events: none;
             }
@@ -520,12 +522,14 @@
                     const views = parseInt(ep.dataset.views) || 0;
                     let size;
                     if (sizeByViews) {
-                        // Use square root scale for better visual distribution
+                        // Scale area proportionally to views
                         const normalized = (views - minViews) / viewRange;
-                        size =
-                            minCircleSize +
-                            Math.sqrt(normalized) *
-                                (maxCircleSize - minCircleSize);
+                        const minArea =
+                            Math.PI * Math.pow(minCircleSize / 2, 2);
+                        const maxArea =
+                            Math.PI * Math.pow(maxCircleSize / 2, 2);
+                        const area = minArea + normalized * (maxArea - minArea);
+                        size = 2 * Math.sqrt(area / Math.PI);
                     } else {
                         size = 14; // Default size
                     }
@@ -588,7 +592,7 @@
 
                 // Add some padding to the date range
                 minDate.setMonth(minDate.getMonth() - 1);
-                maxDate.setMonth(maxDate.getMonth() + 1);
+                maxDate.setFullYear(maxDate.getFullYear() + 1);
 
                 const totalMs = maxDate - minDate;
 
@@ -715,8 +719,29 @@
                     });
 
                     ep.addEventListener("mousemove", (e) => {
-                        tooltip.style.left = e.clientX + 15 + "px";
-                        tooltip.style.top = e.clientY + 15 + "px";
+                        const tooltipRect = tooltip.getBoundingClientRect();
+                        const viewportWidth = window.innerWidth;
+                        const viewportHeight = window.innerHeight;
+
+                        let left = e.clientX + 15;
+                        let top = e.clientY + 15;
+
+                        // Adjust if tooltip overflows right edge
+                        if (left + tooltipRect.width > viewportWidth) {
+                            left = e.clientX - tooltipRect.width - 15;
+                        }
+
+                        // Adjust if tooltip overflows bottom edge
+                        if (top + tooltipRect.height > viewportHeight) {
+                            top = e.clientY - tooltipRect.height - 15;
+                        }
+
+                        // Ensure tooltip doesn't go off left or top edge
+                        left = Math.max(10, left);
+                        top = Math.max(10, top);
+
+                        tooltip.style.left = left + "px";
+                        tooltip.style.top = top + "px";
                     });
 
                     ep.addEventListener("mouseleave", () => {
