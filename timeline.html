@@ -371,6 +371,7 @@
                                 type="checkbox"
                                 class="toggle-checkbox"
                                 id="viewSizeToggle"
+                                checked
                             />
                             Size by views
                         </label>
@@ -422,7 +423,7 @@
 
             let videosData = null;
             let zoomLevel = 1;
-            let sizeByViews = false;
+            let sizeByViews = true;
             const minZoom = 0.5;
             const maxZoom = 4;
             const baseWidth = 2500;
@@ -543,6 +544,7 @@
                     const response = await fetch("./data/videos.json");
                     videosData = await response.json();
                     renderTimeline();
+                    updateCircleSizes();
                 } catch (error) {
                     console.error("Error loading data:", error);
                     document.getElementById("chart").innerHTML =
