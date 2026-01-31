@@ -42,13 +42,12 @@
 
             .chart-controls {
                 position: absolute;
-                top: 50px;
+                bottom: 0;
                 right: 10px;
-                z-index: 30;
                 display: flex;
                 gap: 10px;
                 background: #0f0f23;
-                padding: 8px;
+                padding: 6px 8px;
                 border-radius: 6px;
             }
 
@@ -90,54 +89,66 @@
                 padding: 0 8px;
             }
 
-            .toggle-label {
+            .size-slider {
                 display: flex;
                 align-items: center;
                 gap: 8px;
-                color: #888;
-                font-size: 12px;
-                cursor: pointer;
             }
 
-            .toggle-checkbox {
-                width: 36px;
-                height: 20px;
+            .size-option {
+                color: #888;
+                font-size: 11px;
+                cursor: pointer;
+                transition: color 0.2s;
+            }
+
+            .size-option.active {
+                color: #4cc9f0;
+                font-weight: bold;
+            }
+
+            .slider-input {
+                width: 60px;
+                height: 4px;
                 appearance: none;
                 background: #16213e;
-                border: 1px solid #444;
-                border-radius: 10px;
+                border-radius: 2px;
                 cursor: pointer;
-                position: relative;
-                transition: background 0.2s;
             }
 
-            .toggle-checkbox:checked {
-                background: #4cc9f0;
-                border-color: #4cc9f0;
-            }
-
-            .toggle-checkbox::before {
-                content: "";
-                position: absolute;
+            .slider-input::-webkit-slider-thumb {
+                appearance: none;
                 width: 14px;
                 height: 14px;
-                background: #fff;
+                background: #4cc9f0;
                 border-radius: 50%;
-                top: 2px;
-                left: 2px;
-                transition: transform 0.2s;
+                cursor: pointer;
             }
 
-            .toggle-checkbox:checked::before {
-                transform: translateX(16px);
+            .slider-input::-moz-range-thumb {
+                width: 14px;
+                height: 14px;
+                background: #4cc9f0;
+                border-radius: 50%;
+                cursor: pointer;
+                border: none;
             }
 
             .chart-container {
                 background: #16213e;
-                border-radius: 8px;
+                border-radius: 0 0 8px 8px;
                 overflow-x: auto;
-                max-height: 80vh;
-                overflow-y: auto;
+                overflow-y: visible;
+            }
+
+            .year-header-wrapper {
+                position: sticky;
+                top: 0;
+                z-index: 20;
+                background: #16213e;
+                overflow: hidden;
+                border-radius: 8px 8px 0 0;
+                padding-bottom: 40px;
             }
 
             .chart {
@@ -147,10 +158,7 @@
 
             .year-header {
                 display: flex;
-                position: sticky;
-                top: 0;
                 background: #16213e;
-                z-index: 20;
                 height: 40px;
                 align-items: center;
             }
@@ -358,27 +366,39 @@
             <div class="stats" id="stats"></div>
 
             <div class="chart-wrapper">
-                <div class="chart-controls">
-                    <div class="control-group">
-                        <button class="zoom-btn" id="zoomOut">−</button>
-                        <span class="zoom-level" id="zoomLevel">100%</span>
-                        <button class="zoom-btn" id="zoomIn">+</button>
-                        <button class="zoom-btn" id="zoomReset">↺</button>
-                    </div>
-                    <div class="control-group">
-                        <label class="toggle-label">
-                            <input
-                                type="checkbox"
-                                class="toggle-checkbox"
-                                id="viewSizeToggle"
-                                checked
-                            />
-                            Size by views
-                        </label>
+                <div class="year-header-wrapper">
+                    <div class="year-header" id="yearHeader"></div>
+                    <div class="chart-controls">
+                        <div class="control-group">
+                            <button class="zoom-btn" id="zoomOut">−</button>
+                            <span class="zoom-level" id="zoomLevel">100%</span>
+                            <button class="zoom-btn" id="zoomIn">+</button>
+                            <button class="zoom-btn" id="zoomReset">↺</button>
+                        </div>
+                        <div class="control-group">
+                            <div class="size-slider">
+                                <span class="size-option" data-value="standard"
+                                    >Standard</span
+                                >
+                                <input
+                                    type="range"
+                                    min="0"
+                                    max="2"
+                                    value="0"
+                                    id="sizeSlider"
+                                    class="slider-input"
+                                />
+                                <span class="size-option" data-value="views"
+                                    >Views</span
+                                >
+                                <span class="size-option" data-value="likes"
+                                    >Likes</span
+                                >
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="chart-container" id="chartContainer">
-                    <div class="year-header" id="yearHeader"></div>
                     <div class="chart" id="chart"></div>
                 </div>
             </div>
@@ -423,7 +443,7 @@
 
             let videosData = null;
             let zoomLevel = 1;
-            let sizeByViews = true;
+            let sizeMode = "standard"; // 'standard', 'views', 'likes'
             const minZoom = 0.5;
             const maxZoom = 4;
             const baseWidth = 2500;
@@ -497,13 +517,42 @@
                     { passive: false },
                 );
 
-                // Size by views toggle
-                document
-                    .getElementById("viewSizeToggle")
-                    .addEventListener("change", (e) => {
-                        sizeByViews = e.target.checked;
+                // Size slider
+                const sizeSlider = document.getElementById("sizeSlider");
+                const sizeOptions = document.querySelectorAll(".size-option");
+                const modes = ["standard", "views", "likes"];
+
+                function updateSliderUI() {
+                    sizeOptions.forEach((opt, i) => {
+                        opt.classList.toggle(
+                            "active",
+                            i === parseInt(sizeSlider.value),
+                        );
+                    });
+                }
+
+                sizeSlider.addEventListener("input", (e) => {
+                    sizeMode = modes[e.target.value];
+                    updateSliderUI();
+                    updateCircleSizes();
+                });
+
+                sizeOptions.forEach((opt, i) => {
+                    opt.addEventListener("click", () => {
+                        sizeSlider.value = i;
+                        sizeMode = modes[i];
+                        updateSliderUI();
                         updateCircleSizes();
                     });
+                });
+
+                updateSliderUI();
+
+                // Sync horizontal scroll between chart and year header
+                const yearHeader = document.getElementById("yearHeader");
+                chartContainer.addEventListener("scroll", () => {
+                    yearHeader.style.transform = `translateX(-${chartContainer.scrollLeft}px)`;
+                });
             }
 
             function updateCircleSizes() {
@@ -518,21 +567,33 @@
                     ...videos.map((v) => v.viewCount || 0),
                 );
                 const viewRange = maxViews - minViews || 1;
+                const maxLikes = Math.max(
+                    ...videos.map((v) => v.likeCount || 0),
+                );
+                const minLikes = Math.min(
+                    ...videos.map((v) => v.likeCount || 0),
+                );
+                const likeRange = maxLikes - minLikes || 1;
 
                 episodes.forEach((ep) => {
-                    const views = parseInt(ep.dataset.views) || 0;
                     let size;
-                    if (sizeByViews) {
-                        // Scale area proportionally to views
-                        const normalized = (views - minViews) / viewRange;
+                    if (sizeMode === "standard") {
+                        size = 14;
+                    } else {
+                        const value =
+                            sizeMode === "views"
+                                ? parseInt(ep.dataset.views) || 0
+                                : parseInt(ep.dataset.likes) || 0;
+                        const min = sizeMode === "views" ? minViews : minLikes;
+                        const range =
+                            sizeMode === "views" ? viewRange : likeRange;
+                        const normalized = (value - min) / range;
                         const minArea =
                             Math.PI * Math.pow(minCircleSize / 2, 2);
                         const maxArea =
                             Math.PI * Math.pow(maxCircleSize / 2, 2);
                         const area = minArea + normalized * (maxArea - minArea);
                         size = 2 * Math.sqrt(area / Math.PI);
-                    } else {
-                        size = 14; // Default size
                     }
                     ep.style.width = size + "px";
                     ep.style.height = size + "px";
@@ -577,8 +638,8 @@
                     }))
                     .sort(
                         (a, b) =>
-                            new Date(a.episodes[0].publishedAt) -
-                            new Date(b.episodes[0].publishedAt),
+                            new Date(b.episodes[0].publishedAt) -
+                            new Date(a.episodes[0].publishedAt),
                     );
 
                 // Assign colors to series
