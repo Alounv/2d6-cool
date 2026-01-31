@@ -1,7 +1,7 @@
 [
   "2d6+Hot",
   "2d6+Sharp",
-  "A single moment Star Wars",
+  ["A single moment Star Wars", "A single moment"],
   "Alice is Missing",
   "Alien",
   "Anime was a mistake",
@@ -22,7 +22,12 @@
   "Dodecaedre",
   "Dominion",
   "Donjon & Cie",
-  ["Dragon Ball", "Dragon Ball Final Stand", "Dragon Ball Parallels", "Dragon Ball Z"],
+  [
+    "Dragon Ball",
+    "Dragon Ball Final Stand",
+    "Dragon Ball Parallels",
+    "Dragon Ball Z"
+  ],
   ["Dungeon World", "Format Court DungeonWorld"],
   "Dés de Sang",
   "Exploirateurs de Bruines",
