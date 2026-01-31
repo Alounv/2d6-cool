@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Series Timeline</title>
+        <title>Timeline</title>
         <style>
             * {
                 margin: 0;
@@ -361,7 +361,7 @@
     </head>
     <body>
         <div class="container">
-            <h1>2d6+Cool - Series Timeline</h1>
+            <h1>2d6+Cool - Timeline</h1>
 
             <div class="stats" id="stats"></div>
 
@@ -389,10 +389,10 @@
                                     class="slider-input"
                                 />
                                 <span class="size-option" data-value="views"
-                                    >Views</span
+                                    >Vues</span
                                 >
                                 <span class="size-option" data-value="likes"
-                                    >Likes</span
+                                    >J'aime</span
                                 >
                             </div>
                         </div>
@@ -609,7 +609,7 @@
                 } catch (error) {
                     console.error("Error loading data:", error);
                     document.getElementById("chart").innerHTML =
-                        '<p style="padding: 20px;">Error loading videos.json. Make sure to serve this file from a web server.</p>';
+                        '<p style="padding: 20px;">Erreur lors du chargement de videos.json. Assurez-vous de servir ce fichier depuis un serveur web.</p>';
                 }
             }
 
@@ -826,23 +826,23 @@
                 const avgDuration = totalDuration / totalEpisodes;
 
                 statsEl.innerHTML = `
-        <h3>Statistics</h3>
+        <h3>Statistiques</h3>
         <div class="stats-grid">
           <div class="stat-card">
             <div class="stat-value">${sortedSeries.length}</div>
-            <div class="stat-label">Series</div>
+            <div class="stat-label">Séries</div>
           </div>
           <div class="stat-card">
             <div class="stat-value">${totalEpisodes}</div>
-            <div class="stat-label">Total Episodes</div>
+            <div class="stat-label">Épisodes au total</div>
           </div>
           <div class="stat-card">
             <div class="stat-value">${Math.floor(totalDuration / 3600)}h</div>
-            <div class="stat-label">Total Duration</div>
+            <div class="stat-label">Durée totale</div>
           </div>
           <div class="stat-card">
             <div class="stat-value">${Math.floor(avgDuration / 60)}min</div>
-            <div class="stat-label">Average Episode Duration</div>
+            <div class="stat-label">Durée moyenne par épisode</div>
           </div>
         </div>
       `;
