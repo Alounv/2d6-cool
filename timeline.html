@@ -36,6 +36,49 @@
                 padding: 20px 0;
             }
 
+            .chart-wrapper {
+                position: relative;
+            }
+
+            .zoom-controls {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                z-index: 30;
+                display: flex;
+                gap: 5px;
+                background: #0f0f23;
+                padding: 5px;
+                border-radius: 6px;
+            }
+
+            .zoom-btn {
+                width: 32px;
+                height: 32px;
+                border: 1px solid #444;
+                background: #16213e;
+                color: #fff;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 18px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: background 0.2s;
+            }
+
+            .zoom-btn:hover {
+                background: #1a1a2e;
+            }
+
+            .zoom-level {
+                color: #888;
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+                padding: 0 8px;
+            }
+
             .chart-container {
                 background: #16213e;
                 border-radius: 8px;
@@ -45,7 +88,6 @@
             }
 
             .chart {
-                min-width: 2500px;
                 height: auto;
                 position: relative;
             }
@@ -56,7 +98,6 @@
                 top: 0;
                 background: #16213e;
                 z-index: 20;
-                min-width: 2500px;
                 height: 40px;
                 align-items: center;
             }
@@ -261,9 +302,17 @@
 
             <div class="stats" id="stats"></div>
 
-            <div class="chart-container">
-                <div class="year-header" id="yearHeader"></div>
-                <div class="chart" id="chart"></div>
+            <div class="chart-wrapper">
+                <div class="zoom-controls">
+                    <button class="zoom-btn" id="zoomOut">−</button>
+                    <span class="zoom-level" id="zoomLevel">100%</span>
+                    <button class="zoom-btn" id="zoomIn">+</button>
+                    <button class="zoom-btn" id="zoomReset">↺</button>
+                </div>
+                <div class="chart-container" id="chartContainer">
+                    <div class="year-header" id="yearHeader"></div>
+                    <div class="chart" id="chart"></div>
+                </div>
             </div>
         </div>
 
@@ -305,6 +354,78 @@
             ];
 
             let videosData = null;
+            let zoomLevel = 1;
+            const minZoom = 0.5;
+            const maxZoom = 4;
+            const baseWidth = 2500;
+
+            function updateZoom() {
+                const width = baseWidth * zoomLevel;
+                document.getElementById("chart").style.minWidth = width + "px";
+                document.getElementById("yearHeader").style.minWidth =
+                    width + "px";
+                document.getElementById("zoomLevel").textContent =
+                    Math.round(zoomLevel * 100) + "%";
+            }
+
+            function setupZoomControls() {
+                const chartContainer =
+                    document.getElementById("chartContainer");
+
+                document
+                    .getElementById("zoomIn")
+                    .addEventListener("click", () => {
+                        zoomLevel = Math.min(maxZoom, zoomLevel * 1.25);
+                        updateZoom();
+                    });
+
+                document
+                    .getElementById("zoomOut")
+                    .addEventListener("click", () => {
+                        zoomLevel = Math.max(minZoom, zoomLevel / 1.25);
+                        updateZoom();
+                    });
+
+                document
+                    .getElementById("zoomReset")
+                    .addEventListener("click", () => {
+                        zoomLevel = 1;
+                        updateZoom();
+                    });
+
+                // Mouse wheel zoom with Ctrl/Cmd
+                chartContainer.addEventListener(
+                    "wheel",
+                    (e) => {
+                        if (e.ctrlKey || e.metaKey) {
+                            e.preventDefault();
+                            const scrollLeft = chartContainer.scrollLeft;
+                            const mouseX =
+                                e.clientX -
+                                chartContainer.getBoundingClientRect().left +
+                                scrollLeft;
+                            const oldZoom = zoomLevel;
+
+                            if (e.deltaY < 0) {
+                                zoomLevel = Math.min(maxZoom, zoomLevel * 1.1);
+                            } else {
+                                zoomLevel = Math.max(minZoom, zoomLevel / 1.1);
+                            }
+
+                            updateZoom();
+
+                            // Adjust scroll to keep mouse position stable
+                            const newMouseX = mouseX * (zoomLevel / oldZoom);
+                            chartContainer.scrollLeft =
+                                newMouseX -
+                                (e.clientX -
+                                    chartContainer.getBoundingClientRect()
+                                        .left);
+                        }
+                    },
+                    { passive: false },
+                );
+            }
 
             async function loadData() {
                 try {
@@ -533,6 +654,7 @@
             }
 
             loadData();
+            setupZoomControls();
         </script>
     </body>
 </html>
