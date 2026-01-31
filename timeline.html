@@ -95,14 +95,16 @@
                 gap: 8px;
             }
 
-            .size-option {
+            .size-option,
+            .sort-option {
                 color: #888;
                 font-size: 11px;
                 cursor: pointer;
                 transition: color 0.2s;
             }
 
-            .size-option.active {
+            .size-option.active,
+            .sort-option.active {
                 color: #4cc9f0;
                 font-weight: bold;
             }
@@ -385,6 +387,15 @@
                     display: none;
                 }
 
+                .control-group:has(.sort-option) {
+                    display: none;
+                }
+
+                .control-group:has(.size-option) {
+                    border-right: none;
+                    padding-right: 0;
+                }
+
                 .chart-controls {
                     right: 50%;
                     transform: translateX(50%);
@@ -426,6 +437,26 @@
                                 >
                                 <span class="size-option" data-value="likes"
                                     >J'aime</span
+                                >
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="size-slider">
+                                <span class="sort-option" data-value="first"
+                                    >1er épisode</span
+                                >
+                                <input
+                                    type="range"
+                                    min="0"
+                                    max="1"
+                                    value="1"
+                                    id="sortSlider"
+                                    class="slider-input"
+                                />
+                                <span
+                                    class="sort-option active"
+                                    data-value="last"
+                                    >Dernier épisode</span
                                 >
                             </div>
                         </div>
@@ -475,8 +506,9 @@
             ];
 
             let videosData = null;
-            let zoomLevel = 0.5;
+            let zoomLevel = 1;
             let sizeMode = "standard"; // 'standard', 'views', 'likes'
+            let sortMode = "last"; // 'first' or 'last' episode date
             const minZoom = 0.5;
             const maxZoom = 4;
             const baseWidth = 2500;
@@ -581,6 +613,37 @@
 
                 updateSliderUI();
 
+                // Sort slider
+                const sortSlider = document.getElementById("sortSlider");
+                const sortOptions = document.querySelectorAll(".sort-option");
+                const sortModes = ["first", "last"];
+
+                function updateSortSliderUI() {
+                    sortOptions.forEach((opt, i) => {
+                        opt.classList.toggle(
+                            "active",
+                            i === parseInt(sortSlider.value),
+                        );
+                    });
+                }
+
+                sortSlider.addEventListener("input", (e) => {
+                    sortMode = sortModes[e.target.value];
+                    updateSortSliderUI();
+                    renderTimeline();
+                });
+
+                sortOptions.forEach((opt, i) => {
+                    opt.addEventListener("click", () => {
+                        sortSlider.value = i;
+                        sortMode = sortModes[i];
+                        updateSortSliderUI();
+                        renderTimeline();
+                    });
+                });
+
+                updateSortSliderUI();
+
                 // Sync horizontal scroll between chart and year header
                 const yearHeader = document.getElementById("yearHeader");
                 chartContainer.addEventListener("scroll", () => {
@@ -673,11 +736,25 @@
                                 new Date(b.publishedAt),
                         ),
                     }))
-                    .sort(
-                        (a, b) =>
-                            new Date(b.episodes[0].publishedAt) -
-                            new Date(a.episodes[0].publishedAt),
-                    );
+                    .sort((a, b) => {
+                        if (sortMode === "first") {
+                            return (
+                                new Date(b.episodes[0].publishedAt) -
+                                new Date(a.episodes[0].publishedAt)
+                            );
+                        } else {
+                            return (
+                                new Date(
+                                    b.episodes[b.episodes.length - 1]
+                                        .publishedAt,
+                                ) -
+                                new Date(
+                                    a.episodes[a.episodes.length - 1]
+                                        .publishedAt,
+                                )
+                            );
+                        }
+                    });
 
                 // Assign colors to series
                 const seriesColors = new Map();
