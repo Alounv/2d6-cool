@@ -1,0 +1,23 @@
+{
+  "name": "youtube-channel-metadata",
+  "version": "1.0.0",
+  "description": "Extract video metadata from a YouTube channel using the Data API v3",
+  "main": "src/youtube_channel_metadata.ts",
+  "scripts": {
+    "extract": "bun src/youtube_channel_metadata.ts",
+    "add-series": "bun src/add_serie_property.ts"
+  },
+  "dependencies": {
+    "googleapis": "^126.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0"
+  },
+  "keywords": [
+    "youtube",
+    "api",
+    "metadata",
+    "channel"
+  ],
+  "license": "MIT"
+}
