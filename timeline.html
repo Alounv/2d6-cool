@@ -5,172 +5,151 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Timeline</title>
         <style>
+            :root {
+                --bg-body: #1a1a2e;
+                --bg-card: #16213e;
+                --bg-control: #0f0f23;
+                --accent: #4cc9f0;
+                --text: #eee;
+                --text-muted: #888;
+                --text-dim: #aaa;
+                --border: #444;
+                --label-width: 250px;
+            }
             * {
                 margin: 0;
                 padding: 0;
                 box-sizing: border-box;
             }
-
             body {
                 font-family:
                     -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
                     sans-serif;
-                background: #1a1a2e;
-                color: #eee;
+                background: var(--bg-body);
+                color: var(--text);
                 padding: 20px;
             }
-
             h1 {
                 text-align: center;
                 margin-bottom: 30px;
-                color: #fff;
             }
-
             .container {
                 max-width: 1400px;
                 margin: 0 auto;
             }
-
-            .timeline {
-                position: relative;
-                padding: 20px 0;
-            }
-
             .chart-wrapper {
                 position: relative;
             }
-
             .chart-controls {
                 position: absolute;
                 bottom: 0;
                 right: 10px;
                 display: flex;
                 gap: 10px;
-                background: #0f0f23;
+                background: var(--bg-control);
                 padding: 6px 8px;
                 border-radius: 6px;
             }
-
             .control-group {
                 display: flex;
                 gap: 5px;
                 align-items: center;
             }
-
             .control-group:not(:last-child) {
                 padding-right: 10px;
-                border-right: 1px solid #444;
+                border-right: 1px solid var(--border);
             }
-
             .zoom-btn {
                 width: 32px;
                 height: 32px;
-                border: 1px solid #444;
-                background: #16213e;
-                color: #fff;
+                border: 1px solid var(--border);
+                background: var(--bg-card);
+                color: var(--text);
                 border-radius: 4px;
                 cursor: pointer;
                 font-size: 18px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                transition: background 0.2s;
             }
-
             .zoom-btn:hover {
-                background: #1a1a2e;
+                background: var(--bg-body);
             }
-
             .zoom-level {
-                color: #888;
+                color: var(--text-muted);
                 font-size: 12px;
-                display: flex;
-                align-items: center;
                 padding: 0 8px;
             }
-
             .size-slider {
                 display: flex;
                 align-items: center;
                 gap: 8px;
             }
-
             .size-option,
             .sort-option {
-                color: #888;
+                color: var(--text-muted);
                 font-size: 11px;
                 cursor: pointer;
-                transition: color 0.2s;
             }
-
             .size-option.active,
             .sort-option.active {
-                color: #4cc9f0;
+                color: var(--accent);
                 font-weight: bold;
             }
-
             .slider-input {
                 width: 60px;
                 height: 4px;
                 appearance: none;
-                background: #16213e;
+                background: var(--bg-card);
                 border-radius: 2px;
                 cursor: pointer;
             }
-
             .slider-input::-webkit-slider-thumb {
                 appearance: none;
                 width: 14px;
                 height: 14px;
-                background: #4cc9f0;
+                background: var(--accent);
                 border-radius: 50%;
                 cursor: pointer;
             }
-
             .slider-input::-moz-range-thumb {
                 width: 14px;
                 height: 14px;
-                background: #4cc9f0;
+                background: var(--accent);
                 border-radius: 50%;
                 cursor: pointer;
                 border: none;
             }
-
             .chart-container {
-                background: #16213e;
+                background: var(--bg-card);
                 border-radius: 0 0 8px 8px;
                 overflow-x: auto;
                 overflow-y: visible;
             }
-
             .year-header-wrapper {
                 position: sticky;
                 top: 0;
                 z-index: 20;
-                background: #16213e;
+                background: var(--bg-card);
                 overflow: hidden;
                 border-radius: 8px 8px 0 0;
                 padding-bottom: 40px;
             }
-
             .chart {
                 height: auto;
                 position: relative;
             }
-
             .year-header {
                 display: flex;
-                background: #16213e;
+                background: var(--bg-card);
                 height: 40px;
                 align-items: center;
             }
-
             .year-header-spacer {
-                width: 250px;
+                width: var(--label-width);
                 flex-shrink: 0;
-                background: #16213e;
+                background: var(--bg-card);
             }
-
             .year-header-timeline {
                 flex: 1;
                 position: relative;
@@ -179,7 +158,6 @@
                 align-items: center;
                 padding-right: 100px;
             }
-
             .year-header-label {
                 position: absolute;
                 transform: translateX(-50%);
@@ -187,15 +165,13 @@
                 color: rgba(255, 255, 255, 0.6);
                 font-weight: bold;
             }
-
             .series-row {
                 display: flex;
                 align-items: stretch;
                 min-height: 50px;
             }
-
             .series-label {
-                width: 250px;
+                width: var(--label-width);
                 flex-shrink: 0;
                 font-size: 14px;
                 padding-right: 15px;
@@ -205,21 +181,18 @@
                 text-overflow: ellipsis;
                 position: sticky;
                 left: 0;
-                background: #16213e;
+                background: var(--bg-card);
                 z-index: 10;
-                align-self: stretch;
                 display: flex;
                 align-items: center;
                 justify-content: flex-end;
             }
-
             .series-timeline {
                 flex: 1;
                 position: relative;
                 height: 40px;
                 padding-right: 100px;
             }
-
             .episode {
                 position: absolute;
                 width: 14px;
@@ -233,13 +206,11 @@
                     box-shadow 0.2s;
                 border: 2px solid rgba(255, 255, 255, 0.3);
             }
-
             .episode:hover {
                 transform: translate(-50%, -50%) scale(1.5);
                 box-shadow: 0 0 15px currentColor;
                 z-index: 100;
             }
-
             .series-line {
                 position: absolute;
                 height: 3px;
@@ -248,17 +219,15 @@
                 border-radius: 2px;
                 opacity: 0.5;
             }
-
             .year-lines {
                 position: absolute;
                 top: 0;
-                left: 250px;
+                left: var(--label-width);
                 right: 0;
                 bottom: 0;
                 pointer-events: none;
                 padding-right: 100px;
             }
-
             .year-line {
                 position: absolute;
                 top: 0;
@@ -266,15 +235,10 @@
                 width: 1px;
                 background: rgba(255, 255, 255, 0.1);
             }
-
-            .year-line-label {
-                display: none;
-            }
-
             .tooltip {
                 position: fixed;
-                background: #0f0f23;
-                border: 1px solid #444;
+                background: var(--bg-control);
+                border: 1px solid var(--border);
                 padding: 12px;
                 border-radius: 8px;
                 font-size: 13px;
@@ -284,86 +248,73 @@
                 display: none;
                 box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
             }
-
             .tooltip-thumbnail {
                 width: 150px;
                 border-radius: 4px;
                 margin-bottom: 10px;
             }
-
             .tooltip-title {
                 font-weight: bold;
                 margin-bottom: 8px;
-                color: #fff;
                 line-height: 1.3;
             }
-
             .tooltip-meta {
                 display: flex;
                 flex-wrap: wrap;
                 gap: 8px 16px;
                 margin-bottom: 8px;
-                color: #aaa;
+                color: var(--text-dim);
                 font-size: 12px;
             }
-
             .tooltip-meta span {
                 display: flex;
                 align-items: center;
                 gap: 4px;
             }
-
             .tooltip-description {
-                color: #888;
+                color: var(--text-muted);
                 font-size: 12px;
                 line-height: 1.4;
                 max-height: 120px;
                 overflow: hidden;
-                text-overflow: ellipsis;
                 display: -webkit-box;
                 -webkit-line-clamp: 6;
                 -webkit-box-orient: vertical;
             }
-
             .stats {
                 margin-bottom: 30px;
                 padding: 15px;
-                background: #16213e;
+                background: var(--bg-card);
                 border-radius: 8px;
             }
-
             .stats h3 {
                 margin-bottom: 15px;
             }
-
             .stats-grid {
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
                 gap: 15px;
             }
-
             .stat-card {
-                background: #1a1a2e;
+                background: var(--bg-body);
                 padding: 15px;
                 border-radius: 6px;
             }
-
             .stat-value {
                 font-size: 24px;
                 font-weight: bold;
-                color: #4cc9f0;
+                color: var(--accent);
             }
-
             .stat-label {
                 font-size: 12px;
-                color: #888;
+                color: var(--text-muted);
                 margin-top: 5px;
             }
-
-            /* Mobile responsive */
             @media (max-width: 768px) {
+                :root {
+                    --label-width: 100px;
+                }
                 .series-label {
-                    width: 100px;
                     font-size: 11px;
                     padding-right: 8px;
                     white-space: normal;
@@ -371,30 +322,17 @@
                     display: -webkit-box;
                     -webkit-line-clamp: 2;
                     -webkit-box-orient: vertical;
-                    overflow: hidden;
                 }
-
-                .year-header-spacer {
-                    width: 100px;
-                }
-
-                .year-lines {
-                    left: 100px;
-                }
-
                 .size-option[data-value="standard"] {
                     display: none;
                 }
-
                 .control-group:has(.sort-option) {
                     display: none;
                 }
-
                 .control-group:has(.size-option) {
                     border-right: none;
                     padding-right: 0;
                 }
-
                 .chart-controls {
                     right: 50%;
                     transform: translateX(50%);
@@ -405,9 +343,7 @@
     <body>
         <div class="container">
             <h1>2d6+Cool - Timeline</h1>
-
             <div class="stats" id="stats"></div>
-
             <div class="chart-wrapper">
                 <div class="year-header-wrapper">
                     <div class="year-header" id="yearHeader"></div>
@@ -466,11 +402,9 @@
                 </div>
             </div>
         </div>
-
         <div class="tooltip" id="tooltip"></div>
 
         <script>
-            // Color palette for series
             const colors = [
                 "#e63946",
                 "#f4a261",
@@ -503,466 +437,275 @@
                 "#607d8b",
                 "#3f51b5",
             ];
+            const $ = (id) => document.getElementById(id);
+            const $$ = (sel) => document.querySelectorAll(sel);
 
-            let videosData = null;
-            let zoomLevel = 1;
-            let sizeMode = "standard"; // 'standard', 'views', 'likes'
-            let sortMode = "last"; // 'first' or 'last' episode date
-            const minZoom = 0.5;
-            const maxZoom = 4;
-            const baseWidth = 2500;
-            const minCircleSize = 6;
-            const maxCircleSize = 40;
+            let videosData = null,
+                zoomLevel = 1,
+                sizeMode = "standard",
+                sortMode = "last";
+            const [minZoom, maxZoom, baseWidth, minCircleSize, maxCircleSize] =
+                [0.5, 4, 2500, 6, 40];
 
-            function updateZoom() {
-                const width = baseWidth * zoomLevel;
-                document.getElementById("chart").style.minWidth = width + "px";
-                document.getElementById("yearHeader").style.minWidth =
-                    width + "px";
-                document.getElementById("zoomLevel").textContent =
-                    Math.round(zoomLevel * 100) + "%";
-            }
+            const updateZoom = () => {
+                const w = baseWidth * zoomLevel + "px";
+                $("chart").style.minWidth = $("yearHeader").style.minWidth = w;
+                $("zoomLevel").textContent = Math.round(zoomLevel * 100) + "%";
+            };
 
-            function setupZoomControls() {
-                const chartContainer =
-                    document.getElementById("chartContainer");
+            const setupControls = () => {
+                const container = $("chartContainer");
 
-                document
-                    .getElementById("zoomIn")
-                    .addEventListener("click", () => {
-                        zoomLevel = Math.min(maxZoom, zoomLevel * 1.25);
-                        updateZoom();
-                    });
+                $("zoomIn").onclick = () => {
+                    zoomLevel = Math.min(maxZoom, zoomLevel * 1.25);
+                    updateZoom();
+                };
+                $("zoomOut").onclick = () => {
+                    zoomLevel = Math.max(minZoom, zoomLevel / 1.25);
+                    updateZoom();
+                };
+                $("zoomReset").onclick = () => {
+                    zoomLevel = 1;
+                    updateZoom();
+                };
 
-                document
-                    .getElementById("zoomOut")
-                    .addEventListener("click", () => {
-                        zoomLevel = Math.max(minZoom, zoomLevel / 1.25);
-                        updateZoom();
-                    });
-
-                document
-                    .getElementById("zoomReset")
-                    .addEventListener("click", () => {
-                        zoomLevel = 1;
-                        updateZoom();
-                    });
-
-                // Mouse wheel zoom with Ctrl/Cmd
-                chartContainer.addEventListener(
+                container.addEventListener(
                     "wheel",
                     (e) => {
-                        if (e.ctrlKey || e.metaKey) {
-                            e.preventDefault();
-                            const scrollLeft = chartContainer.scrollLeft;
-                            const mouseX =
-                                e.clientX -
-                                chartContainer.getBoundingClientRect().left +
-                                scrollLeft;
-                            const oldZoom = zoomLevel;
-
-                            if (e.deltaY < 0) {
-                                zoomLevel = Math.min(maxZoom, zoomLevel * 1.1);
-                            } else {
-                                zoomLevel = Math.max(minZoom, zoomLevel / 1.1);
-                            }
-
-                            updateZoom();
-
-                            // Adjust scroll to keep mouse position stable
-                            const newMouseX = mouseX * (zoomLevel / oldZoom);
-                            chartContainer.scrollLeft =
-                                newMouseX -
-                                (e.clientX -
-                                    chartContainer.getBoundingClientRect()
-                                        .left);
-                        }
+                        if (!e.ctrlKey && !e.metaKey) return;
+                        e.preventDefault();
+                        const rect = container.getBoundingClientRect();
+                        const mouseX =
+                            e.clientX - rect.left + container.scrollLeft;
+                        const oldZoom = zoomLevel;
+                        zoomLevel =
+                            e.deltaY < 0
+                                ? Math.min(maxZoom, zoomLevel * 1.1)
+                                : Math.max(minZoom, zoomLevel / 1.1);
+                        updateZoom();
+                        container.scrollLeft =
+                            mouseX * (zoomLevel / oldZoom) -
+                            (e.clientX - rect.left);
                     },
                     { passive: false },
                 );
 
-                // Size slider
-                const sizeSlider = document.getElementById("sizeSlider");
-                const sizeOptions = document.querySelectorAll(".size-option");
-                const modes = ["standard", "views", "likes"];
-
-                function updateSliderUI() {
-                    sizeOptions.forEach((opt, i) => {
-                        opt.classList.toggle(
-                            "active",
-                            i === parseInt(sizeSlider.value),
+                const setupSlider = (sliderId, options, modes, onChange) => {
+                    const slider = $(sliderId);
+                    const updateUI = () =>
+                        options.forEach((o, i) =>
+                            o.classList.toggle("active", i === +slider.value),
                         );
-                    });
-                }
+                    slider.oninput = () => {
+                        onChange(modes[slider.value]);
+                        updateUI();
+                    };
+                    options.forEach(
+                        (o, i) =>
+                            (o.onclick = () => {
+                                slider.value = i;
+                                onChange(modes[i]);
+                                updateUI();
+                            }),
+                    );
+                    updateUI();
+                };
 
-                sizeSlider.addEventListener("input", (e) => {
-                    sizeMode = modes[e.target.value];
-                    updateSliderUI();
-                    updateCircleSizes();
-                });
-
-                sizeOptions.forEach((opt, i) => {
-                    opt.addEventListener("click", () => {
-                        sizeSlider.value = i;
-                        sizeMode = modes[i];
-                        updateSliderUI();
+                setupSlider(
+                    "sizeSlider",
+                    [...$$(".size-option")],
+                    ["standard", "views", "likes"],
+                    (m) => {
+                        sizeMode = m;
                         updateCircleSizes();
-                    });
-                });
-
-                updateSliderUI();
-
-                // Sort slider
-                const sortSlider = document.getElementById("sortSlider");
-                const sortOptions = document.querySelectorAll(".sort-option");
-                const sortModes = ["first", "last"];
-
-                function updateSortSliderUI() {
-                    sortOptions.forEach((opt, i) => {
-                        opt.classList.toggle(
-                            "active",
-                            i === parseInt(sortSlider.value),
-                        );
-                    });
-                }
-
-                sortSlider.addEventListener("input", (e) => {
-                    sortMode = sortModes[e.target.value];
-                    updateSortSliderUI();
-                    renderTimeline();
-                });
-
-                sortOptions.forEach((opt, i) => {
-                    opt.addEventListener("click", () => {
-                        sortSlider.value = i;
-                        sortMode = sortModes[i];
-                        updateSortSliderUI();
+                    },
+                );
+                setupSlider(
+                    "sortSlider",
+                    [...$$(".sort-option")],
+                    ["first", "last"],
+                    (m) => {
+                        sortMode = m;
                         renderTimeline();
-                    });
-                });
+                    },
+                );
 
-                updateSortSliderUI();
+                container.onscroll = () =>
+                    ($("yearHeader").style.transform =
+                        `translateX(-${container.scrollLeft}px)`);
+            };
 
-                // Sync horizontal scroll between chart and year header
-                const yearHeader = document.getElementById("yearHeader");
-                chartContainer.addEventListener("scroll", () => {
-                    yearHeader.style.transform = `translateX(-${chartContainer.scrollLeft}px)`;
-                });
-            }
-
-            function updateCircleSizes() {
-                const episodes = document.querySelectorAll(".episode");
+            const updateCircleSizes = () => {
                 if (!videosData) return;
-
                 const videos = videosData.videos;
-                const maxViews = Math.max(
-                    ...videos.map((v) => v.viewCount || 0),
-                );
-                const minViews = Math.min(
-                    ...videos.map((v) => v.viewCount || 0),
-                );
-                const viewRange = maxViews - minViews || 1;
-                const maxLikes = Math.max(
-                    ...videos.map((v) => v.likeCount || 0),
-                );
-                const minLikes = Math.min(
-                    ...videos.map((v) => v.likeCount || 0),
-                );
-                const likeRange = maxLikes - minLikes || 1;
+                const getRange = (key) => {
+                    const vals = videos.map((v) => v[key] || 0);
+                    return [Math.min(...vals), Math.max(...vals)];
+                };
+                const [minViews, maxViews] = getRange("viewCount");
+                const [minLikes, maxLikes] = getRange("likeCount");
 
-                episodes.forEach((ep) => {
-                    let size;
-                    if (sizeMode === "standard") {
-                        size = 14;
-                    } else {
-                        const value =
+                $$(".episode").forEach((ep) => {
+                    let size = 14;
+                    if (sizeMode !== "standard") {
+                        const [value, min, max] =
                             sizeMode === "views"
-                                ? parseInt(ep.dataset.views) || 0
-                                : parseInt(ep.dataset.likes) || 0;
-                        const min = sizeMode === "views" ? minViews : minLikes;
-                        const range =
-                            sizeMode === "views" ? viewRange : likeRange;
-                        const normalized = (value - min) / range;
-                        const minArea =
-                            Math.PI * Math.pow(minCircleSize / 2, 2);
-                        const maxArea =
-                            Math.PI * Math.pow(maxCircleSize / 2, 2);
-                        const area = minArea + normalized * (maxArea - minArea);
-                        size = 2 * Math.sqrt(area / Math.PI);
+                                ? [+ep.dataset.views || 0, minViews, maxViews]
+                                : [+ep.dataset.likes || 0, minLikes, maxLikes];
+                        const norm = (value - min) / (max - min || 1);
+                        const [minA, maxA] = [
+                            Math.PI * (minCircleSize / 2) ** 2,
+                            Math.PI * (maxCircleSize / 2) ** 2,
+                        ];
+                        size =
+                            2 *
+                            Math.sqrt((minA + norm * (maxA - minA)) / Math.PI);
                     }
-                    ep.style.width = size + "px";
-                    ep.style.height = size + "px";
+                    ep.style.width = ep.style.height = size + "px";
                 });
-            }
+            };
 
-            async function loadData() {
+            const loadData = async () => {
                 try {
-                    const response = await fetch("./data/videos.json");
-                    videosData = await response.json();
+                    videosData = await (
+                        await fetch("./data/videos.json")
+                    ).json();
                     renderTimeline();
                     updateCircleSizes();
-                    // Scroll to the right (most recent)
-                    const chartContainer =
-                        document.getElementById("chartContainer");
-                    chartContainer.scrollLeft = chartContainer.scrollWidth;
-                } catch (error) {
-                    console.error("Error loading data:", error);
-                    document.getElementById("chart").innerHTML =
-                        '<p style="padding: 20px;">Erreur lors du chargement de videos.json. Assurez-vous de servir ce fichier depuis un serveur web.</p>';
+                    $("chartContainer").scrollLeft =
+                        $("chartContainer").scrollWidth;
+                } catch (e) {
+                    $("chart").innerHTML =
+                        '<p style="padding:20px">Erreur lors du chargement de videos.json.</p>';
                 }
-            }
+            };
 
-            function renderTimeline() {
+            const renderTimeline = () => {
                 const videos = videosData.videos;
-
-                // Group videos by series
                 const seriesMap = new Map();
-                videos.forEach((video) => {
-                    const serie = video.serie || "Unknown";
-                    if (!seriesMap.has(serie)) {
-                        seriesMap.set(serie, []);
-                    }
-                    seriesMap.get(serie).push(video);
+                videos.forEach((v) => {
+                    const s = v.serie || "Unknown";
+                    if (!seriesMap.has(s)) seriesMap.set(s, []);
+                    seriesMap.get(s).push(v);
                 });
 
-                // Sort series by first episode date
-                const sortedSeries = Array.from(seriesMap.entries())
-                    .map(([name, episodes]) => ({
+                const sortedSeries = [...seriesMap.entries()]
+                    .map(([name, eps]) => ({
                         name,
-                        episodes: episodes.sort(
+                        episodes: eps.sort(
                             (a, b) =>
                                 new Date(a.publishedAt) -
                                 new Date(b.publishedAt),
                         ),
                     }))
                     .sort((a, b) => {
-                        if (sortMode === "first") {
-                            return (
-                                new Date(b.episodes[0].publishedAt) -
-                                new Date(a.episodes[0].publishedAt)
+                        const getDate = (s) =>
+                            new Date(
+                                s.episodes[
+                                    sortMode === "first"
+                                        ? 0
+                                        : s.episodes.length - 1
+                                ].publishedAt,
                             );
-                        } else {
-                            return (
-                                new Date(
-                                    b.episodes[b.episodes.length - 1]
-                                        .publishedAt,
-                                ) -
-                                new Date(
-                                    a.episodes[a.episodes.length - 1]
-                                        .publishedAt,
-                                )
-                            );
-                        }
+                        return getDate(b) - getDate(a);
                     });
 
-                // Assign colors to series
-                const seriesColors = new Map();
-                sortedSeries.forEach((serie, index) => {
-                    seriesColors.set(serie.name, colors[index % colors.length]);
-                });
-
-                // Find date range
                 const allDates = videos.map((v) => new Date(v.publishedAt));
-                const minDate = new Date(Math.min(...allDates));
-                const maxDate = new Date(Math.max(...allDates));
-
-                // Add some padding to the date range
+                const minDate = new Date(Math.min(...allDates)),
+                    maxDate = new Date(Math.max(...allDates));
                 minDate.setMonth(minDate.getMonth() - 1);
                 maxDate.setMonth(maxDate.getMonth() + 6);
-
                 const totalMs = maxDate - minDate;
+                const toPos = (d) => ((d - minDate) / totalMs) * 100;
 
-                // Generate year lines
                 const years = [];
-                const startYear = minDate.getFullYear();
-                const endYear = maxDate.getFullYear();
-                for (let year = startYear; year <= endYear; year++) {
-                    const yearDate = new Date(year, 0, 1);
-                    if (yearDate >= minDate && yearDate <= maxDate) {
-                        const pos = ((yearDate - minDate) / totalMs) * 100;
-                        years.push({ year, pos });
-                    }
+                for (
+                    let y = minDate.getFullYear();
+                    y <= maxDate.getFullYear();
+                    y++
+                ) {
+                    const d = new Date(y, 0, 1);
+                    if (d >= minDate && d <= maxDate)
+                        years.push({ year: y, pos: toPos(d) });
                 }
 
-                const yearLinesHtml = `
-                    <div class="year-lines">
-                        ${years
-                            .map(
-                                (y) => `
-                            <div class="year-line" style="left: ${y.pos}%;">
-                                <div class="year-line-label">${y.year}</div>
-                            </div>
-                        `,
-                            )
-                            .join("")}
-                    </div>
-                `;
+                $("yearHeader").innerHTML =
+                    `<div class="year-header-spacer"></div><div class="year-header-timeline">${years.map((y) => `<div class="year-header-label" style="left:${y.pos}%">${y.year}</div>`).join("")}</div>`;
 
-                // Render sticky year header
-                const yearHeaderEl = document.getElementById("yearHeader");
-                yearHeaderEl.innerHTML = `
-                    <div class="year-header-spacer"></div>
-                    <div class="year-header-timeline">
-                        ${years.map((y) => `<div class="year-header-label" style="left: ${y.pos}%;">${y.year}</div>`).join("")}
-                    </div>
-                `;
-
-                // Render chart
-                const chartEl = document.getElementById("chart");
-                chartEl.innerHTML =
-                    yearLinesHtml +
+                $("chart").innerHTML =
+                    `<div class="year-lines">${years.map((y) => `<div class="year-line" style="left:${y.pos}%"></div>`).join("")}</div>` +
                     sortedSeries
-                        .map((serie) => {
-                            const color = seriesColors.get(serie.name);
-                            const episodes = serie.episodes;
-
-                            // Calculate line position (from first to last episode)
-                            const firstPos =
-                                ((new Date(episodes[0].publishedAt) - minDate) /
-                                    totalMs) *
-                                100;
-                            const lastPos =
-                                ((new Date(
-                                    episodes[episodes.length - 1].publishedAt,
-                                ) -
-                                    minDate) /
-                                    totalMs) *
-                                100;
-
-                            const episodeCircles = episodes
+                        .map((s, i) => {
+                            const color = colors[i % colors.length];
+                            const eps = s.episodes;
+                            const firstPos = toPos(
+                                new Date(eps[0].publishedAt),
+                            );
+                            const lastPos = toPos(
+                                new Date(eps[eps.length - 1].publishedAt),
+                            );
+                            const circles = eps
                                 .map((ep) => {
-                                    const pos =
-                                        ((new Date(ep.publishedAt) - minDate) /
-                                            totalMs) *
-                                        100;
-                                    const thumbnail =
+                                    const pos = toPos(new Date(ep.publishedAt));
+                                    const thumb =
                                         ep.thumbnails?.medium?.url ||
                                         ep.thumbnails?.default?.url ||
                                         "";
-                                    const description = (ep.description || "")
+                                    const desc = (ep.description || "")
                                         .replace(/"/g, "&quot;")
                                         .replace(/\n/g, " ");
-                                    return `<div class="episode"
-            style="left: ${pos}%; background: ${color}; color: ${color};"
-            data-title="${ep.title.replace(/"/g, "&quot;")}"
-            data-date="${new Date(ep.publishedAt).toLocaleDateString("fr-FR", { year: "numeric", month: "long", day: "numeric" })}"
-            data-duration="${ep.durationFormatted}"
-            data-views="${ep.viewCount || 0}"
-            data-likes="${ep.likeCount || 0}"
-            data-comments="${ep.commentCount || 0}"
-            data-thumbnail="${thumbnail}"
-            data-description="${description}"
-            data-url="${ep.url}"
-            data-serie="${serie.name}"></div>`;
+                                    const date = new Date(
+                                        ep.publishedAt,
+                                    ).toLocaleDateString("fr-FR", {
+                                        year: "numeric",
+                                        month: "long",
+                                        day: "numeric",
+                                    });
+                                    return `<div class="episode" style="left:${pos}%;background:${color};color:${color}" data-title="${ep.title.replace(/"/g, "&quot;")}" data-date="${date}" data-duration="${ep.durationFormatted}" data-views="${ep.viewCount || 0}" data-likes="${ep.likeCount || 0}" data-comments="${ep.commentCount || 0}" data-thumbnail="${thumb}" data-description="${desc}" data-url="${ep.url}"></div>`;
                                 })
                                 .join("");
-
-                            return `
-          <div class="series-row" data-serie="${serie.name}">
-            <div class="series-label" title="${serie.name}">${serie.name}</div>
-            <div class="series-timeline">
-              <div class="series-line" style="left: ${firstPos}%; width: ${lastPos - firstPos}%; background: ${color};"></div>
-              ${episodeCircles}
-            </div>
-          </div>
-        `;
+                            return `<div class="series-row"><div class="series-label" title="${s.name}">${s.name}</div><div class="series-timeline"><div class="series-line" style="left:${firstPos}%;width:${lastPos - firstPos}%;background:${color}"></div>${circles}</div></div>`;
                         })
                         .join("");
 
-                // Setup tooltip
-                const tooltip = document.getElementById("tooltip");
-                chartEl.querySelectorAll(".episode").forEach((ep) => {
-                    ep.addEventListener("mouseenter", (e) => {
-                        const thumbnailHtml = ep.dataset.thumbnail
-                            ? `<img class="tooltip-thumbnail" src="${ep.dataset.thumbnail}" alt="">`
+                const tooltip = $("tooltip");
+                $$(".episode").forEach((ep) => {
+                    ep.onmouseenter = () => {
+                        const thumb = ep.dataset.thumbnail
+                            ? `<img class="tooltip-thumbnail" src="${ep.dataset.thumbnail}">`
                             : "";
-                        const descriptionHtml = ep.dataset.description
+                        const desc = ep.dataset.description
                             ? `<div class="tooltip-description">${ep.dataset.description}</div>`
                             : "";
-                        tooltip.innerHTML = `
-            ${thumbnailHtml}
-            <div class="tooltip-title">${ep.dataset.title}</div>
-            <div class="tooltip-meta">
-              <span>📅 ${ep.dataset.date}</span>
-              <span>⏱️ ${ep.dataset.duration}</span>
-              <span>👁️ ${Number(ep.dataset.views).toLocaleString()}</span>
-              <span>👍 ${Number(ep.dataset.likes).toLocaleString()}</span>
-              <span>💬 ${Number(ep.dataset.comments).toLocaleString()}</span>
-            </div>
-            ${descriptionHtml}
-          `;
+                        tooltip.innerHTML = `${thumb}<div class="tooltip-title">${ep.dataset.title}</div><div class="tooltip-meta"><span>📅 ${ep.dataset.date}</span><span>⏱️ ${ep.dataset.duration}</span><span>👁️ ${(+ep.dataset.views).toLocaleString()}</span><span>👍 ${(+ep.dataset.likes).toLocaleString()}</span><span>💬 ${(+ep.dataset.comments).toLocaleString()}</span></div>${desc}`;
                         tooltip.style.display = "block";
-                    });
-
-                    ep.addEventListener("mousemove", (e) => {
-                        const tooltipRect = tooltip.getBoundingClientRect();
-                        const viewportWidth = window.innerWidth;
-                        const viewportHeight = window.innerHeight;
-
-                        let left = e.clientX + 15;
-                        let top = e.clientY + 15;
-
-                        // Adjust if tooltip overflows right edge
-                        if (left + tooltipRect.width > viewportWidth) {
-                            left = e.clientX - tooltipRect.width - 15;
-                        }
-
-                        // Adjust if tooltip overflows bottom edge
-                        if (top + tooltipRect.height > viewportHeight) {
-                            top = e.clientY - tooltipRect.height - 15;
-                        }
-
-                        // Ensure tooltip doesn't go off left or top edge
-                        left = Math.max(10, left);
-                        top = Math.max(10, top);
-
-                        tooltip.style.left = left + "px";
-                        tooltip.style.top = top + "px";
-                    });
-
-                    ep.addEventListener("mouseleave", () => {
-                        tooltip.style.display = "none";
-                    });
-
-                    ep.addEventListener("click", () => {
-                        window.open(ep.dataset.url, "_blank");
-                    });
+                    };
+                    ep.onmousemove = (e) => {
+                        const r = tooltip.getBoundingClientRect();
+                        let left = e.clientX + 15,
+                            top = e.clientY + 15;
+                        if (left + r.width > innerWidth)
+                            left = e.clientX - r.width - 15;
+                        if (top + r.height > innerHeight)
+                            top = e.clientY - r.height - 15;
+                        tooltip.style.left = Math.max(10, left) + "px";
+                        tooltip.style.top = Math.max(10, top) + "px";
+                    };
+                    ep.onmouseleave = () => (tooltip.style.display = "none");
+                    ep.onclick = () => window.open(ep.dataset.url, "_blank");
                 });
 
-                // Render stats
-                const statsEl = document.getElementById("stats");
-                const totalEpisodes = videos.length;
-                const totalDuration = videos.reduce(
-                    (sum, v) => sum + (v.durationSeconds || 0),
+                const total = videos.length;
+                const totalDur = videos.reduce(
+                    (s, v) => s + (v.durationSeconds || 0),
                     0,
                 );
-                const avgDuration = totalDuration / totalEpisodes;
-
-                statsEl.innerHTML = `
-        <h3>Statistiques</h3>
-        <div class="stats-grid">
-          <div class="stat-card">
-            <div class="stat-value">${sortedSeries.length}</div>
-            <div class="stat-label">Séries</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-value">${totalEpisodes}</div>
-            <div class="stat-label">Épisodes au total</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-value">${Math.floor(totalDuration / 3600)}h</div>
-            <div class="stat-label">Durée totale</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-value">${Math.floor(avgDuration / 60)}min</div>
-            <div class="stat-label">Durée moyenne par épisode</div>
-          </div>
-        </div>
-      `;
-            }
+                $("stats").innerHTML =
+                    `<h3>Statistiques</h3><div class="stats-grid"><div class="stat-card"><div class="stat-value">${sortedSeries.length}</div><div class="stat-label">Séries</div></div><div class="stat-card"><div class="stat-value">${total}</div><div class="stat-label">Épisodes au total</div></div><div class="stat-card"><div class="stat-value">${Math.floor(totalDur / 3600)}h</div><div class="stat-label">Durée totale</div></div><div class="stat-card"><div class="stat-value">${Math.floor(totalDur / total / 60)}min</div><div class="stat-label">Durée moyenne par épisode</div></div></div>`;
+            };
 
             loadData();
-            setupZoomControls();
+            setupControls();
             updateZoom();
         </script>
     </body>
