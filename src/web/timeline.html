@@ -137,7 +137,7 @@
                                     return createEpisodeEl(ep, pos, color);
                                 })
                                 .join("");
-                            return `<div class="series-row"><div class="series-label" title="${s.name}">${s.name}</div><div class="series-timeline"><div class="series-line" style="left:${firstPos}%;width:${lastPos - firstPos}%;background:${color}"></div>${circles}</div></div>`;
+                            return `<div class="series-row"><div class="series-label" title="${s.name}"><span>${s.name}</span><span class="series-count">${eps.length}</span></div><div class="series-timeline"><div class="series-line" style="left:${firstPos}%;width:${lastPos - firstPos}%;background:${color}"></div>${circles}</div></div>`;
                         })
                         .join("");
 
