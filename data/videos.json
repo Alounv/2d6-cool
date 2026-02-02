@@ -58,10 +58,11 @@
       "index": 1,
       "serie": "Hearts of Wulin",
       "players": [
-        "LamSon",
-        "JCNau",
+        "Khelren",
         "Volsung",
-        "Ulfric"
+        "LamSon",
+        "Ulfric",
+        "JCN"
       ]
     },
     {
@@ -111,10 +112,11 @@
       "index": 2,
       "serie": "Hearts of Wulin",
       "players": [
-        "LamSon",
-        "JCNau",
+        "Khelren",
         "Volsung",
-        "Ulfric"
+        "LamSon",
+        "Ulfric",
+        "JCN"
       ]
     },
     {
@@ -164,10 +166,11 @@
       "index": 3,
       "serie": "Hearts of Wulin",
       "players": [
-        "LamSon",
-        "JCNau",
+        "Khelren",
         "Volsung",
-        "Ulfric"
+        "LamSon",
+        "Ulfric",
+        "JCN"
       ]
     },
     {
@@ -217,10 +220,11 @@
       "index": 4,
       "serie": "Hearts of Wulin",
       "players": [
-        "LamSon",
-        "JCNau",
+        "Khelren",
         "Volsung",
-        "Ulfric"
+        "LamSon",
+        "Ulfric",
+        "JCN"
       ]
     },
     {
@@ -270,10 +274,10 @@
       "index": 5,
       "serie": "Hellywood",
       "players": [
-        "Morgane",
-        "JCN",
         "Lachesis",
-        "Taliesin"
+        "Taliesin",
+        "Morgane",
+        "JCN"
       ]
     },
     {
@@ -323,10 +327,11 @@
       "index": 6,
       "serie": "Hellywood",
       "players": [
-        "Morgane",
-        "JCN",
         "Lachesis",
-        "Taliesin"
+        "Taliesin",
+        "Morgane",
+        "Volsung",
+        "JCN"
       ]
     },
     {
@@ -375,7 +380,12 @@
       "durationFormatted": "2:16:36",
       "index": 7,
       "serie": "Hex & the Punks",
-      "players": []
+      "players": [
+        "Err0r_Stats",
+        "Lachesis",
+        "Catty",
+        "Côme"
+      ]
     },
     {
       "videoId": "zvETJIwpwvs",
@@ -472,10 +482,11 @@
       "index": 9,
       "serie": "Hearts of Wulin",
       "players": [
-        "LamSon",
-        "JCNau",
+        "Khelren",
         "Volsung",
-        "Ulfric"
+        "LamSon",
+        "Ulfric",
+        "JCN"
       ]
     },
     {
@@ -573,10 +584,10 @@
       "index": 11,
       "serie": "Vampire la Mascarade : Blue Moon",
       "players": [
-        "Ulfric",
-        "Lachesis",
         "Kalyphera",
+        "Lachesis",
         "Volsung",
+        "Ulfric",
         "JCN"
       ]
     },
@@ -867,10 +878,11 @@
       "index": 17,
       "serie": "Hearts of Wulin",
       "players": [
-        "LamSon",
-        "JCNau",
+        "Khelren",
         "Volsung",
-        "Ulfric"
+        "LamSon",
+        "Ulfric",
+        "JCN"
       ]
     },
     {
@@ -920,10 +932,10 @@
       "index": 18,
       "serie": "D&D 5 : Sorcelume",
       "players": [
+        "Lachesis",
         "Morgane",
-        "JCN",
         "Volsung",
-        "Lachesis"
+        "JCN"
       ]
     },
     {
@@ -973,10 +985,11 @@
       "index": 19,
       "serie": "Hearts of Wulin",
       "players": [
-        "LamSon",
-        "JCNau",
+        "Khelren",
         "Volsung",
-        "Ulfric"
+        "LamSon",
+        "Ulfric",
+        "JCN"
       ]
     },
     {
@@ -1027,8 +1040,8 @@
       "serie": "Flash Gordon",
       "players": [
         "Err0r_Stats",
-        "Volsung",
         "Morgane",
+        "Volsung",
         "Willy"
       ]
     },
@@ -1079,10 +1092,10 @@
       "index": 21,
       "serie": "Vampire la Mascarade : Blue Moon",
       "players": [
-        "Ulfric",
-        "Lachesis",
         "Kalyphera",
+        "Lachesis",
         "Volsung",
+        "Ulfric",
         "JCN"
       ]
     },
@@ -1325,10 +1338,11 @@
       "index": 26,
       "serie": "Hearts of Wulin",
       "players": [
-        "LamSon",
-        "JCNau",
+        "Khelren",
         "Volsung",
-        "Ulfric"
+        "LamSon",
+        "Ulfric",
+        "JCN"
       ]
     },
     {
@@ -1378,10 +1392,10 @@
       "index": 27,
       "serie": "D&D 5 : Sorcelume",
       "players": [
+        "Lachesis",
         "Morgane",
-        "JCN",
         "Volsung",
-        "Lachesis"
+        "JCN"
       ]
     },
     {
@@ -1576,8 +1590,8 @@
       "serie": "Flash Gordon",
       "players": [
         "Err0r_Stats",
-        "Volsung",
         "Morgane",
+        "Volsung",
         "Willy"
       ]
     },
@@ -1628,10 +1642,11 @@
       "index": 32,
       "serie": "Hearts of Wulin",
       "players": [
-        "LamSon",
-        "JCNau",
+        "Khelren",
         "Volsung",
-        "Ulfric"
+        "LamSon",
+        "Ulfric",
+        "JCN"
       ]
     },
     {
@@ -1681,10 +1696,10 @@
       "index": 33,
       "serie": "D&D 5 : Sorcelume",
       "players": [
+        "Lachesis",
         "Morgane",
-        "JCN",
         "Volsung",
-        "Lachesis"
+        "JCN"
       ]
     },
     {
@@ -1734,10 +1749,10 @@
       "index": 34,
       "serie": "Vampire la Mascarade : Blue Moon",
       "players": [
-        "Ulfric",
-        "Lachesis",
         "Kalyphera",
+        "Lachesis",
         "Volsung",
+        "Ulfric",
         "JCN"
       ]
     },
@@ -1789,8 +1804,8 @@
       "serie": "Flash Gordon",
       "players": [
         "Err0r_Stats",
-        "Volsung",
         "Morgane",
+        "Volsung",
         "Willy"
       ]
     },
@@ -1841,10 +1856,10 @@
       "index": 36,
       "serie": "D&D 5 : Sorcelume",
       "players": [
+        "Lachesis",
         "Morgane",
-        "JCN",
         "Volsung",
-        "Lachesis"
+        "JCN"
       ]
     },
     {
@@ -1894,10 +1909,10 @@
       "index": 37,
       "serie": "D&D 5 : Sorcelume",
       "players": [
+        "Lachesis",
         "Morgane",
-        "JCN",
         "Volsung",
-        "Lachesis"
+        "JCN"
       ]
     },
     {
@@ -1947,10 +1962,10 @@
       "index": 38,
       "serie": "Vampire la Mascarade : Blue Moon",
       "players": [
-        "Ulfric",
-        "Lachesis",
         "Kalyphera",
+        "Lachesis",
         "Volsung",
+        "Ulfric",
         "JCN"
       ]
     },
@@ -2001,10 +2016,10 @@
       "index": 39,
       "serie": "D&D 5 : Sorcelume",
       "players": [
+        "Lachesis",
         "Morgane",
-        "JCN",
         "Volsung",
-        "Lachesis"
+        "JCN"
       ]
     },
     {
@@ -2054,10 +2069,11 @@
       "index": 40,
       "serie": "Vampire la Mascarade : Blue Moon",
       "players": [
-        "Ulfric",
-        "Lachesis",
         "Kalyphera",
+        "Lachesis",
         "Volsung",
+        "LamSon",
+        "Ulfric",
         "JCN"
       ]
     },
@@ -2108,10 +2124,10 @@
       "index": 41,
       "serie": "WEIRD",
       "players": [
+        "LamSon",
         "Ulfric",
-        "JCN",
         "Mist",
-        "Lamson"
+        "JCN"
       ]
     },
     {
@@ -2161,10 +2177,10 @@
       "index": 42,
       "serie": "D&D 5 : Sorcelume",
       "players": [
+        "Lachesis",
         "Morgane",
-        "JCN",
         "Volsung",
-        "Lachesis"
+        "JCN"
       ]
     },
     {
@@ -2214,10 +2230,10 @@
       "index": 43,
       "serie": "Vampire la Mascarade : Blue Moon",
       "players": [
-        "Ulfric",
-        "Lachesis",
         "Kalyphera",
+        "Lachesis",
         "Volsung",
+        "Ulfric",
         "JCN"
       ]
     },
@@ -2268,10 +2284,10 @@
       "index": 44,
       "serie": "D&D 5 : Sorcelume",
       "players": [
+        "Lachesis",
         "Morgane",
-        "JCN",
         "Volsung",
-        "Lachesis"
+        "JCN"
       ]
     },
     {
@@ -2321,10 +2337,10 @@
       "index": 45,
       "serie": "Vampire la Mascarade : Blue Moon",
       "players": [
-        "Ulfric",
-        "Lachesis",
         "Kalyphera",
+        "Lachesis",
         "Volsung",
+        "Ulfric",
         "JCN"
       ]
     },
@@ -2375,10 +2391,10 @@
       "index": 46,
       "serie": "D&D 5 : Sorcelume",
       "players": [
+        "Lachesis",
         "Morgane",
-        "JCN",
         "Volsung",
-        "Lachesis"
+        "JCN"
       ]
     },
     {
@@ -2429,9 +2445,9 @@
       "serie": "Magistrats & Manigances",
       "players": [
         "LisaBanana",
-        "JCNau",
         "Volsung",
-        "LamSon"
+        "LamSon",
+        "JCN"
       ]
     },
     {
@@ -2481,10 +2497,10 @@
       "index": 48,
       "serie": "Vampire la Mascarade : Blue Moon",
       "players": [
-        "Ulfric",
-        "Lachesis",
         "Kalyphera",
+        "Lachesis",
         "Volsung",
+        "Ulfric",
         "JCN"
       ]
     },
@@ -2535,10 +2551,10 @@
       "index": 49,
       "serie": "D&D 5 : Sorcelume",
       "players": [
+        "Lachesis",
         "Morgane",
-        "JCN",
         "Volsung",
-        "Lachesis"
+        "JCN"
       ]
     },
     {
@@ -2588,10 +2604,10 @@
       "index": 50,
       "serie": "Vampire la Mascarade : Blue Moon",
       "players": [
-        "Ulfric",
-        "Lachesis",
         "Kalyphera",
+        "Lachesis",
         "Volsung",
+        "Ulfric",
         "JCN"
       ]
     },
@@ -2642,10 +2658,10 @@
       "index": 51,
       "serie": "Marchebranche",
       "players": [
-        "Err0r_stats",
+        "Thomas Munier",
+        "Err0r_Stats",
         "Taliesin",
-        "Lamson",
-        "Thomas Munier"
+        "LamSon"
       ]
     },
     {
@@ -2695,10 +2711,10 @@
       "index": 52,
       "serie": "D&D 5 : Sorcelume",
       "players": [
+        "Lachesis",
         "Morgane",
-        "JCN",
         "Volsung",
-        "Lachesis"
+        "JCN"
       ]
     },
     {
@@ -2748,10 +2764,10 @@
       "index": 53,
       "serie": "Vampire la Mascarade : Blue Moon",
       "players": [
-        "Ulfric",
-        "Lachesis",
         "Kalyphera",
+        "Lachesis",
         "Volsung",
+        "Ulfric",
         "JCN"
       ]
     },
@@ -2802,10 +2818,10 @@
       "index": 54,
       "serie": "D&D 5 : Sorcelume",
       "players": [
+        "Lachesis",
         "Morgane",
-        "JCN",
         "Volsung",
-        "Lachesis"
+        "JCN"
       ]
     },
     {
@@ -2857,8 +2873,8 @@
       "players": [
         "Lachesis",
         "Taliesin",
-        "Lamson",
-        "Milouch"
+        "Milouch",
+        "LamSon"
       ]
     },
     {
@@ -2908,10 +2924,10 @@
       "index": 56,
       "serie": "Vampire la Mascarade : Blue Moon",
       "players": [
-        "Ulfric",
-        "Lachesis",
         "Kalyphera",
+        "Lachesis",
         "Volsung",
+        "Ulfric",
         "JCN"
       ]
     },
@@ -2962,10 +2978,10 @@
       "index": 57,
       "serie": "Vampire la Mascarade : Blue Moon",
       "players": [
-        "Ulfric",
-        "Lachesis",
         "Kalyphera",
+        "Lachesis",
         "Volsung",
+        "Ulfric",
         "JCN"
       ]
     },
@@ -3016,10 +3032,10 @@
       "index": 58,
       "serie": "Vampire la Mascarade : Blue Moon",
       "players": [
-        "Ulfric",
-        "Lachesis",
         "Kalyphera",
+        "Lachesis",
         "Volsung",
+        "Ulfric",
         "JCN"
       ]
     },
@@ -3070,10 +3086,10 @@
       "index": 59,
       "serie": "The Between",
       "players": [
+        "Sevastopol",
         "Kalyphera",
-        "Catty",
         "Volsung",
-        "Sevastopol"
+        "Catty"
       ]
     },
     {
@@ -3123,10 +3139,10 @@
       "index": 60,
       "serie": "The Between",
       "players": [
+        "Sevastopol",
         "Kalyphera",
-        "Catty",
         "Volsung",
-        "Sevastopol"
+        "Catty"
       ]
     },
     {
@@ -3176,10 +3192,10 @@
       "index": 61,
       "serie": "Vampire la Mascarade : Blue Moon",
       "players": [
-        "Ulfric",
-        "Lachesis",
         "Kalyphera",
+        "Lachesis",
         "Volsung",
+        "Ulfric",
         "JCN"
       ]
     },
@@ -3231,9 +3247,9 @@
       "serie": "Magistrats & Manigances",
       "players": [
         "LisaBanana",
-        "JCNau",
         "Volsung",
-        "LamSon"
+        "LamSon",
+        "JCN"
       ]
     },
     {
@@ -3284,9 +3300,9 @@
       "serie": "Magistrats & Manigances",
       "players": [
         "LisaBanana",
-        "JCNau",
         "Volsung",
-        "LamSon"
+        "LamSon",
+        "JCN"
       ]
     },
     {
@@ -3332,9 +3348,9 @@
       "serie": "Magistrats & Manigances",
       "players": [
         "LisaBanana",
-        "JCNau",
         "Volsung",
-        "LamSon"
+        "LamSon",
+        "JCN"
       ]
     },
     {
@@ -3437,9 +3453,9 @@
       "serie": "Cités Abimées",
       "players": [
         "Lachesis",
+        "Volsung",
         "Ramos",
-        "Come",
-        "Volsung"
+        "Côme"
       ]
     },
     {
@@ -3495,10 +3511,10 @@
       "index": 67,
       "serie": "The Between",
       "players": [
+        "Sevastopol",
         "Kalyphera",
-        "Catty",
         "Volsung",
-        "Sevastopol"
+        "Catty"
       ]
     },
     {
@@ -3551,7 +3567,9 @@
       "durationFormatted": "1:16:33",
       "index": 68,
       "serie": "Octogone",
-      "players": []
+      "players": [
+        "Max"
+      ]
     },
     {
       "videoId": "6z_7asTLq4g",
@@ -3602,7 +3620,12 @@
       "durationFormatted": "58:00",
       "index": 69,
       "serie": "Vampire",
-      "players": []
+      "players": [
+        "Volsung",
+        "LamSon",
+        "JCN",
+        "Ours"
+      ]
     },
     {
       "videoId": "7H1kGhY9aFA",
@@ -3655,9 +3678,10 @@
       "index": 70,
       "serie": "Zone Rouge",
       "players": [
-        "LisaBanana",
-        "Edrika",
         "Bouletsama",
+        "LisaBanana",
+        "Volsung",
+        "Edrika",
         "Lotin",
         "Mass"
       ]
@@ -3709,11 +3733,11 @@
       "index": 71,
       "serie": "Alice is Missing",
       "players": [
-        "Klem",
         "KcoQuidam",
-        "Shane",
+        "Volsung",
         "Nivia",
-        "Volsung"
+        "Shane",
+        "Klem"
       ]
     },
     {
@@ -3764,8 +3788,8 @@
       "serie": "La clé des nuages",
       "players": [
         "LisaBanana",
-        "JCNau",
-        "LamSon"
+        "LamSon",
+        "JCN"
       ]
     },
     {
@@ -3815,8 +3839,8 @@
       "index": 73,
       "serie": "Spire",
       "players": [
-        "JCN",
-        "Volsung"
+        "Volsung",
+        "JCN"
       ]
     },
     {
@@ -3866,8 +3890,8 @@
       "index": 74,
       "serie": "Spire",
       "players": [
-        "JCN",
-        "Volsung"
+        "Volsung",
+        "JCN"
       ]
     },
     {
@@ -3918,10 +3942,9 @@
       "serie": "Trip to Skye",
       "players": [
         "LisaBanana",
-        "JCNau",
         "Felondra",
         "LamSon",
-        "kF"
+        "JCN"
       ]
     },
     {
@@ -3970,7 +3993,10 @@
       "durationFormatted": "1:26:51",
       "index": 76,
       "serie": "Podcast Frankenstein",
-      "players": []
+      "players": [
+        "StreetTiger",
+        "Ulfric"
+      ]
     },
     {
       "videoId": "zNSEgDCPy6k",
@@ -4020,10 +4046,9 @@
       "serie": "Trip to Skye",
       "players": [
         "LisaBanana",
-        "JCNau",
         "Felondra",
         "LamSon",
-        "kF"
+        "JCN"
       ]
     },
     {
@@ -4073,10 +4098,11 @@
       "index": 78,
       "serie": "Dominion",
       "players": [
+        "Khelren",
         "Morgane",
-        "Lamson",
+        "Virgile",
         "Volsung",
-        "Virgile"
+        "LamSon"
       ]
     },
     {
@@ -4126,10 +4152,10 @@
       "index": 79,
       "serie": "The Between",
       "players": [
+        "Sevastopol",
         "Kalyphera",
-        "Catty",
         "Volsung",
-        "Sevastopol"
+        "Catty"
       ]
     },
     {
@@ -4179,10 +4205,10 @@
       "index": 80,
       "serie": "The Between",
       "players": [
+        "Sevastopol",
         "Kalyphera",
-        "Catty",
         "Volsung",
-        "Sevastopol"
+        "Catty"
       ]
     },
     {
@@ -4232,10 +4258,10 @@
       "index": 81,
       "serie": "The Between",
       "players": [
+        "Sevastopol",
         "Kalyphera",
-        "Catty",
         "Volsung",
-        "Sevastopol"
+        "Catty"
       ]
     },
     {
@@ -4343,10 +4369,10 @@
       "serie": "Trip to Skye",
       "players": [
         "LisaBanana",
-        "JCNau",
         "Felondra",
+        "Volsung",
         "LamSon",
-        "kF"
+        "JCN"
       ]
     },
     {
@@ -4396,9 +4422,10 @@
       "index": 84,
       "serie": "Zone Rouge",
       "players": [
-        "Algol",
         "Ghoghorbey",
         "Boulash",
+        "Volsung",
+        "Algol",
         "Mass"
       ]
     },
@@ -4642,9 +4669,9 @@
       "serie": "Magistrats & Manigances",
       "players": [
         "LisaBanana",
-        "JCNau",
         "Volsung",
-        "LamSon"
+        "LamSon",
+        "JCN"
       ]
     },
     {
@@ -4790,11 +4817,11 @@
       "index": 92,
       "serie": "Quest",
       "players": [
-        "Klem",
-        "Kahylina",
-        "Kat",
+        "Kalyphera",
         "Volsung",
-        "Ours"
+        "Klem",
+        "Ours",
+        "Kat"
       ]
     },
     {
@@ -4848,8 +4875,9 @@
       "serie": "Zone Rouge",
       "players": [
         "LisaBanana",
-        "Côme",
         "Virgile",
+        "Volsung",
+        "Côme",
         "Mass"
       ]
     },
@@ -4901,9 +4929,9 @@
       "serie": "Magistrats & Manigances",
       "players": [
         "LisaBanana",
-        "JCNau",
         "Volsung",
-        "LamSon"
+        "LamSon",
+        "JCN"
       ]
     },
     {
@@ -5010,11 +5038,11 @@
       "index": 96,
       "serie": "Quest",
       "players": [
-        "Klem",
-        "Kahylina",
-        "Kat",
+        "Kalyphera",
         "Volsung",
-        "Ours"
+        "Klem",
+        "Ours",
+        "Kat"
       ]
     },
     {
@@ -5067,10 +5095,10 @@
       "serie": "Pendant ce temps dans le métro",
       "players": [
         "Marquise",
-        "Kat",
-        "Ramos",
         "Volsung",
-        "Come"
+        "Ramos",
+        "Côme",
+        "Kat"
       ]
     },
     {
@@ -5174,8 +5202,8 @@
       "index": 99,
       "serie": "Spire",
       "players": [
-        "JCN",
-        "Volsung"
+        "Volsung",
+        "JCN"
       ]
     },
     {
@@ -5225,10 +5253,10 @@
       "index": 100,
       "serie": "Deux étés",
       "players": [
-        "Klem",
-        "Kat",
         "Volsung",
-        "Côme"
+        "Côme",
+        "Klem",
+        "Kat"
       ]
     },
     {
@@ -5278,9 +5306,9 @@
       "index": 101,
       "serie": "Gravity Rip",
       "players": [
-        "Klem",
         "Antoshkin",
-        "Volsung"
+        "Volsung",
+        "Klem"
       ]
     },
     {
@@ -5336,8 +5364,8 @@
       "index": 102,
       "serie": "Spire",
       "players": [
-        "JCN",
-        "Volsung"
+        "Volsung",
+        "JCN"
       ]
     },
     {
@@ -5390,11 +5418,11 @@
       "index": 103,
       "serie": "Quest",
       "players": [
-        "Klem",
-        "Kahylina",
-        "Kat",
+        "Kalyphera",
         "Volsung",
-        "Ours"
+        "Klem",
+        "Ours",
+        "Kat"
       ]
     },
     {
@@ -5445,7 +5473,10 @@
       "durationFormatted": "2:40:53",
       "index": 104,
       "serie": "Anime was a mistake",
-      "players": []
+      "players": [
+        "Lachesis",
+        "Catty"
+      ]
     },
     {
       "videoId": "HUeZX94t00A",
@@ -5496,10 +5527,10 @@
       "index": 105,
       "serie": "Calliopé",
       "players": [
-        "Kahylina",
-        "Mass",
+        "Kalyphera",
         "Volsung",
-        "Sacha"
+        "Sacha",
+        "Mass"
       ]
     },
     {
@@ -5556,9 +5587,9 @@
       "serie": "Magistrats & Manigances",
       "players": [
         "LisaBanana",
-        "JCNau",
+        "LamSon",
         "Volsung",
-        "Lam Son"
+        "JCN"
       ]
     },
     {
@@ -5614,8 +5645,8 @@
       "index": 107,
       "serie": "Spire",
       "players": [
-        "JCN",
-        "Volsung"
+        "Volsung",
+        "JCN"
       ]
     },
     {
@@ -5671,8 +5702,8 @@
       "index": 108,
       "serie": "Spire",
       "players": [
-        "JCN",
-        "Volsung"
+        "Volsung",
+        "JCN"
       ]
     },
     {
@@ -5728,9 +5759,9 @@
       "index": 109,
       "serie": "Gravity Rip",
       "players": [
-        "Klem",
         "Antoshkin",
-        "Volsung"
+        "Volsung",
+        "Klem"
       ]
     },
     {
@@ -5786,10 +5817,10 @@
       "index": 110,
       "serie": "Demon Castle Dracula",
       "players": [
-        "Nivia",
-        "Myra",
         "Morgenstern",
-        "Volsung"
+        "Volsung",
+        "Nivia",
+        "Myra"
       ]
     },
     {
@@ -5844,10 +5875,11 @@
       "index": 111,
       "serie": "Deux étés",
       "players": [
-        "Klem",
-        "Kat",
+        "Sevastopol",
         "Volsung",
-        "Côme"
+        "Côme",
+        "Klem",
+        "Kat"
       ]
     },
     {
@@ -5903,8 +5935,8 @@
       "index": 112,
       "serie": "Spire",
       "players": [
-        "JCN",
-        "Volsung"
+        "Volsung",
+        "JCN"
       ]
     },
     {
@@ -5960,8 +5992,8 @@
       "index": 113,
       "serie": "Spire",
       "players": [
-        "JCN",
-        "Volsung"
+        "Volsung",
+        "JCN"
       ]
     },
     {
@@ -6018,9 +6050,9 @@
       "serie": "Magistrats & Manigances",
       "players": [
         "LisaBanana",
-        "JCNau",
+        "LamSon",
         "Volsung",
-        "Lam Son"
+        "JCN"
       ]
     },
     {
@@ -6075,10 +6107,11 @@
       "index": 115,
       "serie": "Calliopé",
       "players": [
-        "Kahylina",
-        "Mass",
+        "Sevastopol",
+        "Kalyphera",
         "Volsung",
-        "Sacha"
+        "Sacha",
+        "Mass"
       ]
     },
     {
@@ -6134,8 +6167,8 @@
       "index": 116,
       "serie": "Spire",
       "players": [
-        "JCN",
-        "Volsung"
+        "Volsung",
+        "JCN"
       ]
     },
     {
@@ -6185,10 +6218,10 @@
       "index": 117,
       "serie": "Deux étés",
       "players": [
-        "Klem",
-        "Kat",
         "Volsung",
-        "Côme"
+        "Côme",
+        "Klem",
+        "Kat"
       ]
     },
     {
@@ -6238,10 +6271,10 @@
       "index": 118,
       "serie": "Calliopé",
       "players": [
-        "Kahylina",
-        "Mass",
+        "Kalyphera",
         "Volsung",
-        "Sacha"
+        "Sacha",
+        "Mass"
       ]
     },
     {
@@ -6297,8 +6330,8 @@
       "index": 119,
       "serie": "Spire",
       "players": [
-        "JCN",
-        "Volsung"
+        "Volsung",
+        "JCN"
       ]
     },
     {
@@ -6354,10 +6387,10 @@
       "index": 120,
       "serie": "Demon Castle Dracula",
       "players": [
-        "Nivia",
-        "Myra",
         "Morgenstern",
-        "Volsung"
+        "Volsung",
+        "Nivia",
+        "Myra"
       ]
     },
     {
@@ -6413,10 +6446,11 @@
       "index": 121,
       "serie": "White Witches",
       "players": [
-        "Kahylina",
-        "Mass",
+        "Sevastopol",
+        "Kalyphera",
         "Volsung",
-        "Yohan"
+        "Yohan",
+        "Mass"
       ]
     },
     {
@@ -6466,10 +6500,10 @@
       "index": 122,
       "serie": "Demon Castle Dracula",
       "players": [
-        "Nivia",
-        "Myra",
         "Morgenstern",
-        "Volsung"
+        "Volsung",
+        "Nivia",
+        "Myra"
       ]
     },
     {
@@ -6526,9 +6560,9 @@
       "serie": "Magistrats & Manigances",
       "players": [
         "LisaBanana",
-        "JCNau",
+        "LamSon",
         "Volsung",
-        "Lam Son"
+        "JCN"
       ]
     },
     {
@@ -6578,10 +6612,10 @@
       "index": 124,
       "serie": "White Witches",
       "players": [
-        "Kahylina",
-        "Mass",
+        "Kalyphera",
         "Volsung",
-        "Yohan"
+        "Yohan",
+        "Mass"
       ]
     },
     {
@@ -6631,10 +6665,10 @@
       "index": 125,
       "serie": "White Witches",
       "players": [
-        "Kahylina",
-        "Mass",
+        "Kalyphera",
         "Volsung",
-        "Yohan"
+        "Yohan",
+        "Mass"
       ]
     },
     {
@@ -6684,10 +6718,10 @@
       "index": 126,
       "serie": "Bois Dormant",
       "players": [
-        "Morgane",
         "Felondra",
-        "Volsung",
-        "Melville"
+        "Melville",
+        "Morgane",
+        "Volsung"
       ]
     },
     {
@@ -6737,10 +6771,10 @@
       "index": 127,
       "serie": "Bois Dormant",
       "players": [
-        "Morgane",
         "Felondra",
-        "Volsung",
-        "Melville"
+        "Melville",
+        "Morgane",
+        "Volsung"
       ]
     },
     {
@@ -6795,10 +6829,10 @@
       "index": 128,
       "serie": "Deux étés",
       "players": [
-        "Klem",
-        "Kat",
         "Volsung",
-        "Côme"
+        "Côme",
+        "Klem",
+        "Kat"
       ]
     },
     {
@@ -6838,10 +6872,10 @@
       "index": 129,
       "serie": "Deux étés",
       "players": [
-        "Klem",
-        "Kat",
         "Volsung",
-        "Côme"
+        "Côme",
+        "Klem",
+        "Kat"
       ]
     },
     {
@@ -6898,9 +6932,9 @@
       "serie": "Magistrats & Manigances",
       "players": [
         "LisaBanana",
-        "JCNau",
+        "LamSon",
         "Volsung",
-        "Lam Son"
+        "JCN"
       ]
     },
     {
@@ -6958,9 +6992,9 @@
       "serie": "Plan séquence Zombie Run",
       "players": [
         "Morgane",
-        "Max",
+        "Volsung",
         "Ramos",
-        "Volsung"
+        "Max"
       ]
     },
     {
@@ -7120,8 +7154,8 @@
       "index": 134,
       "serie": "JayJay's Cool Adventures",
       "players": [
-        "Max",
-        "Volsung"
+        "Volsung",
+        "Max"
       ]
     },
     {
@@ -7179,9 +7213,9 @@
       "serie": "Zombie World",
       "players": [
         "Morgane",
-        "Max",
+        "Volsung",
         "Ramos",
-        "Volsung"
+        "Max"
       ]
     },
     {
@@ -7237,11 +7271,11 @@
       "index": 136,
       "serie": "Exploirateurs de Bruines",
       "players": [
-        "Klem",
-        "Kat",
-        "Black",
         "Volsung",
-        "Vivien"
+        "Vivien",
+        "Black",
+        "Klem",
+        "Kat"
       ]
     },
     {
@@ -7297,8 +7331,8 @@
       "index": 137,
       "serie": "JayJay's Cool Adventures",
       "players": [
-        "Max",
-        "Volsung"
+        "Volsung",
+        "Max"
       ]
     },
     {
@@ -7354,8 +7388,8 @@
       "index": 138,
       "serie": "JayJay's Cool Adventures",
       "players": [
-        "Max",
-        "Volsung"
+        "Volsung",
+        "Max"
       ]
     },
     {
@@ -7468,11 +7502,12 @@
       "index": 140,
       "serie": "Pour la gloire de l'Empereur-Dieu",
       "players": [
-        "Sevastopol",
-        "Kialthalash",
         "Jaguar flemmard",
-        "Blaad",
-        "Lucius"
+        "Kialthalash",
+        "Sevastopol",
+        "Volsung",
+        "Lucius",
+        "Blaad"
       ]
     },
     {
@@ -7576,10 +7611,10 @@
       "index": 142,
       "serie": "Wastburg",
       "players": [
-        "Klem",
-        "Lisa",
         "Volsung",
-        "Côme"
+        "Côme",
+        "Klem",
+        "LisaBanana"
       ]
     },
     {
@@ -7635,10 +7670,10 @@
       "index": 143,
       "serie": "White Witches",
       "players": [
-        "Kahylina",
-        "Mass",
+        "Kalyphera",
         "Volsung",
-        "Yohan"
+        "Yohan",
+        "Mass"
       ]
     },
     {
@@ -7695,9 +7730,9 @@
       "serie": "Oh Maker",
       "players": [
         "LisaBanana",
-        "Mass",
         "Belfeuil",
-        "Volsung"
+        "Volsung",
+        "Mass"
       ]
     },
     {
@@ -7753,10 +7788,10 @@
       "index": 145,
       "serie": "White Witches",
       "players": [
-        "Kahylina",
-        "Mass",
+        "Kalyphera",
         "Volsung",
-        "Yohan"
+        "Yohan",
+        "Mass"
       ]
     },
     {
@@ -7814,7 +7849,10 @@
       "durationFormatted": "1:10:50",
       "index": 146,
       "serie": "D&D5 L'arbre des 7 pendus",
-      "players": []
+      "players": [
+        "Volsung",
+        "Phane"
+      ]
     },
     {
       "videoId": "0SbxcGpSliQ",
@@ -7872,8 +7910,8 @@
       "index": 147,
       "serie": "D&D5 L'arbre des 7 pendus",
       "players": [
-        "Soloflow",
         "StreetTiger",
+        "Soloflow",
         "Volsung",
         "Phane"
       ]
@@ -7934,8 +7972,8 @@
       "index": 148,
       "serie": "D&D5 L'arbre des 7 pendus",
       "players": [
-        "Soloflow",
         "StreetTiger",
+        "Soloflow",
         "Volsung",
         "Phane"
       ]
@@ -7993,10 +8031,10 @@
       "index": 149,
       "serie": "Wastburg",
       "players": [
-        "Klem",
-        "Lisa",
         "Volsung",
-        "Côme"
+        "Côme",
+        "Klem",
+        "LisaBanana"
       ]
     },
     {
@@ -8104,8 +8142,8 @@
       "index": 151,
       "serie": "A single moment Star Wars",
       "players": [
-        "JCN",
-        "Volsung"
+        "Volsung",
+        "JCN"
       ]
     },
     {
@@ -8161,8 +8199,8 @@
       "index": 152,
       "serie": "A single moment Star Wars",
       "players": [
-        "JCN",
-        "Volsung"
+        "Volsung",
+        "JCN"
       ]
     },
     {
@@ -8220,9 +8258,9 @@
       "serie": "Zombie World",
       "players": [
         "Morgane",
-        "Max",
+        "Volsung",
         "Ramos",
-        "Volsung"
+        "Max"
       ]
     },
     {
@@ -8278,10 +8316,10 @@
       "index": 154,
       "serie": "Wastburg",
       "players": [
-        "Klem",
-        "Lisa",
         "Volsung",
-        "Côme"
+        "Côme",
+        "Klem",
+        "LisaBanana"
       ]
     },
     {
@@ -8340,8 +8378,8 @@
       "index": 155,
       "serie": "D&D5 L'arbre des 7 pendus",
       "players": [
-        "Soloflow",
         "StreetTiger",
+        "Soloflow",
         "Volsung",
         "Phane"
       ]
@@ -8402,8 +8440,8 @@
       "index": 156,
       "serie": "D&D5 L'arbre des 7 pendus",
       "players": [
-        "Soloflow",
         "StreetTiger",
+        "Soloflow",
         "Volsung",
         "Phane"
       ]
@@ -8461,8 +8499,8 @@
       "index": 157,
       "serie": "A single moment Star Wars",
       "players": [
-        "JCN",
-        "Volsung"
+        "Volsung",
+        "JCN"
       ]
     },
     {
@@ -8518,8 +8556,8 @@
       "index": 158,
       "serie": "A single moment Star Wars",
       "players": [
-        "JCN",
-        "Volsung"
+        "Volsung",
+        "JCN"
       ]
     },
     {
@@ -8577,9 +8615,9 @@
       "serie": "Zombie World",
       "players": [
         "Morgane",
-        "Max",
+        "Volsung",
         "Ramos",
-        "Volsung"
+        "Max"
       ]
     },
     {
@@ -8689,8 +8727,8 @@
       "index": 161,
       "serie": "D&D5 L'arbre des 7 pendus",
       "players": [
-        "Soloflow",
         "StreetTiger",
+        "Soloflow",
         "Volsung",
         "Phane"
       ]
@@ -8806,8 +8844,8 @@
       "index": 163,
       "serie": "Saint Seiya",
       "players": [
-        "Black",
-        "Volsung"
+        "Volsung",
+        "Black"
       ]
     },
     {
@@ -8863,10 +8901,10 @@
       "index": 164,
       "serie": "Star Wars : Le bon la brute et le truand",
       "players": [
-        "Kahylina",
         "Morgenstern",
-        "Kat",
-        "Volsung"
+        "Kalyphera",
+        "Volsung",
+        "Kat"
       ]
     },
     {
@@ -8975,10 +9013,10 @@
       "index": 166,
       "serie": "Green Dawn Mall",
       "players": [
-        "Mass",
-        "Black",
         "Volsung",
-        "Côme"
+        "Black",
+        "Côme",
+        "Mass"
       ]
     },
     {
@@ -9034,10 +9072,10 @@
       "index": 167,
       "serie": "Star Wars : Le bon la brute et le truand",
       "players": [
-        "Kahylina",
         "Morgenstern",
-        "Kat",
-        "Volsung"
+        "Kalyphera",
+        "Volsung",
+        "Kat"
       ]
     },
     {
@@ -9095,9 +9133,9 @@
       "serie": "Zombie World",
       "players": [
         "Morgane",
-        "Max",
+        "Volsung",
         "Ramos",
-        "Volsung"
+        "Max"
       ]
     },
     {
@@ -9153,10 +9191,10 @@
       "index": 169,
       "serie": "Daitoshi Underground Jäger",
       "players": [
-        "Kat",
-        "Kahylina",
+        "Le Grumph",
+        "Kalyphera",
         "Volsung",
-        "Le Grumph"
+        "Kat"
       ]
     },
     {
@@ -9213,10 +9251,10 @@
       "index": 170,
       "serie": "Green Dawn Mall",
       "players": [
-        "Mass",
-        "Black",
         "Volsung",
-        "Côme"
+        "Black",
+        "Côme",
+        "Mass"
       ]
     },
     {
@@ -9273,7 +9311,7 @@
       "index": 171,
       "serie": "De bile et d'acier",
       "players": [
-        "Kahylina",
+        "Kalyphera",
         "Erendis",
         "Volsung",
         "Vivien"
@@ -9333,10 +9371,10 @@
       "index": 172,
       "serie": "Marvel Heroic Roleplaying X-men",
       "players": [
-        "Kat",
         "StreetTiger",
         "Volsung",
-        "Willy"
+        "Willy",
+        "Kat"
       ]
     },
     {
@@ -9393,10 +9431,10 @@
       "index": 173,
       "serie": "Donjon & Cie",
       "players": [
-        "Fabien",
-        "Pierre",
+        "Sammael",
         "Volsung",
-        "Sammael"
+        "Fabien",
+        "Pierre"
       ]
     },
     {
@@ -9454,8 +9492,8 @@
       "players": [
         "Fabien",
         "Pierre",
-        "Seb",
-        "LeMat"
+        "LeMat",
+        "Seb"
       ]
     },
     {
@@ -9508,7 +9546,16 @@
       "durationFormatted": "1:45:17",
       "index": 175,
       "serie": "Podcast Frankenstein",
-      "players": []
+      "players": [
+        "Acritarche",
+        "Guillaume",
+        "Fabien",
+        "LamSon",
+        "LeMat",
+        "Mass",
+        "JCN",
+        "Kat"
+      ]
     },
     {
       "videoId": "x-H4Mabdpf0",
@@ -9563,10 +9610,10 @@
       "index": 176,
       "serie": "Daitoshi Underground Jäger",
       "players": [
-        "Kat",
-        "Kahylina",
+        "Le Grumph",
+        "Kalyphera",
         "Volsung",
-        "Le Grumph"
+        "Kat"
       ]
     },
     {
@@ -9618,10 +9665,10 @@
       "index": 177,
       "serie": "Donjon & Cie",
       "players": [
-        "Fabien",
-        "Pierre",
+        "Sammael",
         "Volsung",
-        "Sammael"
+        "Fabien",
+        "Pierre"
       ]
     },
     {
@@ -9680,8 +9727,8 @@
       "players": [
         "Fabien",
         "Pierre",
-        "Seb",
-        "LeMat"
+        "LeMat",
+        "Seb"
       ]
     },
     {
@@ -9738,10 +9785,10 @@
       "index": 179,
       "serie": "Marvel Heroic Roleplaying X-men",
       "players": [
-        "Kat",
         "StreetTiger",
         "Volsung",
-        "Willy"
+        "Willy",
+        "Kat"
       ]
     },
     {
@@ -9798,7 +9845,7 @@
       "index": 180,
       "serie": "De bile et d'acier",
       "players": [
-        "Kahylina",
+        "Kalyphera",
         "Erendis",
         "Volsung",
         "Vivien"
@@ -9851,11 +9898,11 @@
       "index": 181,
       "serie": "Shade-Faces",
       "players": [
-        "Alain",
         "Fabien",
         "Pierre",
-        "Seb",
-        "LeMat"
+        "Alain",
+        "LeMat",
+        "Seb"
       ]
     },
     {
@@ -9901,10 +9948,10 @@
       "index": 182,
       "serie": "Daitoshi Underground Jäger",
       "players": [
-        "Kat",
-        "Kahylina",
+        "Le Grumph",
+        "Kalyphera",
         "Volsung",
-        "Le Grumph"
+        "Kat"
       ]
     },
     {
@@ -9961,11 +10008,11 @@
       "index": 183,
       "serie": "Shade-Faces",
       "players": [
-        "Alain",
         "Fabien",
         "Pierre",
-        "Seb",
-        "LeMat"
+        "Alain",
+        "LeMat",
+        "Seb"
       ]
     },
     {
@@ -10022,7 +10069,7 @@
       "index": 184,
       "serie": "De bile et d'acier",
       "players": [
-        "Kahylina",
+        "Kalyphera",
         "Erendis",
         "Volsung",
         "Vivien"
@@ -10074,7 +10121,11 @@
       "durationFormatted": "54:56",
       "index": 185,
       "serie": "2d6+Sharp",
-      "players": []
+      "players": [
+        "Volsung",
+        "JCN",
+        "Mass"
+      ]
     },
     {
       "videoId": "78yYnwT3i0o",
@@ -10130,11 +10181,11 @@
       "index": 186,
       "serie": "Shade-Faces",
       "players": [
-        "Alain",
         "Fabien",
         "Pierre",
-        "Seb",
-        "LeMat"
+        "Alain",
+        "LeMat",
+        "Seb"
       ]
     },
     {
@@ -10190,10 +10241,10 @@
       "index": 187,
       "serie": "Star Wars",
       "players": [
-        "Morgane",
-        "Max",
         "StreetTiger",
-        "Volsung"
+        "Morgane",
+        "Volsung",
+        "Max"
       ]
     },
     {
@@ -10302,11 +10353,11 @@
       "index": 189,
       "serie": "Shade-Faces",
       "players": [
-        "Alain",
         "Fabien",
         "Pierre",
-        "Seb",
-        "LeMat"
+        "Alain",
+        "LeMat",
+        "Seb"
       ]
     },
     {
@@ -10363,8 +10414,8 @@
       "index": 190,
       "serie": "Monster of the Week",
       "players": [
-        "Kat",
-        "Volsung"
+        "Volsung",
+        "Kat"
       ]
     },
     {
@@ -10421,11 +10472,11 @@
       "index": 191,
       "serie": "Shade-Faces",
       "players": [
-        "Alain",
         "Fabien",
         "Pierre",
-        "Seb",
-        "LeMat"
+        "Alain",
+        "LeMat",
+        "Seb"
       ]
     },
     {
@@ -10472,7 +10523,7 @@
       "index": 192,
       "serie": "De bile et d'acier",
       "players": [
-        "Kahylina",
+        "Kalyphera",
         "Erendis",
         "Volsung",
         "Vivien"
@@ -10525,10 +10576,10 @@
       "index": 193,
       "serie": "No Country For Old Kobolds",
       "players": [
-        "Alain",
         "Fabien",
-        "LeMat",
         "Pierre",
+        "Alain",
+        "LeMat",
         "Seb"
       ]
     },
@@ -10585,10 +10636,10 @@
       "index": 194,
       "serie": "No Country For Old Kobolds",
       "players": [
-        "Alain",
         "Fabien",
-        "LeMat",
         "Pierre",
+        "Alain",
+        "LeMat",
         "Seb"
       ]
     },
@@ -10643,7 +10694,10 @@
       "durationFormatted": "56:10",
       "index": 195,
       "serie": "2d6+Sharp",
-      "players": []
+      "players": [
+        "Volsung",
+        "Phane"
+      ]
     },
     {
       "videoId": "v-qimevw1AY",
@@ -10698,10 +10752,10 @@
       "index": 196,
       "serie": "No Country For Old Kobolds",
       "players": [
-        "Alain",
         "Fabien",
-        "LeMat",
         "Pierre",
+        "Alain",
+        "LeMat",
         "Seb"
       ]
     },
@@ -10759,8 +10813,8 @@
       "index": 197,
       "serie": "Monster of the Week",
       "players": [
-        "Volsung",
-        "Morgane"
+        "Morgane",
+        "Volsung"
       ]
     },
     {
@@ -10817,10 +10871,10 @@
       "index": 198,
       "serie": "No Country For Old Kobolds",
       "players": [
-        "Alain",
         "Fabien",
-        "LeMat",
         "Pierre",
+        "Alain",
+        "LeMat",
         "Seb"
       ]
     },
@@ -10877,10 +10931,10 @@
       "index": 199,
       "serie": "No Country For Old Kobolds",
       "players": [
-        "Alain",
         "Fabien",
-        "LeMat",
         "Pierre",
+        "Alain",
+        "LeMat",
         "Seb"
       ]
     },
@@ -10937,10 +10991,10 @@
       "index": 200,
       "serie": "KNIGHT",
       "players": [
-        "S.Ziterman",
         "StreetTiger",
-        "Volsung",
-        "Guillaume"
+        "S.Ziterman",
+        "Guillaume",
+        "Volsung"
       ]
     },
     {
@@ -10996,10 +11050,10 @@
       "index": 201,
       "serie": "Dés de Sang",
       "players": [
-        "Max",
-        "Mass",
         "Volsung",
-        "Willy"
+        "Willy",
+        "Mass",
+        "Max"
       ]
     },
     {
@@ -11052,7 +11106,13 @@
       "durationFormatted": "2:25:18",
       "index": 202,
       "serie": "Podcast Frankenstein",
-      "players": []
+      "players": [
+        "Thomas Munier",
+        "S.Ziterman",
+        "LamSon",
+        "Phane",
+        "Ramos"
+      ]
     },
     {
       "videoId": "Bu7p5rQY30A",
@@ -11107,10 +11167,10 @@
       "index": 203,
       "serie": "Dés de Sang",
       "players": [
-        "Max",
-        "Mass",
         "Volsung",
-        "Willy"
+        "Willy",
+        "Mass",
+        "Max"
       ]
     },
     {
@@ -11164,8 +11224,8 @@
       "index": 204,
       "serie": "2d6+Sharp",
       "players": [
-        "LeMat",
-        "Volsung"
+        "Volsung",
+        "LeMat"
       ]
     },
     {
@@ -11222,10 +11282,10 @@
       "index": 205,
       "serie": "FACES",
       "players": [
-        "Nitz",
         "Roberto",
         "Volsung",
-        "LeMat"
+        "LeMat",
+        "Nitz"
       ]
     },
     {
@@ -11282,8 +11342,8 @@
       "index": 206,
       "serie": "Monster of the Week",
       "players": [
-        "Kat",
-        "Volsung"
+        "Volsung",
+        "Kat"
       ]
     },
     {
@@ -11443,7 +11503,8 @@
       "players": [
         "StreetTiger",
         "Virevolte",
-        "Felondra"
+        "Felondra",
+        "Volsung"
       ]
     },
     {
@@ -11612,7 +11673,12 @@
       "durationFormatted": "1:40:41",
       "index": 212,
       "serie": "Podcast Frankenstein",
-      "players": []
+      "players": [
+        "Thomas Munier",
+        "S.Ziterman",
+        "Felondra",
+        "Volsung"
+      ]
     },
     {
       "videoId": "wmDtbpkY7Ww",
@@ -11841,10 +11907,10 @@
       "index": 216,
       "serie": "Star Wars",
       "players": [
-        "Morgane",
-        "Max",
         "StreetTiger",
-        "Volsung"
+        "Morgane",
+        "Volsung",
+        "Max"
       ]
     },
     {
@@ -12020,7 +12086,8 @@
       "players": [
         "StreetTiger",
         "Virevolte",
-        "Felondra"
+        "Felondra",
+        "Volsung"
       ]
     },
     {
@@ -12134,11 +12201,9 @@
       "index": 221,
       "serie": "Dodecaedre",
       "players": [
-        "Eugenie",
-        "Mass",
-        "Yoann",
+        "Eugénie",
         "Volsung",
-        "Épiphanie"
+        "Mass"
       ]
     },
     {
@@ -12252,11 +12317,9 @@
       "index": 223,
       "serie": "Dodecaedre",
       "players": [
-        "Eugenie",
-        "Mass",
-        "Yoann",
+        "Eugénie",
         "Volsung",
-        "Épiphanie"
+        "Mass"
       ]
     },
     {
@@ -12429,10 +12492,10 @@
       "index": 226,
       "serie": "Tours de Garde",
       "players": [
-        "Lola.D1",
-        "Joker",
         "Julien P",
-        "Volsung"
+        "Lola.D1",
+        "Volsung",
+        "Joker"
       ]
     },
     {
@@ -12776,10 +12839,10 @@
       "index": 232,
       "serie": "Night Witches",
       "players": [
-        "JCN",
-        "MadMat",
+        "Felondra",
         "Volsung",
-        "Felondra"
+        "MadMat",
+        "JCN"
       ]
     },
     {
@@ -12999,10 +13062,10 @@
       "index": 236,
       "serie": "Macadabre",
       "players": [
-        "Nitz",
         "Roberto",
+        "Volsung",
         "LeMat",
-        "Volsung"
+        "Nitz"
       ]
     },
     {
@@ -13059,8 +13122,9 @@
       "index": 237,
       "serie": "The Sprawl",
       "players": [
+        "Antoine",
         "Khelren",
-        "Antoine"
+        "Volsung"
       ]
     },
     {
@@ -13117,8 +13181,9 @@
       "index": 238,
       "serie": "The Sprawl",
       "players": [
+        "Antoine",
         "Khelren",
-        "Antoine"
+        "Volsung"
       ]
     },
     {
@@ -13231,8 +13296,9 @@
       "index": 240,
       "serie": "The Sprawl",
       "players": [
+        "Antoine",
         "Khelren",
-        "Antoine"
+        "Volsung"
       ]
     },
     {
@@ -13288,10 +13354,10 @@
       "index": 241,
       "serie": "PSI RUN",
       "players": [
-        "Kitano",
         "Gregory",
         "Olivier",
-        "Volsung"
+        "Volsung",
+        "Kitano"
       ]
     },
     {
@@ -13347,10 +13413,10 @@
       "index": 242,
       "serie": "Macadabre",
       "players": [
-        "Nitz",
         "Roberto",
+        "Volsung",
         "LeMat",
-        "Volsung"
+        "Nitz"
       ]
     },
     {
@@ -13406,10 +13472,10 @@
       "index": 243,
       "serie": "The Final Girl",
       "players": [
-        "Antoine",
-        "Mat",
         "Sous-Colline",
-        "Volsung"
+        "Antoine",
+        "Volsung",
+        "Mat"
       ]
     },
     {
@@ -13466,8 +13532,9 @@
       "index": 244,
       "serie": "The Sprawl",
       "players": [
+        "Antoine",
         "Khelren",
-        "Antoine"
+        "Volsung"
       ]
     },
     {
@@ -13524,8 +13591,9 @@
       "index": 245,
       "serie": "The Sprawl",
       "players": [
+        "Antoine",
         "Khelren",
-        "Antoine"
+        "Volsung"
       ]
     },
     {
@@ -13581,10 +13649,10 @@
       "index": 246,
       "serie": "The Final Girl",
       "players": [
-        "Antoine",
-        "Mat",
         "Sous-Colline",
-        "Volsung"
+        "Antoine",
+        "Volsung",
+        "Mat"
       ]
     },
     {
@@ -13640,11 +13708,9 @@
       "index": 247,
       "serie": "Dodecaedre",
       "players": [
-        "Eugenie",
-        "Mass",
-        "Yoann",
+        "Eugénie",
         "Volsung",
-        "Épiphanie"
+        "Mass"
       ]
     },
     {
@@ -13702,10 +13768,11 @@
       "serie": "Sagas of the Icelanders",
       "players": [
         "Cassandre",
-        "Xman",
-        "Come",
+        "Kalysto",
         "Volsung",
-        "Kalysto"
+        "MadMat",
+        "Côme",
+        "Xman"
       ]
     },
     {
@@ -13762,8 +13829,9 @@
       "index": 249,
       "serie": "The Sprawl",
       "players": [
+        "Antoine",
         "Khelren",
-        "Antoine"
+        "Volsung"
       ]
     },
     {
@@ -13819,11 +13887,9 @@
       "index": 250,
       "serie": "Dodecaedre",
       "players": [
-        "Eugenie",
-        "Mass",
-        "Yoann",
+        "Eugénie",
         "Volsung",
-        "Épiphanie"
+        "Mass"
       ]
     },
     {
@@ -13880,10 +13946,10 @@
       "index": 251,
       "serie": "Libreté",
       "players": [
-        "JCN",
-        "Max",
+        "Epiphanie",
         "Volsung",
-        "Epiphanie"
+        "JCN",
+        "Max"
       ]
     },
     {
@@ -13940,8 +14006,9 @@
       "index": 252,
       "serie": "The Sprawl",
       "players": [
+        "Antoine",
         "Khelren",
-        "Antoine"
+        "Volsung"
       ]
     },
     {
@@ -13997,11 +14064,9 @@
       "index": 253,
       "serie": "Dodecaedre",
       "players": [
-        "Eugenie",
-        "Mass",
-        "Yoann",
+        "Eugénie",
         "Volsung",
-        "Épiphanie"
+        "Mass"
       ]
     },
     {
@@ -14058,8 +14123,8 @@
       "serie": "Firebrands",
       "players": [
         "Morgane",
-        "Max",
-        "Volsung"
+        "Volsung",
+        "Max"
       ]
     },
     {
@@ -14118,6 +14183,7 @@
       "serie": "Rocket City World",
       "players": [
         "Antoine",
+        "Volsung",
         "MadMat",
         "Loïc"
       ]
@@ -14169,8 +14235,9 @@
       "index": 256,
       "serie": "The Sprawl",
       "players": [
+        "Antoine",
         "Khelren",
-        "Antoine"
+        "Volsung"
       ]
     },
     {
@@ -14225,7 +14292,9 @@
       "durationFormatted": "1:14:53",
       "index": 257,
       "serie": "Foire aux questions",
-      "players": []
+      "players": [
+        "Volsung"
+      ]
     },
     {
       "videoId": "NYdfQnXe55w",
@@ -14281,8 +14350,9 @@
       "index": 258,
       "serie": "The Sprawl",
       "players": [
+        "Antoine",
         "Khelren",
-        "Antoine"
+        "Volsung"
       ]
     },
     {
@@ -14339,6 +14409,7 @@
       "serie": "Danger Patrol",
       "players": [
         "Antoine",
+        "Volsung",
         "MadMat",
         "Loïc"
       ]
@@ -14397,8 +14468,8 @@
       "serie": "Firebrands",
       "players": [
         "Morgane",
-        "Max",
-        "Volsung"
+        "Volsung",
+        "Max"
       ]
     },
     {
@@ -14455,8 +14526,9 @@
       "index": 261,
       "serie": "The Sprawl",
       "players": [
+        "Antoine",
         "Khelren",
-        "Antoine"
+        "Volsung"
       ]
     },
     {
@@ -14512,10 +14584,10 @@
       "index": 262,
       "serie": "Loué soit Soth",
       "players": [
-        "Eugénie",
-        "Max",
         "Epiphanie",
-        "Volsung"
+        "Eugénie",
+        "Volsung",
+        "Max"
       ]
     },
     {
@@ -14572,8 +14644,8 @@
       "serie": "Firebrands",
       "players": [
         "Morgane",
-        "Max",
-        "Volsung"
+        "Volsung",
+        "Max"
       ]
     },
     {
@@ -14629,10 +14701,10 @@
       "index": 264,
       "serie": "Loué soit Soth",
       "players": [
-        "Eugénie",
-        "Max",
         "Epiphanie",
-        "Volsung"
+        "Eugénie",
+        "Volsung",
+        "Max"
       ]
     },
     {
@@ -14689,8 +14761,9 @@
       "index": 265,
       "serie": "The Sprawl",
       "players": [
+        "Antoine",
         "Khelren",
-        "Antoine"
+        "Volsung"
       ]
     },
     {
@@ -14746,10 +14819,10 @@
       "index": 266,
       "serie": "Loué soit Soth",
       "players": [
-        "Eugénie",
-        "Max",
         "Epiphanie",
-        "Volsung"
+        "Eugénie",
+        "Volsung",
+        "Max"
       ]
     },
     {
@@ -14806,8 +14879,9 @@
       "index": 267,
       "serie": "The Sprawl",
       "players": [
+        "Antoine",
         "Khelren",
-        "Antoine"
+        "Volsung"
       ]
     },
     {
@@ -14863,10 +14937,10 @@
       "index": 268,
       "serie": "Macadabre",
       "players": [
-        "Nitz",
         "Roberto",
+        "Volsung",
         "LeMat",
-        "Volsung"
+        "Nitz"
       ]
     },
     {
@@ -14923,8 +14997,8 @@
       "index": 269,
       "serie": "Dungeon World",
       "players": [
-        "Volsung",
-        "Antoine"
+        "Antoine",
+        "Volsung"
       ]
     },
     {
@@ -14981,9 +15055,9 @@
       "index": 270,
       "serie": "Saint Seiya",
       "players": [
+        "Acritarche",
         "Laurent",
         "Nicolas",
-        "Acritarche",
         "Volsung"
       ]
     },
@@ -15040,10 +15114,10 @@
       "index": 271,
       "serie": "Macadabre",
       "players": [
-        "Nitz",
         "Roberto",
+        "Volsung",
         "LeMat",
-        "Volsung"
+        "Nitz"
       ]
     },
     {
@@ -15100,9 +15174,9 @@
       "index": 272,
       "serie": "Saint Seiya",
       "players": [
+        "Acritarche",
         "Laurent",
         "Nicolas",
-        "Acritarche",
         "Volsung"
       ]
     },
@@ -15160,8 +15234,8 @@
       "index": 273,
       "serie": "Dungeon World",
       "players": [
-        "Volsung",
-        "Antoine"
+        "Antoine",
+        "Volsung"
       ]
     },
     {
@@ -15217,11 +15291,9 @@
       "index": 274,
       "serie": "Dodecaedre",
       "players": [
-        "Eugenie",
-        "Mass",
-        "Yoann",
+        "Eugénie",
         "Volsung",
-        "Épiphanie"
+        "Mass"
       ]
     },
     {
@@ -15278,9 +15350,9 @@
       "index": 275,
       "serie": "Saint Seiya",
       "players": [
+        "Acritarche",
         "Laurent",
         "Nicolas",
-        "Acritarche",
         "Volsung"
       ]
     },
@@ -15338,8 +15410,8 @@
       "index": 276,
       "serie": "Dungeon World",
       "players": [
-        "Volsung",
-        "Antoine"
+        "Antoine",
+        "Volsung"
       ]
     },
     {
@@ -15395,11 +15467,9 @@
       "index": 277,
       "serie": "Dodecaedre",
       "players": [
-        "Eugenie",
-        "Mass",
-        "Yoann",
+        "Eugénie",
         "Volsung",
-        "Épiphanie"
+        "Mass"
       ]
     },
     {
@@ -15456,9 +15526,9 @@
       "index": 278,
       "serie": "Saint Seiya",
       "players": [
+        "Acritarche",
         "Laurent",
         "Nicolas",
-        "Acritarche",
         "Volsung"
       ]
     },
@@ -15516,8 +15586,8 @@
       "index": 279,
       "serie": "Dungeon World",
       "players": [
-        "Volsung",
-        "Antoine"
+        "Antoine",
+        "Volsung"
       ]
     },
     {
@@ -15573,11 +15643,9 @@
       "index": 280,
       "serie": "Dodecaedre",
       "players": [
-        "Eugenie",
-        "Mass",
-        "Yoann",
+        "Eugénie",
         "Volsung",
-        "Épiphanie"
+        "Mass"
       ]
     },
     {
@@ -15634,7 +15702,10 @@
       "index": 281,
       "serie": "Saint Seiya",
       "players": [
-        "endossent leur armure de bronze pour la cause"
+        "Acritarche",
+        "Laurent",
+        "Nicolas",
+        "Volsung"
       ]
     },
     {
@@ -15691,8 +15762,8 @@
       "index": 282,
       "serie": "Dungeon World",
       "players": [
-        "Volsung",
-        "Antoine"
+        "Antoine",
+        "Volsung"
       ]
     },
     {
@@ -15748,10 +15819,10 @@
       "index": 283,
       "serie": "Macadabre",
       "players": [
-        "Nitz",
         "Roberto",
+        "Volsung",
         "LeMat",
-        "Volsung"
+        "Nitz"
       ]
     },
     {
@@ -15807,10 +15878,10 @@
       "index": 284,
       "serie": "Macadabre",
       "players": [
-        "Nitz",
         "Roberto",
+        "Volsung",
         "LeMat",
-        "Volsung"
+        "Nitz"
       ]
     },
     {
@@ -15867,8 +15938,8 @@
       "index": 285,
       "serie": "Dungeon World",
       "players": [
-        "Volsung",
-        "Antoine"
+        "Antoine",
+        "Volsung"
       ]
     },
     {
@@ -15925,10 +15996,9 @@
       "index": 286,
       "serie": "Monsterhearts",
       "players": [
-        "Xiam",
-        "JC",
+        "Volsung",
         "Juce",
-        "Volsung"
+        "Xiam"
       ]
     },
     {
@@ -15985,10 +16055,9 @@
       "index": 287,
       "serie": "Monsterhearts",
       "players": [
-        "Xiam",
-        "JC",
+        "Volsung",
         "Juce",
-        "Volsung"
+        "Xiam"
       ]
     },
     {
@@ -16044,11 +16113,9 @@
       "index": 288,
       "serie": "Dodecaedre",
       "players": [
-        "Eugenie",
-        "Mass",
-        "Yoann",
+        "Eugénie",
         "Volsung",
-        "Épiphanie"
+        "Mass"
       ]
     },
     {
@@ -16105,8 +16172,8 @@
       "index": 289,
       "serie": "Dungeon World",
       "players": [
-        "Volsung",
-        "Antoine"
+        "Antoine",
+        "Volsung"
       ]
     },
     {
@@ -16162,11 +16229,9 @@
       "index": 290,
       "serie": "Dodecaedre",
       "players": [
-        "Eugenie",
-        "Mass",
-        "Yoann",
+        "Eugénie",
         "Volsung",
-        "Épiphanie"
+        "Mass"
       ]
     },
     {
@@ -16223,10 +16288,9 @@
       "index": 291,
       "serie": "Monsterhearts",
       "players": [
-        "Xiam",
-        "JC",
+        "Volsung",
         "Juce",
-        "Volsung"
+        "Xiam"
       ]
     },
     {
@@ -16283,8 +16347,8 @@
       "index": 292,
       "serie": "Dungeon World",
       "players": [
-        "Volsung",
-        "Antoine"
+        "Antoine",
+        "Volsung"
       ]
     },
     {
@@ -16340,11 +16404,9 @@
       "index": 293,
       "serie": "Dodecaedre",
       "players": [
-        "Eugenie",
-        "Mass",
-        "Yoann",
+        "Eugénie",
         "Volsung",
-        "Épiphanie"
+        "Mass"
       ]
     },
     {
@@ -16400,11 +16462,9 @@
       "index": 294,
       "serie": "Dodecaedre",
       "players": [
-        "Eugenie",
-        "Mass",
-        "Yoann",
+        "Eugénie",
         "Volsung",
-        "Épiphanie"
+        "Mass"
       ]
     },
     {
@@ -16461,8 +16521,8 @@
       "index": 295,
       "serie": "Dungeon World",
       "players": [
-        "Volsung",
-        "Antoine"
+        "Antoine",
+        "Volsung"
       ]
     },
     {
@@ -16518,10 +16578,10 @@
       "index": 296,
       "serie": "Macadabre",
       "players": [
-        "Nitz",
         "Roberto",
+        "Volsung",
         "LeMat",
-        "Volsung"
+        "Nitz"
       ]
     },
     {
@@ -16578,8 +16638,8 @@
       "index": 297,
       "serie": "Dungeon World",
       "players": [
-        "Volsung",
-        "Antoine"
+        "Antoine",
+        "Volsung"
       ]
     },
     {
@@ -16636,10 +16696,9 @@
       "index": 298,
       "serie": "Monsterhearts",
       "players": [
-        "Xiam",
-        "JC",
+        "Volsung",
         "Juce",
-        "Volsung"
+        "Xiam"
       ]
     },
     {
@@ -16695,10 +16754,10 @@
       "index": 299,
       "serie": "Macadabre",
       "players": [
-        "Nitz",
         "Roberto",
+        "Volsung",
         "LeMat",
-        "Volsung"
+        "Nitz"
       ]
     },
     {
@@ -16755,8 +16814,8 @@
       "index": 300,
       "serie": "Dungeon World",
       "players": [
-        "Volsung",
-        "Antoine"
+        "Antoine",
+        "Volsung"
       ]
     },
     {
@@ -16813,10 +16872,9 @@
       "index": 301,
       "serie": "Monsterhearts",
       "players": [
-        "Xiam",
-        "JC",
+        "Volsung",
         "Juce",
-        "Volsung"
+        "Xiam"
       ]
     },
     {

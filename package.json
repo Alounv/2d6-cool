@@ -5,7 +5,8 @@
   "main": "src/youtube_channel_metadata.ts",
   "scripts": {
     "extract": "bun src/youtube_channel_metadata.ts",
-    "add-series": "bun src/add_serie_property.ts"
+    "add-series": "bun src/add_serie_property.ts",
+    "add-players": "bun src/add_players_property.ts"
   },
   "dependencies": {
     "googleapis": "^126.0.0"

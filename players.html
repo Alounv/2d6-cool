@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Timeline</title>
+        <title>Players Timeline</title>
         <link
             rel="icon"
             href="https://2d6pluscool.ovh/wp-content/uploads/2016/03/cropped-Logo-2d6cool-512-32x32.png"
@@ -16,12 +16,12 @@
         />
         <link rel="stylesheet" href="shared.css" />
         <style>
-            .series-row {
+            .player-row {
                 display: flex;
                 align-items: stretch;
                 min-height: 50px;
             }
-            .series-label {
+            .player-label {
                 width: var(--label-width);
                 flex-shrink: 0;
                 font-size: 14px;
@@ -37,14 +37,22 @@
                 display: flex;
                 align-items: center;
                 justify-content: flex-end;
+                gap: 8px;
             }
-            .series-timeline {
+            .player-count {
+                font-size: 11px;
+                color: var(--text-muted);
+                background: var(--bg-body);
+                padding: 2px 6px;
+                border-radius: 10px;
+            }
+            .player-timeline {
                 flex: 1;
                 position: relative;
                 height: 40px;
                 padding-right: 100px;
             }
-            .series-line {
+            .player-line {
                 position: absolute;
                 height: 3px;
                 top: 50%;
@@ -53,69 +61,54 @@
                 opacity: 0.5;
             }
             @media (max-width: 768px) {
-                .series-label {
+                :root {
+                    --label-width: 120px;
+                }
+                .player-label {
                     font-size: 11px;
                     padding-right: 8px;
-                    white-space: normal;
-                    line-height: 1.2;
-                    display: -webkit-box;
-                    -webkit-line-clamp: 2;
-                    -webkit-box-orient: vertical;
+                }
+                .player-count {
+                    display: none;
                 }
             }
         </style>
     </head>
     <body>
         <div class="container">
-            <h1>2d6+Cool - Timeline</h1>
+            <h1>2d6+Cool - Players Timeline</h1>
             <div class="stats" id="stats"></div>
             <div class="chart-wrapper">
                 <div class="year-header-wrapper">
                     <div class="year-header" id="yearHeader"></div>
                     <div class="chart-controls">
                         <div class="control-group">
-                            <button class="zoom-btn" id="zoomOut">−</button>
+                            <button class="zoom-btn" id="zoomOut">-</button>
                             <span class="zoom-level" id="zoomLevel">100%</span>
                             <button class="zoom-btn" id="zoomIn">+</button>
-                            <button class="zoom-btn" id="zoomReset">↺</button>
+                            <button class="zoom-btn" id="zoomReset">
+                                &#8634;
+                            </button>
                         </div>
+
+                        <input type="hidden" id="sizeSlider" value="0" />
                         <div class="control-group">
                             <div class="size-slider">
-                                <span class="size-option" data-value="standard"
-                                    >Standard</span
+                                <span class="sort-option" data-value="count"
+                                    >Nb épisodes</span
                                 >
                                 <input
                                     type="range"
                                     min="0"
                                     max="2"
-                                    value="0"
-                                    id="sizeSlider"
-                                    class="slider-input"
-                                />
-                                <span class="size-option" data-value="views"
-                                    >Vues</span
-                                >
-                                <span class="size-option" data-value="likes"
-                                    >J'aime</span
-                                >
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="size-slider">
-                                <span class="sort-option" data-value="first"
-                                    >1er épisode</span
-                                >
-                                <input
-                                    type="range"
-                                    min="0"
-                                    max="1"
-                                    value="1"
+                                    value="2"
                                     id="sortSlider"
                                     class="slider-input"
                                 />
-                                <span
-                                    class="sort-option active"
-                                    data-value="last"
+                                <span class="sort-option" data-value="first"
+                                    >1er épisode</span
+                                >
+                                <span class="sort-option" data-value="last"
                                     >Dernier épisode</span
                                 >
                             </div>
@@ -131,16 +124,21 @@
 
         <script src="shared.js"></script>
         <script>
+            sortMode = "last";
+
             const renderTimeline = () => {
                 const videos = videosData.videos;
-                const seriesMap = new Map();
+
+                const playersMap = new Map();
                 videos.forEach((v) => {
-                    const s = v.serie || "Unknown";
-                    if (!seriesMap.has(s)) seriesMap.set(s, []);
-                    seriesMap.get(s).push(v);
+                    const players = v.players || [];
+                    players.forEach((player) => {
+                        if (!playersMap.has(player)) playersMap.set(player, []);
+                        playersMap.get(player).push(v);
+                    });
                 });
 
-                const sortedSeries = [...seriesMap.entries()]
+                const sortedPlayers = [...playersMap.entries()]
                     .map(([name, eps]) => ({
                         name,
                         episodes: eps.sort(
@@ -150,15 +148,24 @@
                         ),
                     }))
                     .sort((a, b) => {
-                        const getDate = (s) =>
-                            new Date(
-                                s.episodes[
-                                    sortMode === "first"
-                                        ? 0
-                                        : s.episodes.length - 1
-                                ].publishedAt,
+                        if (sortMode === "count") {
+                            return b.episodes.length - a.episodes.length;
+                        } else if (sortMode === "last") {
+                            const lastA = new Date(
+                                a.episodes[a.episodes.length - 1].publishedAt,
                             );
-                        return getDate(b) - getDate(a);
+                            const lastB = new Date(
+                                b.episodes[b.episodes.length - 1].publishedAt,
+                            );
+                            if (lastB - lastA !== 0) return lastB - lastA;
+                            const firstA = new Date(a.episodes[0].publishedAt);
+                            const firstB = new Date(b.episodes[0].publishedAt);
+                            return firstB - firstA;
+                        } else {
+                            const getDate = (p) =>
+                                new Date(p.episodes[0].publishedAt);
+                            return getDate(b) - getDate(a);
+                        }
                     });
 
                 const { toPos, years } = computeDateRange(videos);
@@ -167,10 +174,10 @@
 
                 $("chart").innerHTML =
                     renderYearLines(years) +
-                    sortedSeries
-                        .map((s, i) => {
+                    sortedPlayers
+                        .map((p, i) => {
                             const color = COLORS[i % COLORS.length];
-                            const eps = s.episodes;
+                            const eps = p.episodes;
                             const firstPos = toPos(
                                 new Date(eps[0].publishedAt),
                             );
@@ -183,25 +190,35 @@
                                     return createEpisodeEl(ep, pos, color);
                                 })
                                 .join("");
-                            return `<div class="series-row"><div class="series-label" title="${s.name}">${s.name}</div><div class="series-timeline"><div class="series-line" style="left:${firstPos}%;width:${lastPos - firstPos}%;background:${color}"></div>${circles}</div></div>`;
+                            return `<div class="player-row"><div class="player-label" title="${p.name}"><span>${p.name}</span><span class="player-count">${eps.length}</span></div><div class="player-timeline"><div class="player-line" style="left:${firstPos}%;width:${lastPos - firstPos}%;background:${color}"></div>${circles}</div></div>`;
                         })
                         .join("");
 
-                setupTooltip(false);
+                setupTooltip(true);
 
-                const total = videos.length;
-                const totalDur = videos.reduce(
-                    (s, v) => s + (v.durationSeconds || 0),
-                    0,
-                );
+                const totalPlayers = sortedPlayers.length;
+                const videosWithPlayers = videos.filter(
+                    (v) => (v.players || []).length > 0,
+                ).length;
+                const avgPlayersPerVideo =
+                    videosWithPlayers > 0
+                        ? (
+                              videos.reduce(
+                                  (sum, v) => sum + (v.players || []).length,
+                                  0,
+                              ) / videosWithPlayers
+                          ).toFixed(1)
+                        : 0;
+                const videosWithoutPlayers = videos.length - videosWithPlayers;
+
                 $("stats").innerHTML =
-                    `<h3>Statistiques</h3><div class="stats-grid"><div class="stat-card"><div class="stat-value">${sortedSeries.length}</div><div class="stat-label">Séries</div></div><div class="stat-card"><div class="stat-value">${total}</div><div class="stat-label">Épisodes au total</div></div><div class="stat-card"><div class="stat-value">${Math.floor(totalDur / 3600)}h</div><div class="stat-label">Durée totale</div></div><div class="stat-card"><div class="stat-value">${Math.floor(totalDur / total / 60)}min</div><div class="stat-label">Durée moyenne par épisode</div></div></div>`;
+                    `<h3>Statistiques</h3><div class="stats-grid"><div class="stat-card"><div class="stat-value">${totalPlayers}</div><div class="stat-label">Joueurs</div></div><div class="stat-card"><div class="stat-value">${avgPlayersPerVideo}</div><div class="stat-label">Joueurs par épisode (moy.)</div></div><div class="stat-card"><div class="stat-value">${videosWithPlayers}</div><div class="stat-label">Épisodes avec joueurs</div></div><div class="stat-card"><div class="stat-value">${videosWithoutPlayers}</div><div class="stat-label">Épisodes sans joueurs renseignés</div></div></div>`;
             };
 
             loadData(renderTimeline);
             setupControls(
                 ["standard", "views", "likes"],
-                ["first", "last"],
+                ["count", "first", "last"],
                 renderTimeline,
             );
             updateZoom();
