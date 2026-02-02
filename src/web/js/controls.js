@@ -1,17 +1,21 @@
 /**
  * Zoom and control functionality
+ *
+ * Zoom uses an internal scale where 1.0 = 100% displayed.
+ * The BASE_WIDTH is the chart width at 100% zoom.
  */
 
-const MIN_ZOOM = 0.5;
-const MAX_ZOOM = 4;
-const BASE_WIDTH = 2500;
+const DEFAULT_ZOOM = 1;
+const MIN_ZOOM = 1;
+const MAX_ZOOM = 8;
+const BASE_WIDTH = 1250;
 
-let zoomLevel = 0.5;
+let zoomLevel = DEFAULT_ZOOM;
 
 function updateZoom() {
   const w = BASE_WIDTH * zoomLevel + "px";
   $("chart").style.minWidth = $("yearHeader").style.minWidth = w;
-  $("zoomLevel").textContent = Math.round(zoomLevel * 200) + "%";
+  $("zoomLevel").textContent = Math.round(zoomLevel * 100) + "%";
 }
 
 function setupControls(sizeModes, sortModes, onSortChange) {
@@ -26,7 +30,7 @@ function setupControls(sizeModes, sortModes, onSortChange) {
     updateZoom();
   };
   $("zoomReset").onclick = () => {
-    zoomLevel = 0.5;
+    zoomLevel = DEFAULT_ZOOM;
     updateZoom();
   };
 
