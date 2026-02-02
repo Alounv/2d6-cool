@@ -1,33 +1,31 @@
-import fs from "fs";
+#!/usr/bin/env bun
+/**
+ * Enrich videos with series information
+ * Matches video titles against series patterns from series.json
+ */
 
-interface Video {
-  title: string;
-  serie?: string | null;
+import fs from "fs";
+import type { VideoMetadata, AliasEntry } from "../lib/types";
+import { buildPatterns } from "../lib/types";
+
+interface Data {
+  videos: VideoMetadata[];
   [key: string]: unknown;
 }
 
-interface Data {
-  videos: Video[];
-}
-
-const dataPath = new URL("../data/videos.json", import.meta.url).pathname;
-const seriesPath = new URL("../data/series.json", import.meta.url).pathname;
+const dataPath = new URL(
+  "../../data/generated/videos.json",
+  import.meta.url,
+).pathname;
+const seriesPath = new URL(
+  "../../data/source/series.json",
+  import.meta.url,
+).pathname;
 
 const data: Data = JSON.parse(fs.readFileSync(dataPath, "utf8"));
-const series: (string | [string, ...string[]])[] = JSON.parse(
-  fs.readFileSync(seriesPath, "utf8"),
-);
+const series: AliasEntry[] = JSON.parse(fs.readFileSync(seriesPath, "utf8"));
 
-// Build a flat list of {pattern, canonical} for matching, sorted by pattern length descending
-const seriesPatterns = series
-  .flatMap((entry) => {
-    if (typeof entry === "string") {
-      return [{ pattern: entry, canonical: entry }];
-    }
-    const [canonical, ...aliases] = entry;
-    return [canonical, ...aliases].map((pattern) => ({ pattern, canonical }));
-  })
-  .sort((a, b) => b.pattern.length - a.pattern.length);
+const seriesPatterns = buildPatterns(series);
 
 function findSerie(title: string): string | null {
   const lowerTitle = title.toLowerCase();

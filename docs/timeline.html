@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Timeline</title>
+        <link
+            rel="icon"
+            href="https://2d6pluscool.ovh/wp-content/uploads/2016/03/cropped-Logo-2d6cool-512-32x32.png"
+            sizes="32x32"
+        />
+        <link
+            rel="icon"
+            href="https://2d6pluscool.ovh/wp-content/uploads/2016/03/cropped-Logo-2d6cool-512-192x192.png"
+            sizes="192x192"
+        />
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>2d6+Cool - Timeline</h1>
+            <nav class="page-nav"><a href="players.html">Players</a></nav>
+            <div class="stats" id="stats"></div>
+            <div class="chart-wrapper">
+                <div class="year-header-wrapper">
+                    <div class="year-header" id="yearHeader"></div>
+                    <div class="chart-controls">
+                        <div class="control-group">
+                            <button class="zoom-btn" id="zoomOut">−</button>
+                            <span class="zoom-level" id="zoomLevel">100%</span>
+                            <button class="zoom-btn" id="zoomIn">+</button>
+                            <button class="zoom-btn" id="zoomReset">↺</button>
+                        </div>
+                        <div class="control-group">
+                            <div class="size-slider">
+                                <span class="size-option" data-value="standard"
+                                    >Standard</span
+                                >
+                                <input
+                                    type="range"
+                                    min="0"
+                                    max="2"
+                                    value="0"
+                                    id="sizeSlider"
+                                    class="slider-input"
+                                />
+                                <span class="size-option" data-value="views"
+                                    >Vues</span
+                                >
+                                <span class="size-option" data-value="likes"
+                                    >J'aime</span
+                                >
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="size-slider">
+                                <span class="sort-option" data-value="first"
+                                    >1er épisode</span
+                                >
+                                <input
+                                    type="range"
+                                    min="0"
+                                    max="1"
+                                    value="1"
+                                    id="sortSlider"
+                                    class="slider-input"
+                                />
+                                <span
+                                    class="sort-option active"
+                                    data-value="last"
+                                    >Dernier épisode</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-container" id="chartContainer">
+                    <div class="chart" id="chart"></div>
+                </div>
+            </div>
+        </div>
+        <div class="tooltip" id="tooltip"></div>
+
+        <script src="js/timeline.js"></script>
+        <script src="js/controls.js"></script>
+        <script src="js/tooltip.js"></script>
+        <script>
+            const renderTimeline = () => {
+                const videos = videosData.videos;
+                const seriesMap = new Map();
+                videos.forEach((v) => {
+                    const s = v.serie || "Unknown";
+                    if (!seriesMap.has(s)) seriesMap.set(s, []);
+                    seriesMap.get(s).push(v);
+                });
+
+                const sortedSeries = [...seriesMap.entries()]
+                    .map(([name, eps]) => ({
+                        name,
+                        episodes: eps.sort(
+                            (a, b) =>
+                                new Date(a.publishedAt) -
+                                new Date(b.publishedAt),
+                        ),
+                    }))
+                    .sort((a, b) => {
+                        const getDate = (s) =>
+                            new Date(
+                                s.episodes[
+                                    sortMode === "first"
+                                        ? 0
+                                        : s.episodes.length - 1
+                                ].publishedAt,
+                            );
+                        return getDate(b) - getDate(a);
+                    });
+
+                const { toPos, years } = computeDateRange(videos);
+
+                renderYearHeader(years);
+
+                $("chart").innerHTML =
+                    renderYearLines(years) +
+                    sortedSeries
+                        .map((s, i) => {
+                            const color = COLORS[i % COLORS.length];
+                            const eps = s.episodes;
+                            const firstPos = toPos(
+                                new Date(eps[0].publishedAt),
+                            );
+                            const lastPos = toPos(
+                                new Date(eps[eps.length - 1].publishedAt),
+                            );
+                            const circles = eps
+                                .map((ep) => {
+                                    const pos = toPos(new Date(ep.publishedAt));
+                                    return createEpisodeEl(ep, pos, color);
+                                })
+                                .join("");
+                            return `<div class="series-row"><div class="series-label" title="${s.name}">${s.name}</div><div class="series-timeline"><div class="series-line" style="left:${firstPos}%;width:${lastPos - firstPos}%;background:${color}"></div>${circles}</div></div>`;
+                        })
+                        .join("");
+
+                setupTooltip(false);
+
+                const total = videos.length;
+                const totalDur = videos.reduce(
+                    (s, v) => s + (v.durationSeconds || 0),
+                    0,
+                );
+                $("stats").innerHTML =
+                    `<h3>Statistiques</h3><div class="stats-grid"><div class="stat-card"><div class="stat-value">${sortedSeries.length}</div><div class="stat-label">Séries</div></div><div class="stat-card"><div class="stat-value">${total}</div><div class="stat-label">Épisodes au total</div></div><div class="stat-card"><div class="stat-value">${Math.floor(totalDur / 3600)}h</div><div class="stat-label">Durée totale</div></div><div class="stat-card"><div class="stat-value">${Math.floor(totalDur / total / 60)}min</div><div class="stat-label">Durée moyenne par épisode</div></div></div>`;
+            };
+
+            loadData(renderTimeline);
+            setupControls(
+                ["standard", "views", "likes"],
+                ["first", "last"],
+                renderTimeline,
+            );
+            updateZoom();
+        </script>
+    </body>
+</html>

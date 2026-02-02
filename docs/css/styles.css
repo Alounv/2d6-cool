@@ -333,11 +333,97 @@ h1 {
     color: var(--text-muted);
     margin-top: 5px;
 }
+
+/* Series-specific styles */
+.series-row {
+    display: flex;
+    align-items: stretch;
+    min-height: 50px;
+}
+.series-label {
+    width: var(--label-width);
+    flex-shrink: 0;
+    font-size: 14px;
+    padding-right: 15px;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: sticky;
+    left: 0;
+    background: var(--bg-card);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.series-timeline {
+    flex: 1;
+    position: relative;
+    height: 40px;
+    padding-right: 100px;
+}
+.series-line {
+    position: absolute;
+    height: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 2px;
+    opacity: 0.5;
+}
+
+/* Player-specific styles */
+.player-row {
+    display: flex;
+    align-items: stretch;
+    min-height: 50px;
+}
+.player-label {
+    width: var(--label-width);
+    flex-shrink: 0;
+    font-size: 14px;
+    padding-right: 15px;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: sticky;
+    left: 0;
+    background: var(--bg-card);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+}
+.player-count {
+    font-size: 11px;
+    color: var(--text-muted);
+    background: var(--bg-body);
+    padding: 2px 6px;
+    border-radius: 10px;
+}
+.player-timeline {
+    flex: 1;
+    position: relative;
+    height: 40px;
+    padding-right: 100px;
+}
+.player-line {
+    position: absolute;
+    height: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 2px;
+    opacity: 0.5;
+}
+
 @media (max-width: 768px) {
     :root {
         --label-width: 100px;
     }
-    .row-label {
+    .row-label,
+    .series-label {
         font-size: 11px;
         padding-right: 8px;
         white-space: normal;
@@ -346,7 +432,12 @@ h1 {
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
     }
-    .row-count {
+    .player-label {
+        font-size: 11px;
+        padding-right: 8px;
+    }
+    .row-count,
+    .player-count {
         display: none;
     }
     .size-option[data-value="standard"] {

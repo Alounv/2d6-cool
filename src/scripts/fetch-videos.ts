@@ -4,53 +4,15 @@
  * Uses the YouTube Data API v3 to fetch metadata for all videos from a channel.
  *
  * Usage:
- *   bun youtube_channel_metadata.ts --channel @2d6plusCool
- *   bun youtube_channel_metadata.ts --channel-id UCxxxxxxxxxxxx
+ *   bun src/scripts/fetch-videos.ts --channel @2d6plusCool
+ *   bun src/scripts/fetch-videos.ts --channel-id UCxxxxxxxxxxxx
  *
- * Set YOUTUBE_API_KEY in .env.local or pass --api-key
+ * Set YOUTUBE_API_KEY in .env or pass --api-key
  */
 
 import { google, youtube_v3 } from "googleapis";
 import * as fs from "fs";
-
-// Types
-interface ChannelInfo {
-  channelId: string;
-  channelName: string;
-  channelDescription: string;
-  customUrl: string;
-  subscriberCount: string;
-  totalVideoCount: string;
-  uploadsPlaylistId: string;
-}
-
-interface VideoMetadata {
-  index?: number;
-  videoId: string;
-  title: string;
-  description: string;
-  publishedAt: string;
-  channelTitle: string;
-  tags: string[];
-  categoryId: string;
-  duration: string;
-  durationSeconds: number;
-  durationFormatted?: string;
-  definition: string;
-  liveBroadcastContent: string;
-  viewCount: number;
-  likeCount: number;
-  commentCount: number;
-  thumbnails: youtube_v3.Schema$ThumbnailDetails;
-  url: string;
-}
-
-interface OutputData {
-  channel: ChannelInfo;
-  extractedAt: string;
-  totalVideos: number;
-  videos: VideoMetadata[];
-}
+import type { ChannelInfo, VideoMetadata, OutputData } from "../lib/types";
 
 interface Args {
   apiKey: string;
@@ -113,7 +75,7 @@ function printHelp(): void {
 YouTube Channel Video Metadata Extractor
 
 Usage:
-  bun youtube_channel_metadata.ts [options]
+  bun src/scripts/fetch-videos.ts [options]
 
 Options:
   -k, --api-key <key>       YouTube Data API v3 key (or set YOUTUBE_API_KEY env)
@@ -121,7 +83,7 @@ Options:
   -h, --help                Show this help message
 
 Example:
-  bun youtube_channel_metadata.ts -c @2d6plusCool
+  bun src/scripts/fetch-videos.ts -c @2d6plusCool
 `);
 }
 
@@ -372,7 +334,10 @@ async function main(): Promise<void> {
     };
 
     // Save to file
-    const outputPath = new URL("../data/videos.json", import.meta.url).pathname;
+    const outputPath = new URL(
+      "../../data/generated/videos.json",
+      import.meta.url,
+    ).pathname;
     fs.writeFileSync(outputPath, JSON.stringify(output, null, 2), "utf-8");
 
     console.log(

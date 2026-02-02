@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Players Timeline</title>
+        <link
+            rel="icon"
+            href="https://2d6pluscool.ovh/wp-content/uploads/2016/03/cropped-Logo-2d6cool-512-32x32.png"
+            sizes="32x32"
+        />
+        <link
+            rel="icon"
+            href="https://2d6pluscool.ovh/wp-content/uploads/2016/03/cropped-Logo-2d6cool-512-192x192.png"
+            sizes="192x192"
+        />
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>2d6+Cool - Players Timeline</h1>
+            <nav class="page-nav"><a href="timeline.html">Timeline</a></nav>
+            <div class="stats" id="stats"></div>
+            <div class="chart-wrapper">
+                <div class="year-header-wrapper">
+                    <div class="year-header" id="yearHeader"></div>
+                    <div class="chart-controls">
+                        <div class="control-group">
+                            <button class="zoom-btn" id="zoomOut">-</button>
+                            <span class="zoom-level" id="zoomLevel">100%</span>
+                            <button class="zoom-btn" id="zoomIn">+</button>
+                            <button class="zoom-btn" id="zoomReset">
+                                &#8634;
+                            </button>
+                        </div>
+
+                        <input type="hidden" id="sizeSlider" value="0" />
+                        <div class="control-group">
+                            <div class="size-slider">
+                                <span class="sort-option" data-value="count"
+                                    >Nb épisodes</span
+                                >
+                                <input
+                                    type="range"
+                                    min="0"
+                                    max="2"
+                                    value="2"
+                                    id="sortSlider"
+                                    class="slider-input"
+                                />
+                                <span class="sort-option" data-value="first"
+                                    >1er épisode</span
+                                >
+                                <span class="sort-option" data-value="last"
+                                    >Dernier épisode</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-container" id="chartContainer">
+                    <div class="chart" id="chart"></div>
+                </div>
+            </div>
+        </div>
+        <div class="tooltip" id="tooltip"></div>
+
+        <script src="js/timeline.js"></script>
+        <script src="js/controls.js"></script>
+        <script src="js/tooltip.js"></script>
+        <script>
+            sortMode = "last";
+
+            const renderTimeline = () => {
+                const videos = videosData.videos;
+
+                const playersMap = new Map();
+                videos.forEach((v) => {
+                    const players = v.players || [];
+                    players.forEach((player) => {
+                        if (!playersMap.has(player)) playersMap.set(player, []);
+                        playersMap.get(player).push(v);
+                    });
+                });
+
+                const sortedPlayers = [...playersMap.entries()]
+                    .map(([name, eps]) => ({
+                        name,
+                        episodes: eps.sort(
+                            (a, b) =>
+                                new Date(a.publishedAt) -
+                                new Date(b.publishedAt),
+                        ),
+                    }))
+                    .sort((a, b) => {
+                        if (sortMode === "count") {
+                            return b.episodes.length - a.episodes.length;
+                        } else if (sortMode === "last") {
+                            const lastA = new Date(
+                                a.episodes[a.episodes.length - 1].publishedAt,
+                            );
+                            const lastB = new Date(
+                                b.episodes[b.episodes.length - 1].publishedAt,
+                            );
+                            if (lastB - lastA !== 0) return lastB - lastA;
+                            const firstA = new Date(a.episodes[0].publishedAt);
+                            const firstB = new Date(b.episodes[0].publishedAt);
+                            return firstB - firstA;
+                        } else {
+                            const getDate = (p) =>
+                                new Date(p.episodes[0].publishedAt);
+                            return getDate(b) - getDate(a);
+                        }
+                    });
+
+                const { toPos, years } = computeDateRange(videos);
+
+                renderYearHeader(years);
+
+                $("chart").innerHTML =
+                    renderYearLines(years) +
+                    sortedPlayers
+                        .map((p, i) => {
+                            const color = COLORS[i % COLORS.length];
+                            const eps = p.episodes;
+                            const firstPos = toPos(
+                                new Date(eps[0].publishedAt),
+                            );
+                            const lastPos = toPos(
+                                new Date(eps[eps.length - 1].publishedAt),
+                            );
+                            const circles = eps
+                                .map((ep) => {
+                                    const pos = toPos(new Date(ep.publishedAt));
+                                    return createEpisodeEl(ep, pos, color);
+                                })
+                                .join("");
+                            return `<div class="player-row"><div class="player-label" title="${p.name}"><span>${p.name}</span><span class="player-count">${eps.length}</span></div><div class="player-timeline"><div class="player-line" style="left:${firstPos}%;width:${lastPos - firstPos}%;background:${color}"></div>${circles}</div></div>`;
+                        })
+                        .join("");
+
+                setupTooltip(true);
+
+                const totalPlayers = sortedPlayers.length;
+                const videosWithPlayers = videos.filter(
+                    (v) => (v.players || []).length > 0,
+                ).length;
+                const avgPlayersPerVideo =
+                    videosWithPlayers > 0
+                        ? (
+                              videos.reduce(
+                                  (sum, v) => sum + (v.players || []).length,
+                                  0,
+                              ) / videosWithPlayers
+                          ).toFixed(1)
+                        : 0;
+                const videosWithoutPlayers = videos.length - videosWithPlayers;
+
+                $("stats").innerHTML =
+                    `<h3>Statistiques</h3><div class="stats-grid"><div class="stat-card"><div class="stat-value">${totalPlayers}</div><div class="stat-label">Joueurs</div></div><div class="stat-card"><div class="stat-value">${avgPlayersPerVideo}</div><div class="stat-label">Joueurs par épisode (moy.)</div></div><div class="stat-card"><div class="stat-value">${videosWithPlayers}</div><div class="stat-label">Épisodes avec joueurs</div></div><div class="stat-card"><div class="stat-value">${videosWithoutPlayers}</div><div class="stat-label">Épisodes sans joueurs renseignés</div></div></div>`;
+            };
+
+            loadData(renderTimeline);
+            setupControls(
+                ["standard", "views", "likes"],
+                ["count", "first", "last"],
+                renderTimeline,
+            );
+            updateZoom();
+        </script>
+    </body>
+</html>

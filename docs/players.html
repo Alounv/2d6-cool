@@ -14,65 +14,7 @@
             href="https://2d6pluscool.ovh/wp-content/uploads/2016/03/cropped-Logo-2d6cool-512-192x192.png"
             sizes="192x192"
         />
-        <link rel="stylesheet" href="shared.css" />
-        <style>
-            .player-row {
-                display: flex;
-                align-items: stretch;
-                min-height: 50px;
-            }
-            .player-label {
-                width: var(--label-width);
-                flex-shrink: 0;
-                font-size: 14px;
-                padding-right: 15px;
-                text-align: right;
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                position: sticky;
-                left: 0;
-                background: var(--bg-card);
-                z-index: 10;
-                display: flex;
-                align-items: center;
-                justify-content: flex-end;
-                gap: 8px;
-            }
-            .player-count {
-                font-size: 11px;
-                color: var(--text-muted);
-                background: var(--bg-body);
-                padding: 2px 6px;
-                border-radius: 10px;
-            }
-            .player-timeline {
-                flex: 1;
-                position: relative;
-                height: 40px;
-                padding-right: 100px;
-            }
-            .player-line {
-                position: absolute;
-                height: 3px;
-                top: 50%;
-                transform: translateY(-50%);
-                border-radius: 2px;
-                opacity: 0.5;
-            }
-            @media (max-width: 768px) {
-                :root {
-                    --label-width: 120px;
-                }
-                .player-label {
-                    font-size: 11px;
-                    padding-right: 8px;
-                }
-                .player-count {
-                    display: none;
-                }
-            }
-        </style>
+        <link rel="stylesheet" href="css/styles.css" />
     </head>
     <body>
         <div class="container">
@@ -123,7 +65,9 @@
         </div>
         <div class="tooltip" id="tooltip"></div>
 
-        <script src="shared.js"></script>
+        <script src="js/timeline.js"></script>
+        <script src="js/controls.js"></script>
+        <script src="js/tooltip.js"></script>
         <script>
             sortMode = "last";
 

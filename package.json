@@ -1,12 +1,16 @@
 {
-  "name": "youtube-channel-metadata",
+  "name": "youtube-channel-timeline",
   "version": "1.0.0",
-  "description": "Extract video metadata from a YouTube channel using the Data API v3",
-  "main": "src/youtube_channel_metadata.ts",
+  "description": "YouTube channel timeline visualizer for 2d6+Cool",
   "scripts": {
-    "extract": "bun src/youtube_channel_metadata.ts",
-    "add-series": "bun src/add_serie_property.ts",
-    "add-players": "bun src/add_players_property.ts"
+    "fetch": "bun src/scripts/fetch-videos.ts",
+    "enrich:series": "bun src/scripts/enrich-series.ts",
+    "enrich:players": "bun src/scripts/enrich-players.ts",
+    "enrich": "bun run enrich:series && bun run enrich:players",
+    "build:data": "bun run fetch && bun run enrich",
+    "build:web": "cp src/web/timeline.html docs/ && cp src/web/players.html docs/ && cp -r src/web/css/* docs/css/ && cp -r src/web/js/* docs/js/ && cp data/generated/videos.json docs/data/ && cp data/generated/videos.json src/web/data/",
+    "build": "bun run build:data && bun run build:web",
+    "dev": "bunx serve src/web"
   },
   "dependencies": {
     "googleapis": "^126.0.0"
@@ -16,9 +20,8 @@
   },
   "keywords": [
     "youtube",
-    "api",
-    "metadata",
-    "channel"
+    "timeline",
+    "visualization"
   ],
   "license": "MIT"
 }
