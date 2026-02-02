@@ -124,6 +124,20 @@ h1 {
     cursor: pointer;
     border: none;
 }
+.filter-select {
+    background: var(--bg-card);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 11px;
+    cursor: pointer;
+    max-width: 150px;
+}
+.filter-select:focus {
+    outline: none;
+    border-color: var(--accent);
+}
 .chart-container {
     background: var(--bg-card);
     border-radius: 0 0 8px 8px;
@@ -357,6 +371,10 @@ h1 {
     align-items: center;
     justify-content: flex-end;
     gap: 8px;
+    cursor: pointer;
+}
+.series-label:hover span:first-child {
+    color: var(--accent);
 }
 .series-count {
     font-size: 11px;
@@ -403,6 +421,10 @@ h1 {
     align-items: center;
     justify-content: flex-end;
     gap: 8px;
+    cursor: pointer;
+}
+.player-label:hover span:first-child {
+    color: var(--accent);
 }
 .player-count {
     font-size: 11px;

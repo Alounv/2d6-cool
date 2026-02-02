@@ -32,6 +32,11 @@
                             <button class="zoom-btn" id="zoomReset">↺</button>
                         </div>
                         <div class="control-group">
+                            <select id="playerFilter" class="filter-select">
+                                <option value="">Tous les joueurs</option>
+                            </select>
+                        </div>
+                        <div class="control-group">
                             <div class="size-slider">
                                 <span class="size-option" data-value="standard"
                                     >Standard</span
@@ -85,8 +90,45 @@
         <script src="js/controls.js"></script>
         <script src="js/tooltip.js"></script>
         <script>
-            const renderTimeline = () => {
+            let playerFilter = localStorage.getItem("playerFilter") || "";
+            localStorage.removeItem("playerFilter");
+
+            const populatePlayerFilter = () => {
                 const videos = videosData.videos;
+                const players = new Set();
+                videos.forEach((v) => {
+                    (v.players || []).forEach((p) => players.add(p));
+                });
+                const select = $("playerFilter");
+                const sortedPlayers = [...players].sort((a, b) =>
+                    a.localeCompare(b, "fr"),
+                );
+                // Reset filter if player doesn't exist in data
+                if (playerFilter && !players.has(playerFilter)) {
+                    playerFilter = "";
+                }
+                const escapeHtml = (s) =>
+                    s.replace(/&/g, "&amp;").replace(/"/g, "&quot;");
+                select.innerHTML =
+                    '<option value="">Tous les joueurs</option>' +
+                    sortedPlayers
+                        .map(
+                            (p) =>
+                                `<option value="${escapeHtml(p)}">${escapeHtml(p)}</option>`,
+                        )
+                        .join("");
+                select.value = playerFilter;
+            };
+
+            const renderTimeline = () => {
+                let videos = videosData.videos;
+
+                if (playerFilter) {
+                    videos = videos.filter((v) =>
+                        (v.players || []).includes(playerFilter),
+                    );
+                }
+
                 const seriesMap = new Map();
                 videos.forEach((v) => {
                     const s = v.serie || "Unknown";
@@ -137,7 +179,7 @@
                                     return createEpisodeEl(ep, pos, color);
                                 })
                                 .join("");
-                            return `<div class="series-row"><div class="series-label" title="${s.name}">${s.name}</div><div class="series-timeline"><div class="series-line" style="left:${firstPos}%;width:${lastPos - firstPos}%;background:${color}"></div>${circles}</div></div>`;
+                            return `<div class="series-row"><div class="series-label" title="${s.name}" data-serie="${s.name}"><span>${s.name}</span><span class="series-count">${eps.length}</span></div><div class="series-timeline"><div class="series-line" style="left:${firstPos}%;width:${lastPos - firstPos}%;background:${color}"></div>${circles}</div></div>`;
                         })
                         .join("");
 
@@ -152,12 +194,26 @@
                     `<h3>Statistiques</h3><div class="stats-grid"><div class="stat-card"><div class="stat-value">${sortedSeries.length}</div><div class="stat-label">Séries</div></div><div class="stat-card"><div class="stat-value">${total}</div><div class="stat-label">Épisodes au total</div></div><div class="stat-card"><div class="stat-value">${Math.floor(totalDur / 3600)}h</div><div class="stat-label">Durée totale</div></div><div class="stat-card"><div class="stat-value">${Math.floor(totalDur / total / 60)}min</div><div class="stat-label">Durée moyenne par épisode</div></div></div>`;
             };
 
-            loadData(renderTimeline);
+            loadData(() => {
+                populatePlayerFilter();
+                renderTimeline();
+            });
             setupControls(
                 ["standard", "views", "likes"],
                 ["first", "last"],
                 renderTimeline,
             );
+            $("playerFilter").addEventListener("change", (e) => {
+                playerFilter = e.target.value;
+                renderTimeline();
+            });
+            $("chart").addEventListener("click", (e) => {
+                const label = e.target.closest(".series-label");
+                if (label && label.dataset.serie) {
+                    localStorage.setItem("serieFilter", label.dataset.serie);
+                    window.location.href = "players.html";
+                }
+            });
             updateZoom();
         </script>
     </body>
