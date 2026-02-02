@@ -56,7 +56,13 @@
       "url": "https://www.youtube.com/watch?v=qQQjBFcKzsw",
       "durationFormatted": "1:35:09",
       "index": 1,
-      "serie": "Hearts of Wulin"
+      "serie": "Hearts of Wulin",
+      "players": [
+        "LamSon",
+        "JCNau",
+        "Volsung",
+        "Ulfric"
+      ]
     },
     {
       "videoId": "pm-8yNYDloU",
@@ -103,7 +109,13 @@
       "url": "https://www.youtube.com/watch?v=pm-8yNYDloU",
       "durationFormatted": "1:17:05",
       "index": 2,
-      "serie": "Hearts of Wulin"
+      "serie": "Hearts of Wulin",
+      "players": [
+        "LamSon",
+        "JCNau",
+        "Volsung",
+        "Ulfric"
+      ]
     },
     {
       "videoId": "s4-MxhV5-qo",
@@ -150,7 +162,13 @@
       "url": "https://www.youtube.com/watch?v=s4-MxhV5-qo",
       "durationFormatted": "1:31:26",
       "index": 3,
-      "serie": "Hearts of Wulin"
+      "serie": "Hearts of Wulin",
+      "players": [
+        "LamSon",
+        "JCNau",
+        "Volsung",
+        "Ulfric"
+      ]
     },
     {
       "videoId": "X43D0zUgOjs",
@@ -197,7 +215,13 @@
       "url": "https://www.youtube.com/watch?v=X43D0zUgOjs",
       "durationFormatted": "1:31:15",
       "index": 4,
-      "serie": "Hearts of Wulin"
+      "serie": "Hearts of Wulin",
+      "players": [
+        "LamSon",
+        "JCNau",
+        "Volsung",
+        "Ulfric"
+      ]
     },
     {
       "videoId": "OYV5LhEzw1A",
@@ -244,7 +268,13 @@
       "url": "https://www.youtube.com/watch?v=OYV5LhEzw1A",
       "durationFormatted": "2:52:52",
       "index": 5,
-      "serie": "Hellywood"
+      "serie": "Hellywood",
+      "players": [
+        "Morgane",
+        "JCN",
+        "Lachesis",
+        "Taliesin"
+      ]
     },
     {
       "videoId": "mBtApml421w",
@@ -291,7 +321,13 @@
       "url": "https://www.youtube.com/watch?v=mBtApml421w",
       "durationFormatted": "1:01:39",
       "index": 6,
-      "serie": "Hellywood"
+      "serie": "Hellywood",
+      "players": [
+        "Morgane",
+        "JCN",
+        "Lachesis",
+        "Taliesin"
+      ]
     },
     {
       "videoId": "1qseWraszUM",
@@ -338,7 +374,8 @@
       "url": "https://www.youtube.com/watch?v=1qseWraszUM",
       "durationFormatted": "2:16:36",
       "index": 7,
-      "serie": "Hex & the Punks"
+      "serie": "Hex & the Punks",
+      "players": []
     },
     {
       "videoId": "zvETJIwpwvs",
@@ -385,7 +422,8 @@
       "url": "https://www.youtube.com/watch?v=zvETJIwpwvs",
       "durationFormatted": "3:32:19",
       "index": 8,
-      "serie": "Alien"
+      "serie": "Alien",
+      "players": []
     },
     {
       "videoId": "xRt4VLp7q1s",
@@ -432,7 +470,13 @@
       "url": "https://www.youtube.com/watch?v=xRt4VLp7q1s",
       "durationFormatted": "1:40:01",
       "index": 9,
-      "serie": "Hearts of Wulin"
+      "serie": "Hearts of Wulin",
+      "players": [
+        "LamSon",
+        "JCNau",
+        "Volsung",
+        "Ulfric"
+      ]
     },
     {
       "videoId": "nSaIOApNe0c",
@@ -479,7 +523,8 @@
       "url": "https://www.youtube.com/watch?v=nSaIOApNe0c",
       "durationFormatted": "3:25:35",
       "index": 10,
-      "serie": "Alien"
+      "serie": "Alien",
+      "players": []
     },
     {
       "videoId": "AxZ0Mbpnodw",
@@ -526,7 +571,14 @@
       "url": "https://www.youtube.com/watch?v=AxZ0Mbpnodw",
       "durationFormatted": "2:13:48",
       "index": 11,
-      "serie": "Vampire la Mascarade : Blue Moon"
+      "serie": "Vampire la Mascarade : Blue Moon",
+      "players": [
+        "Ulfric",
+        "Lachesis",
+        "Kalyphera",
+        "Volsung",
+        "JCN"
+      ]
     },
     {
       "videoId": "MXOGpjlSo3s",
@@ -573,7 +625,8 @@
       "url": "https://www.youtube.com/watch?v=MXOGpjlSo3s",
       "durationFormatted": "2:38:29",
       "index": 12,
-      "serie": "D&D 5 : Sorcelume"
+      "serie": "D&D 5 : Sorcelume",
+      "players": []
     },
     {
       "videoId": "PS4rJtnwx60",
@@ -620,7 +673,8 @@
       "url": "https://www.youtube.com/watch?v=PS4rJtnwx60",
       "durationFormatted": "3:35:31",
       "index": 13,
-      "serie": "Alien"
+      "serie": "Alien",
+      "players": []
     },
     {
       "videoId": "HBuIgVidffw",
@@ -667,7 +721,8 @@
       "url": "https://www.youtube.com/watch?v=HBuIgVidffw",
       "durationFormatted": "2:35:43",
       "index": 14,
-      "serie": "D&D 5 : Sorcelume"
+      "serie": "D&D 5 : Sorcelume",
+      "players": []
     },
     {
       "videoId": "I5Byr60BFRo",
@@ -714,7 +769,8 @@
       "url": "https://www.youtube.com/watch?v=I5Byr60BFRo",
       "durationFormatted": "3:11:57",
       "index": 15,
-      "serie": "Alien"
+      "serie": "Alien",
+      "players": []
     },
     {
       "videoId": "uFFNhaysIUk",
@@ -761,7 +817,8 @@
       "url": "https://www.youtube.com/watch?v=uFFNhaysIUk",
       "durationFormatted": "3:33:44",
       "index": 16,
-      "serie": "Alien"
+      "serie": "Alien",
+      "players": []
     },
     {
       "videoId": "tfgjItVR51w",
@@ -808,7 +865,13 @@
       "url": "https://www.youtube.com/watch?v=tfgjItVR51w",
       "durationFormatted": "1:22:49",
       "index": 17,
-      "serie": "Hearts of Wulin"
+      "serie": "Hearts of Wulin",
+      "players": [
+        "LamSon",
+        "JCNau",
+        "Volsung",
+        "Ulfric"
+      ]
     },
     {
       "videoId": "J70S7fBXl00",
@@ -855,7 +918,13 @@
       "url": "https://www.youtube.com/watch?v=J70S7fBXl00",
       "durationFormatted": "1:47:40",
       "index": 18,
-      "serie": "D&D 5 : Sorcelume"
+      "serie": "D&D 5 : Sorcelume",
+      "players": [
+        "Morgane",
+        "JCN",
+        "Volsung",
+        "Lachesis"
+      ]
     },
     {
       "videoId": "LLU-P73gjfY",
@@ -902,7 +971,13 @@
       "url": "https://www.youtube.com/watch?v=LLU-P73gjfY",
       "durationFormatted": "1:55:00",
       "index": 19,
-      "serie": "Hearts of Wulin"
+      "serie": "Hearts of Wulin",
+      "players": [
+        "LamSon",
+        "JCNau",
+        "Volsung",
+        "Ulfric"
+      ]
     },
     {
       "videoId": "Cy7XZoseJ4M",
@@ -949,7 +1024,13 @@
       "url": "https://www.youtube.com/watch?v=Cy7XZoseJ4M",
       "durationFormatted": "2:25:01",
       "index": 20,
-      "serie": "Flash Gordon"
+      "serie": "Flash Gordon",
+      "players": [
+        "Err0r_Stats",
+        "Volsung",
+        "Morgane",
+        "Willy"
+      ]
     },
     {
       "videoId": "2tUK9iMPl5s",
@@ -996,7 +1077,14 @@
       "url": "https://www.youtube.com/watch?v=2tUK9iMPl5s",
       "durationFormatted": "1:53:48",
       "index": 21,
-      "serie": "Vampire la Mascarade : Blue Moon"
+      "serie": "Vampire la Mascarade : Blue Moon",
+      "players": [
+        "Ulfric",
+        "Lachesis",
+        "Kalyphera",
+        "Volsung",
+        "JCN"
+      ]
     },
     {
       "videoId": "NeXnKCk9WO8",
@@ -1043,7 +1131,8 @@
       "url": "https://www.youtube.com/watch?v=NeXnKCk9WO8",
       "durationFormatted": "3:33:50",
       "index": 22,
-      "serie": "Mort a l'empire"
+      "serie": "Mort a l'empire",
+      "players": []
     },
     {
       "videoId": "XfZGfstlZzE",
@@ -1090,7 +1179,8 @@
       "url": "https://www.youtube.com/watch?v=XfZGfstlZzE",
       "durationFormatted": "3:24:47",
       "index": 23,
-      "serie": "DaggerHeart"
+      "serie": "DaggerHeart",
+      "players": []
     },
     {
       "videoId": "N418A1RQxwY",
@@ -1137,7 +1227,8 @@
       "url": "https://www.youtube.com/watch?v=N418A1RQxwY",
       "durationFormatted": "2:14:41",
       "index": 24,
-      "serie": "Itras by"
+      "serie": "Itras by",
+      "players": []
     },
     {
       "videoId": "LiwsvCNOO84",
@@ -1184,7 +1275,8 @@
       "url": "https://www.youtube.com/watch?v=LiwsvCNOO84",
       "durationFormatted": "2:11:26",
       "index": 25,
-      "serie": "Sur la Route"
+      "serie": "Sur la Route",
+      "players": []
     },
     {
       "videoId": "FnnXdlW7mKI",
@@ -1231,7 +1323,13 @@
       "url": "https://www.youtube.com/watch?v=FnnXdlW7mKI",
       "durationFormatted": "1:31:41",
       "index": 26,
-      "serie": "Hearts of Wulin"
+      "serie": "Hearts of Wulin",
+      "players": [
+        "LamSon",
+        "JCNau",
+        "Volsung",
+        "Ulfric"
+      ]
     },
     {
       "videoId": "5HGK0HM1iI0",
@@ -1278,7 +1376,13 @@
       "url": "https://www.youtube.com/watch?v=5HGK0HM1iI0",
       "durationFormatted": "1:29:11",
       "index": 27,
-      "serie": "D&D 5 : Sorcelume"
+      "serie": "D&D 5 : Sorcelume",
+      "players": [
+        "Morgane",
+        "JCN",
+        "Volsung",
+        "Lachesis"
+      ]
     },
     {
       "videoId": "c2aBFEZBSbw",
@@ -1325,7 +1429,8 @@
       "url": "https://www.youtube.com/watch?v=c2aBFEZBSbw",
       "durationFormatted": "3:14:43",
       "index": 28,
-      "serie": "Mort a l'empire"
+      "serie": "Mort a l'empire",
+      "players": []
     },
     {
       "videoId": "NwJ98rSNVbM",
@@ -1372,7 +1477,8 @@
       "url": "https://www.youtube.com/watch?v=NwJ98rSNVbM",
       "durationFormatted": "3:07:13",
       "index": 29,
-      "serie": "Thirsty Sword Lesbians"
+      "serie": "Thirsty Sword Lesbians",
+      "players": []
     },
     {
       "videoId": "ATOe3UIgTNE",
@@ -1419,7 +1525,8 @@
       "url": "https://www.youtube.com/watch?v=ATOe3UIgTNE",
       "durationFormatted": "2:24:20",
       "index": 30,
-      "serie": "L'hôtel du lion rouge"
+      "serie": "L'hôtel du lion rouge",
+      "players": []
     },
     {
       "videoId": "vElM7EIeD3E",
@@ -1466,7 +1573,13 @@
       "url": "https://www.youtube.com/watch?v=vElM7EIeD3E",
       "durationFormatted": "1:53:26",
       "index": 31,
-      "serie": "Flash Gordon"
+      "serie": "Flash Gordon",
+      "players": [
+        "Err0r_Stats",
+        "Volsung",
+        "Morgane",
+        "Willy"
+      ]
     },
     {
       "videoId": "RhosZG0dmk4",
@@ -1513,7 +1626,13 @@
       "url": "https://www.youtube.com/watch?v=RhosZG0dmk4",
       "durationFormatted": "1:42:00",
       "index": 32,
-      "serie": "Hearts of Wulin"
+      "serie": "Hearts of Wulin",
+      "players": [
+        "LamSon",
+        "JCNau",
+        "Volsung",
+        "Ulfric"
+      ]
     },
     {
       "videoId": "FBe2osLS-oc",
@@ -1560,7 +1679,13 @@
       "url": "https://www.youtube.com/watch?v=FBe2osLS-oc",
       "durationFormatted": "1:25:29",
       "index": 33,
-      "serie": "D&D 5 : Sorcelume"
+      "serie": "D&D 5 : Sorcelume",
+      "players": [
+        "Morgane",
+        "JCN",
+        "Volsung",
+        "Lachesis"
+      ]
     },
     {
       "videoId": "Kp4G2AZMP9s",
@@ -1607,7 +1732,14 @@
       "url": "https://www.youtube.com/watch?v=Kp4G2AZMP9s",
       "durationFormatted": "3:15:12",
       "index": 34,
-      "serie": "Vampire la Mascarade : Blue Moon"
+      "serie": "Vampire la Mascarade : Blue Moon",
+      "players": [
+        "Ulfric",
+        "Lachesis",
+        "Kalyphera",
+        "Volsung",
+        "JCN"
+      ]
     },
     {
       "videoId": "nk9QeolCLyE",
@@ -1654,7 +1786,13 @@
       "url": "https://www.youtube.com/watch?v=nk9QeolCLyE",
       "durationFormatted": "1:24:05",
       "index": 35,
-      "serie": "Flash Gordon"
+      "serie": "Flash Gordon",
+      "players": [
+        "Err0r_Stats",
+        "Volsung",
+        "Morgane",
+        "Willy"
+      ]
     },
     {
       "videoId": "Lsf1VOA8T-M",
@@ -1701,7 +1839,13 @@
       "url": "https://www.youtube.com/watch?v=Lsf1VOA8T-M",
       "durationFormatted": "1:40:05",
       "index": 36,
-      "serie": "D&D 5 : Sorcelume"
+      "serie": "D&D 5 : Sorcelume",
+      "players": [
+        "Morgane",
+        "JCN",
+        "Volsung",
+        "Lachesis"
+      ]
     },
     {
       "videoId": "upKwyfHY-Wk",
@@ -1748,7 +1892,13 @@
       "url": "https://www.youtube.com/watch?v=upKwyfHY-Wk",
       "durationFormatted": "1:42:47",
       "index": 37,
-      "serie": "D&D 5 : Sorcelume"
+      "serie": "D&D 5 : Sorcelume",
+      "players": [
+        "Morgane",
+        "JCN",
+        "Volsung",
+        "Lachesis"
+      ]
     },
     {
       "videoId": "LZE6XmgQPvw",
@@ -1795,7 +1945,14 @@
       "url": "https://www.youtube.com/watch?v=LZE6XmgQPvw",
       "durationFormatted": "2:09:52",
       "index": 38,
-      "serie": "Vampire la Mascarade : Blue Moon"
+      "serie": "Vampire la Mascarade : Blue Moon",
+      "players": [
+        "Ulfric",
+        "Lachesis",
+        "Kalyphera",
+        "Volsung",
+        "JCN"
+      ]
     },
     {
       "videoId": "WZsFxpqJa9w",
@@ -1842,7 +1999,13 @@
       "url": "https://www.youtube.com/watch?v=WZsFxpqJa9w",
       "durationFormatted": "1:19:07",
       "index": 39,
-      "serie": "D&D 5 : Sorcelume"
+      "serie": "D&D 5 : Sorcelume",
+      "players": [
+        "Morgane",
+        "JCN",
+        "Volsung",
+        "Lachesis"
+      ]
     },
     {
       "videoId": "jspuHObbKG0",
@@ -1889,7 +2052,14 @@
       "url": "https://www.youtube.com/watch?v=jspuHObbKG0",
       "durationFormatted": "2:19:03",
       "index": 40,
-      "serie": "Vampire la Mascarade : Blue Moon"
+      "serie": "Vampire la Mascarade : Blue Moon",
+      "players": [
+        "Ulfric",
+        "Lachesis",
+        "Kalyphera",
+        "Volsung",
+        "JCN"
+      ]
     },
     {
       "videoId": "kC7FI5Qy4J4",
@@ -1936,7 +2106,13 @@
       "url": "https://www.youtube.com/watch?v=kC7FI5Qy4J4",
       "durationFormatted": "1:51:20",
       "index": 41,
-      "serie": "WEIRD"
+      "serie": "WEIRD",
+      "players": [
+        "Ulfric",
+        "JCN",
+        "Mist",
+        "Lamson"
+      ]
     },
     {
       "videoId": "CmDtuan1f7g",
@@ -1983,7 +2159,13 @@
       "url": "https://www.youtube.com/watch?v=CmDtuan1f7g",
       "durationFormatted": "1:56:49",
       "index": 42,
-      "serie": "D&D 5 : Sorcelume"
+      "serie": "D&D 5 : Sorcelume",
+      "players": [
+        "Morgane",
+        "JCN",
+        "Volsung",
+        "Lachesis"
+      ]
     },
     {
       "videoId": "SiMckKlOIj4",
@@ -2030,7 +2212,14 @@
       "url": "https://www.youtube.com/watch?v=SiMckKlOIj4",
       "durationFormatted": "1:16:47",
       "index": 43,
-      "serie": "Vampire la Mascarade : Blue Moon"
+      "serie": "Vampire la Mascarade : Blue Moon",
+      "players": [
+        "Ulfric",
+        "Lachesis",
+        "Kalyphera",
+        "Volsung",
+        "JCN"
+      ]
     },
     {
       "videoId": "psz14CH6mxg",
@@ -2077,7 +2266,13 @@
       "url": "https://www.youtube.com/watch?v=psz14CH6mxg",
       "durationFormatted": "1:39:04",
       "index": 44,
-      "serie": "D&D 5 : Sorcelume"
+      "serie": "D&D 5 : Sorcelume",
+      "players": [
+        "Morgane",
+        "JCN",
+        "Volsung",
+        "Lachesis"
+      ]
     },
     {
       "videoId": "wc93HkXEcfo",
@@ -2124,7 +2319,14 @@
       "url": "https://www.youtube.com/watch?v=wc93HkXEcfo",
       "durationFormatted": "1:29:23",
       "index": 45,
-      "serie": "Vampire la Mascarade : Blue Moon"
+      "serie": "Vampire la Mascarade : Blue Moon",
+      "players": [
+        "Ulfric",
+        "Lachesis",
+        "Kalyphera",
+        "Volsung",
+        "JCN"
+      ]
     },
     {
       "videoId": "Si1vABAAu0Y",
@@ -2171,7 +2373,13 @@
       "url": "https://www.youtube.com/watch?v=Si1vABAAu0Y",
       "durationFormatted": "1:39:42",
       "index": 46,
-      "serie": "D&D 5 : Sorcelume"
+      "serie": "D&D 5 : Sorcelume",
+      "players": [
+        "Morgane",
+        "JCN",
+        "Volsung",
+        "Lachesis"
+      ]
     },
     {
       "videoId": "Opbhg0_kFQk",
@@ -2218,7 +2426,13 @@
       "url": "https://www.youtube.com/watch?v=Opbhg0_kFQk",
       "durationFormatted": "2:51:47",
       "index": 47,
-      "serie": "Magistrats & Manigances"
+      "serie": "Magistrats & Manigances",
+      "players": [
+        "LisaBanana",
+        "JCNau",
+        "Volsung",
+        "LamSon"
+      ]
     },
     {
       "videoId": "0Mhq19SzdzI",
@@ -2265,7 +2479,14 @@
       "url": "https://www.youtube.com/watch?v=0Mhq19SzdzI",
       "durationFormatted": "1:40:29",
       "index": 48,
-      "serie": "Vampire la Mascarade : Blue Moon"
+      "serie": "Vampire la Mascarade : Blue Moon",
+      "players": [
+        "Ulfric",
+        "Lachesis",
+        "Kalyphera",
+        "Volsung",
+        "JCN"
+      ]
     },
     {
       "videoId": "H33lMniiZ6I",
@@ -2312,7 +2533,13 @@
       "url": "https://www.youtube.com/watch?v=H33lMniiZ6I",
       "durationFormatted": "1:39:40",
       "index": 49,
-      "serie": "D&D 5 : Sorcelume"
+      "serie": "D&D 5 : Sorcelume",
+      "players": [
+        "Morgane",
+        "JCN",
+        "Volsung",
+        "Lachesis"
+      ]
     },
     {
       "videoId": "nXjfGHBLF1U",
@@ -2359,7 +2586,14 @@
       "url": "https://www.youtube.com/watch?v=nXjfGHBLF1U",
       "durationFormatted": "2:02:59",
       "index": 50,
-      "serie": "Vampire la Mascarade : Blue Moon"
+      "serie": "Vampire la Mascarade : Blue Moon",
+      "players": [
+        "Ulfric",
+        "Lachesis",
+        "Kalyphera",
+        "Volsung",
+        "JCN"
+      ]
     },
     {
       "videoId": "krm_wD6CSCI",
@@ -2406,7 +2640,13 @@
       "url": "https://www.youtube.com/watch?v=krm_wD6CSCI",
       "durationFormatted": "1:23:18",
       "index": 51,
-      "serie": "Marchebranche"
+      "serie": "Marchebranche",
+      "players": [
+        "Err0r_stats",
+        "Taliesin",
+        "Lamson",
+        "Thomas Munier"
+      ]
     },
     {
       "videoId": "xPNK_pSgaS0",
@@ -2453,7 +2693,13 @@
       "url": "https://www.youtube.com/watch?v=xPNK_pSgaS0",
       "durationFormatted": "1:31:41",
       "index": 52,
-      "serie": "D&D 5 : Sorcelume"
+      "serie": "D&D 5 : Sorcelume",
+      "players": [
+        "Morgane",
+        "JCN",
+        "Volsung",
+        "Lachesis"
+      ]
     },
     {
       "videoId": "ICF88_aPKLo",
@@ -2500,7 +2746,14 @@
       "url": "https://www.youtube.com/watch?v=ICF88_aPKLo",
       "durationFormatted": "2:00:51",
       "index": 53,
-      "serie": "Vampire la Mascarade : Blue Moon"
+      "serie": "Vampire la Mascarade : Blue Moon",
+      "players": [
+        "Ulfric",
+        "Lachesis",
+        "Kalyphera",
+        "Volsung",
+        "JCN"
+      ]
     },
     {
       "videoId": "xuAbQ9y1gjM",
@@ -2547,7 +2800,13 @@
       "url": "https://www.youtube.com/watch?v=xuAbQ9y1gjM",
       "durationFormatted": "1:45:51",
       "index": 54,
-      "serie": "D&D 5 : Sorcelume"
+      "serie": "D&D 5 : Sorcelume",
+      "players": [
+        "Morgane",
+        "JCN",
+        "Volsung",
+        "Lachesis"
+      ]
     },
     {
       "videoId": "c_BVmwmsX5A",
@@ -2594,7 +2853,13 @@
       "url": "https://www.youtube.com/watch?v=c_BVmwmsX5A",
       "durationFormatted": "56:34",
       "index": 55,
-      "serie": "La Grive Noire"
+      "serie": "La Grive Noire",
+      "players": [
+        "Lachesis",
+        "Taliesin",
+        "Lamson",
+        "Milouch"
+      ]
     },
     {
       "videoId": "TDTzLG9KNlA",
@@ -2641,7 +2906,14 @@
       "url": "https://www.youtube.com/watch?v=TDTzLG9KNlA",
       "durationFormatted": "1:34:01",
       "index": 56,
-      "serie": "Vampire la Mascarade : Blue Moon"
+      "serie": "Vampire la Mascarade : Blue Moon",
+      "players": [
+        "Ulfric",
+        "Lachesis",
+        "Kalyphera",
+        "Volsung",
+        "JCN"
+      ]
     },
     {
       "videoId": "YnZDJpg_dSE",
@@ -2688,7 +2960,14 @@
       "url": "https://www.youtube.com/watch?v=YnZDJpg_dSE",
       "durationFormatted": "1:39:26",
       "index": 57,
-      "serie": "Vampire la Mascarade : Blue Moon"
+      "serie": "Vampire la Mascarade : Blue Moon",
+      "players": [
+        "Ulfric",
+        "Lachesis",
+        "Kalyphera",
+        "Volsung",
+        "JCN"
+      ]
     },
     {
       "videoId": "SQtBpUKqEjk",
@@ -2735,7 +3014,14 @@
       "url": "https://www.youtube.com/watch?v=SQtBpUKqEjk",
       "durationFormatted": "1:59:54",
       "index": 58,
-      "serie": "Vampire la Mascarade : Blue Moon"
+      "serie": "Vampire la Mascarade : Blue Moon",
+      "players": [
+        "Ulfric",
+        "Lachesis",
+        "Kalyphera",
+        "Volsung",
+        "JCN"
+      ]
     },
     {
       "videoId": "YBQ6wz6VTF0",
@@ -2782,7 +3068,13 @@
       "url": "https://www.youtube.com/watch?v=YBQ6wz6VTF0",
       "durationFormatted": "2:09:30",
       "index": 59,
-      "serie": "The Between"
+      "serie": "The Between",
+      "players": [
+        "Kalyphera",
+        "Catty",
+        "Volsung",
+        "Sevastopol"
+      ]
     },
     {
       "videoId": "uPkJ-GBZlHI",
@@ -2829,7 +3121,13 @@
       "url": "https://www.youtube.com/watch?v=uPkJ-GBZlHI",
       "durationFormatted": "1:47:25",
       "index": 60,
-      "serie": "The Between"
+      "serie": "The Between",
+      "players": [
+        "Kalyphera",
+        "Catty",
+        "Volsung",
+        "Sevastopol"
+      ]
     },
     {
       "videoId": "bsfdCljLUws",
@@ -2876,7 +3174,14 @@
       "url": "https://www.youtube.com/watch?v=bsfdCljLUws",
       "durationFormatted": "2:10:16",
       "index": 61,
-      "serie": "Vampire la Mascarade : Blue Moon"
+      "serie": "Vampire la Mascarade : Blue Moon",
+      "players": [
+        "Ulfric",
+        "Lachesis",
+        "Kalyphera",
+        "Volsung",
+        "JCN"
+      ]
     },
     {
       "videoId": "6RV0ysmk0Jg",
@@ -2923,7 +3228,13 @@
       "url": "https://www.youtube.com/watch?v=6RV0ysmk0Jg",
       "durationFormatted": "1:37:16",
       "index": 62,
-      "serie": "Magistrats & Manigances"
+      "serie": "Magistrats & Manigances",
+      "players": [
+        "LisaBanana",
+        "JCNau",
+        "Volsung",
+        "LamSon"
+      ]
     },
     {
       "videoId": "L2fvupEA0OM",
@@ -2970,7 +3281,13 @@
       "url": "https://www.youtube.com/watch?v=L2fvupEA0OM",
       "durationFormatted": "1:27:41",
       "index": 63,
-      "serie": "Magistrats & Manigances"
+      "serie": "Magistrats & Manigances",
+      "players": [
+        "LisaBanana",
+        "JCNau",
+        "Volsung",
+        "LamSon"
+      ]
     },
     {
       "videoId": "81QaRrSaCJ4",
@@ -3012,7 +3329,13 @@
       "url": "https://www.youtube.com/watch?v=81QaRrSaCJ4",
       "durationFormatted": "1:50:50",
       "index": 64,
-      "serie": "Magistrats & Manigances"
+      "serie": "Magistrats & Manigances",
+      "players": [
+        "LisaBanana",
+        "JCNau",
+        "Volsung",
+        "LamSon"
+      ]
     },
     {
       "videoId": "OzGnaitHVv0",
@@ -3059,7 +3382,8 @@
       "url": "https://www.youtube.com/watch?v=OzGnaitHVv0",
       "durationFormatted": "3:47:06",
       "index": 65,
-      "serie": "Monsterhearts"
+      "serie": "Monsterhearts",
+      "players": []
     },
     {
       "videoId": "qOu4NFmI7dk",
@@ -3110,7 +3434,13 @@
       "url": "https://www.youtube.com/watch?v=qOu4NFmI7dk",
       "durationFormatted": "1:44:39",
       "index": 66,
-      "serie": "Cités Abimées"
+      "serie": "Cités Abimées",
+      "players": [
+        "Lachesis",
+        "Ramos",
+        "Come",
+        "Volsung"
+      ]
     },
     {
       "videoId": "ypXz-3L8t60",
@@ -3163,7 +3493,13 @@
       "url": "https://www.youtube.com/watch?v=ypXz-3L8t60",
       "durationFormatted": "1:09:20",
       "index": 67,
-      "serie": "The Between"
+      "serie": "The Between",
+      "players": [
+        "Kalyphera",
+        "Catty",
+        "Volsung",
+        "Sevastopol"
+      ]
     },
     {
       "videoId": "_Wk0l1kOhMo",
@@ -3214,7 +3550,8 @@
       "url": "https://www.youtube.com/watch?v=_Wk0l1kOhMo",
       "durationFormatted": "1:16:33",
       "index": 68,
-      "serie": "Octogone"
+      "serie": "Octogone",
+      "players": []
     },
     {
       "videoId": "6z_7asTLq4g",
@@ -3264,7 +3601,8 @@
       "url": "https://www.youtube.com/watch?v=6z_7asTLq4g",
       "durationFormatted": "58:00",
       "index": 69,
-      "serie": "Vampire"
+      "serie": "Vampire",
+      "players": []
     },
     {
       "videoId": "7H1kGhY9aFA",
@@ -3315,7 +3653,14 @@
       "url": "https://www.youtube.com/watch?v=7H1kGhY9aFA",
       "durationFormatted": "2:46:22",
       "index": 70,
-      "serie": "Zone Rouge"
+      "serie": "Zone Rouge",
+      "players": [
+        "LisaBanana",
+        "Edrika",
+        "Bouletsama",
+        "Lotin",
+        "Mass"
+      ]
     },
     {
       "videoId": "SnbjbO60b-M",
@@ -3362,7 +3707,14 @@
       "url": "https://www.youtube.com/watch?v=SnbjbO60b-M",
       "durationFormatted": "2:27:39",
       "index": 71,
-      "serie": "Alice is Missing"
+      "serie": "Alice is Missing",
+      "players": [
+        "Klem",
+        "KcoQuidam",
+        "Shane",
+        "Nivia",
+        "Volsung"
+      ]
     },
     {
       "videoId": "CT8CxUy5vP4",
@@ -3409,7 +3761,12 @@
       "url": "https://www.youtube.com/watch?v=CT8CxUy5vP4",
       "durationFormatted": "2:12:53",
       "index": 72,
-      "serie": "La clé des nuages"
+      "serie": "La clé des nuages",
+      "players": [
+        "LisaBanana",
+        "JCNau",
+        "LamSon"
+      ]
     },
     {
       "videoId": "-Gdmu_gR_l0",
@@ -3456,7 +3813,11 @@
       "url": "https://www.youtube.com/watch?v=-Gdmu_gR_l0",
       "durationFormatted": "48:12",
       "index": 73,
-      "serie": "Spire"
+      "serie": "Spire",
+      "players": [
+        "JCN",
+        "Volsung"
+      ]
     },
     {
       "videoId": "O0WGke19LNE",
@@ -3503,7 +3864,11 @@
       "url": "https://www.youtube.com/watch?v=O0WGke19LNE",
       "durationFormatted": "37:58",
       "index": 74,
-      "serie": "Spire"
+      "serie": "Spire",
+      "players": [
+        "JCN",
+        "Volsung"
+      ]
     },
     {
       "videoId": "2xCQ3acYZPs",
@@ -3550,7 +3915,14 @@
       "url": "https://www.youtube.com/watch?v=2xCQ3acYZPs",
       "durationFormatted": "1:52:18",
       "index": 75,
-      "serie": "Trip to Skye"
+      "serie": "Trip to Skye",
+      "players": [
+        "LisaBanana",
+        "JCNau",
+        "Felondra",
+        "LamSon",
+        "kF"
+      ]
     },
     {
       "videoId": "OGI88jRzyP4",
@@ -3597,7 +3969,8 @@
       "url": "https://www.youtube.com/watch?v=OGI88jRzyP4",
       "durationFormatted": "1:26:51",
       "index": 76,
-      "serie": "Podcast Frankenstein"
+      "serie": "Podcast Frankenstein",
+      "players": []
     },
     {
       "videoId": "zNSEgDCPy6k",
@@ -3644,7 +4017,14 @@
       "url": "https://www.youtube.com/watch?v=zNSEgDCPy6k",
       "durationFormatted": "1:50:47",
       "index": 77,
-      "serie": "Trip to Skye"
+      "serie": "Trip to Skye",
+      "players": [
+        "LisaBanana",
+        "JCNau",
+        "Felondra",
+        "LamSon",
+        "kF"
+      ]
     },
     {
       "videoId": "I-hxuKqgfS0",
@@ -3691,7 +4071,13 @@
       "url": "https://www.youtube.com/watch?v=I-hxuKqgfS0",
       "durationFormatted": "2:40:21",
       "index": 78,
-      "serie": "Dominion"
+      "serie": "Dominion",
+      "players": [
+        "Morgane",
+        "Lamson",
+        "Volsung",
+        "Virgile"
+      ]
     },
     {
       "videoId": "u0vE16GDrSs",
@@ -3738,7 +4124,13 @@
       "url": "https://www.youtube.com/watch?v=u0vE16GDrSs",
       "durationFormatted": "1:13:43",
       "index": 79,
-      "serie": "The Between"
+      "serie": "The Between",
+      "players": [
+        "Kalyphera",
+        "Catty",
+        "Volsung",
+        "Sevastopol"
+      ]
     },
     {
       "videoId": "5XFu7G8mAcw",
@@ -3785,7 +4177,13 @@
       "url": "https://www.youtube.com/watch?v=5XFu7G8mAcw",
       "durationFormatted": "1:16:13",
       "index": 80,
-      "serie": "The Between"
+      "serie": "The Between",
+      "players": [
+        "Kalyphera",
+        "Catty",
+        "Volsung",
+        "Sevastopol"
+      ]
     },
     {
       "videoId": "a5yr7GGfgj8",
@@ -3832,7 +4230,13 @@
       "url": "https://www.youtube.com/watch?v=a5yr7GGfgj8",
       "durationFormatted": "1:34:00",
       "index": 81,
-      "serie": "The Between"
+      "serie": "The Between",
+      "players": [
+        "Kalyphera",
+        "Catty",
+        "Volsung",
+        "Sevastopol"
+      ]
     },
     {
       "videoId": "rRewAFgQU1U",
@@ -3888,7 +4292,8 @@
       "url": "https://www.youtube.com/watch?v=rRewAFgQU1U",
       "durationFormatted": "3:14:51",
       "index": 82,
-      "serie": "Henshin+Push"
+      "serie": "Henshin+Push",
+      "players": []
     },
     {
       "videoId": "ggykdCX3ne0",
@@ -3935,7 +4340,14 @@
       "url": "https://www.youtube.com/watch?v=ggykdCX3ne0",
       "durationFormatted": "2:07:26",
       "index": 83,
-      "serie": "Trip to Skye"
+      "serie": "Trip to Skye",
+      "players": [
+        "LisaBanana",
+        "JCNau",
+        "Felondra",
+        "LamSon",
+        "kF"
+      ]
     },
     {
       "videoId": "HkcTe0CkPgU",
@@ -3982,7 +4394,13 @@
       "url": "https://www.youtube.com/watch?v=HkcTe0CkPgU",
       "durationFormatted": "1:59:11",
       "index": 84,
-      "serie": "Zone Rouge"
+      "serie": "Zone Rouge",
+      "players": [
+        "Algol",
+        "Ghoghorbey",
+        "Boulash",
+        "Mass"
+      ]
     },
     {
       "videoId": "yCwoUDNPWEM",
@@ -4029,7 +4447,8 @@
       "url": "https://www.youtube.com/watch?v=yCwoUDNPWEM",
       "durationFormatted": "4:30:21",
       "index": 85,
-      "serie": "Tribute"
+      "serie": "Tribute",
+      "players": []
     },
     {
       "videoId": "EY-_fusnbgI",
@@ -4076,7 +4495,8 @@
       "url": "https://www.youtube.com/watch?v=EY-_fusnbgI",
       "durationFormatted": "3:57:42",
       "index": 86,
-      "serie": "Horrifique"
+      "serie": "Horrifique",
+      "players": []
     },
     {
       "videoId": "p5RZVq17YlI",
@@ -4123,7 +4543,8 @@
       "url": "https://www.youtube.com/watch?v=p5RZVq17YlI",
       "durationFormatted": "3:04:23",
       "index": 87,
-      "serie": "Brindlewood Bay"
+      "serie": "Brindlewood Bay",
+      "players": []
     },
     {
       "videoId": "_6pI6ZfIAi4",
@@ -4170,7 +4591,8 @@
       "url": "https://www.youtube.com/watch?v=_6pI6ZfIAi4",
       "durationFormatted": "3:41:02",
       "index": 88,
-      "serie": "Quest"
+      "serie": "Quest",
+      "players": []
     },
     {
       "videoId": "rCzBiTPYkwo",
@@ -4217,7 +4639,13 @@
       "url": "https://www.youtube.com/watch?v=rCzBiTPYkwo",
       "durationFormatted": "1:53:38",
       "index": 89,
-      "serie": "Magistrats & Manigances"
+      "serie": "Magistrats & Manigances",
+      "players": [
+        "LisaBanana",
+        "JCNau",
+        "Volsung",
+        "LamSon"
+      ]
     },
     {
       "videoId": "UWAevjHLGAI",
@@ -4264,7 +4692,8 @@
       "url": "https://www.youtube.com/watch?v=UWAevjHLGAI",
       "durationFormatted": "2:20:55",
       "index": 90,
-      "serie": "Aventures à Plumes"
+      "serie": "Aventures à Plumes",
+      "players": []
     },
     {
       "videoId": "g8Dvqid9BCo",
@@ -4311,7 +4740,8 @@
       "url": "https://www.youtube.com/watch?v=g8Dvqid9BCo",
       "durationFormatted": "2:43:29",
       "index": 91,
-      "serie": "Brindlewood Bay"
+      "serie": "Brindlewood Bay",
+      "players": []
     },
     {
       "videoId": "KwXUOtQzNB0",
@@ -4358,7 +4788,14 @@
       "url": "https://www.youtube.com/watch?v=KwXUOtQzNB0",
       "durationFormatted": "2:24:43",
       "index": 92,
-      "serie": "Quest"
+      "serie": "Quest",
+      "players": [
+        "Klem",
+        "Kahylina",
+        "Kat",
+        "Volsung",
+        "Ours"
+      ]
     },
     {
       "videoId": "u7JrXgknZTs",
@@ -4408,7 +4845,13 @@
       "url": "https://www.youtube.com/watch?v=u7JrXgknZTs",
       "durationFormatted": "1:50:46",
       "index": 93,
-      "serie": "Zone Rouge"
+      "serie": "Zone Rouge",
+      "players": [
+        "LisaBanana",
+        "Côme",
+        "Virgile",
+        "Mass"
+      ]
     },
     {
       "videoId": "9sDkHUqftA4",
@@ -4455,7 +4898,13 @@
       "url": "https://www.youtube.com/watch?v=9sDkHUqftA4",
       "durationFormatted": "2:00:11",
       "index": 94,
-      "serie": "Magistrats & Manigances"
+      "serie": "Magistrats & Manigances",
+      "players": [
+        "LisaBanana",
+        "JCNau",
+        "Volsung",
+        "LamSon"
+      ]
     },
     {
       "videoId": "BwPHl-Xo_E8",
@@ -4505,7 +4954,11 @@
       "url": "https://www.youtube.com/watch?v=BwPHl-Xo_E8",
       "durationFormatted": "1:15:56",
       "index": 95,
-      "serie": "Impitoyables bourgades"
+      "serie": "Impitoyables bourgades",
+      "players": [
+        "Acritarche",
+        "Volsung"
+      ]
     },
     {
       "videoId": "u1UdoIviwZE",
@@ -4555,7 +5008,14 @@
       "url": "https://www.youtube.com/watch?v=u1UdoIviwZE",
       "durationFormatted": "3:17:24",
       "index": 96,
-      "serie": "Quest"
+      "serie": "Quest",
+      "players": [
+        "Klem",
+        "Kahylina",
+        "Kat",
+        "Volsung",
+        "Ours"
+      ]
     },
     {
       "videoId": "eIBVye9IdY8",
@@ -4604,7 +5064,14 @@
       "url": "https://www.youtube.com/watch?v=eIBVye9IdY8",
       "durationFormatted": "1:41:26",
       "index": 97,
-      "serie": "Pendant ce temps dans le métro"
+      "serie": "Pendant ce temps dans le métro",
+      "players": [
+        "Marquise",
+        "Kat",
+        "Ramos",
+        "Volsung",
+        "Come"
+      ]
     },
     {
       "videoId": "pruFUz3Ixds",
@@ -4651,7 +5118,8 @@
       "url": "https://www.youtube.com/watch?v=pruFUz3Ixds",
       "durationFormatted": "2:49:25",
       "index": 98,
-      "serie": "Rituels"
+      "serie": "Rituels",
+      "players": []
     },
     {
       "videoId": "3gTfsXUb5UI",
@@ -4704,7 +5172,11 @@
       "url": "https://www.youtube.com/watch?v=3gTfsXUb5UI",
       "durationFormatted": "42:48",
       "index": 99,
-      "serie": "Spire"
+      "serie": "Spire",
+      "players": [
+        "JCN",
+        "Volsung"
+      ]
     },
     {
       "videoId": "JJ3CpQ28NnM",
@@ -4751,7 +5223,13 @@
       "url": "https://www.youtube.com/watch?v=JJ3CpQ28NnM",
       "durationFormatted": "1:41:28",
       "index": 100,
-      "serie": "Deux étés"
+      "serie": "Deux étés",
+      "players": [
+        "Klem",
+        "Kat",
+        "Volsung",
+        "Côme"
+      ]
     },
     {
       "videoId": "Md5wcp8MDi8",
@@ -4798,7 +5276,12 @@
       "url": "https://www.youtube.com/watch?v=Md5wcp8MDi8",
       "durationFormatted": "2:11:21",
       "index": 101,
-      "serie": "Gravity Rip"
+      "serie": "Gravity Rip",
+      "players": [
+        "Klem",
+        "Antoshkin",
+        "Volsung"
+      ]
     },
     {
       "videoId": "72KB_0zzVAM",
@@ -4851,7 +5334,11 @@
       "url": "https://www.youtube.com/watch?v=72KB_0zzVAM",
       "durationFormatted": "37:24",
       "index": 102,
-      "serie": "Spire"
+      "serie": "Spire",
+      "players": [
+        "JCN",
+        "Volsung"
+      ]
     },
     {
       "videoId": "qSdU_Uw4_CM",
@@ -4901,7 +5388,14 @@
       "url": "https://www.youtube.com/watch?v=qSdU_Uw4_CM",
       "durationFormatted": "3:24:02",
       "index": 103,
-      "serie": "Quest"
+      "serie": "Quest",
+      "players": [
+        "Klem",
+        "Kahylina",
+        "Kat",
+        "Volsung",
+        "Ours"
+      ]
     },
     {
       "videoId": "OfoJDw7WmM4",
@@ -4950,7 +5444,8 @@
       "url": "https://www.youtube.com/watch?v=OfoJDw7WmM4",
       "durationFormatted": "2:40:53",
       "index": 104,
-      "serie": "Anime was a mistake"
+      "serie": "Anime was a mistake",
+      "players": []
     },
     {
       "videoId": "HUeZX94t00A",
@@ -4999,7 +5494,13 @@
       "url": "https://www.youtube.com/watch?v=HUeZX94t00A",
       "durationFormatted": "3:31:43",
       "index": 105,
-      "serie": "Calliopé"
+      "serie": "Calliopé",
+      "players": [
+        "Kahylina",
+        "Mass",
+        "Volsung",
+        "Sacha"
+      ]
     },
     {
       "videoId": "EFCyGBCxUlw",
@@ -5052,7 +5553,13 @@
       "url": "https://www.youtube.com/watch?v=EFCyGBCxUlw",
       "durationFormatted": "2:05:30",
       "index": 106,
-      "serie": "Magistrats & Manigances"
+      "serie": "Magistrats & Manigances",
+      "players": [
+        "LisaBanana",
+        "JCNau",
+        "Volsung",
+        "Lam Son"
+      ]
     },
     {
       "videoId": "oe7yQxrbNCY",
@@ -5105,7 +5612,11 @@
       "url": "https://www.youtube.com/watch?v=oe7yQxrbNCY",
       "durationFormatted": "41:00",
       "index": 107,
-      "serie": "Spire"
+      "serie": "Spire",
+      "players": [
+        "JCN",
+        "Volsung"
+      ]
     },
     {
       "videoId": "EIc9UfXVYHo",
@@ -5158,7 +5669,11 @@
       "url": "https://www.youtube.com/watch?v=EIc9UfXVYHo",
       "durationFormatted": "49:39",
       "index": 108,
-      "serie": "Spire"
+      "serie": "Spire",
+      "players": [
+        "JCN",
+        "Volsung"
+      ]
     },
     {
       "videoId": "sicBcy2fl14",
@@ -5211,7 +5726,12 @@
       "url": "https://www.youtube.com/watch?v=sicBcy2fl14",
       "durationFormatted": "1:42:48",
       "index": 109,
-      "serie": "Gravity Rip"
+      "serie": "Gravity Rip",
+      "players": [
+        "Klem",
+        "Antoshkin",
+        "Volsung"
+      ]
     },
     {
       "videoId": "PPrPWDCMa9w",
@@ -5264,7 +5784,13 @@
       "url": "https://www.youtube.com/watch?v=PPrPWDCMa9w",
       "durationFormatted": "1:29:36",
       "index": 110,
-      "serie": "Demon Castle Dracula"
+      "serie": "Demon Castle Dracula",
+      "players": [
+        "Nivia",
+        "Myra",
+        "Morgenstern",
+        "Volsung"
+      ]
     },
     {
       "videoId": "hn4dzhsLSdA",
@@ -5316,7 +5842,13 @@
       "url": "https://www.youtube.com/watch?v=hn4dzhsLSdA",
       "durationFormatted": "1:31:43",
       "index": 111,
-      "serie": "Deux étés"
+      "serie": "Deux étés",
+      "players": [
+        "Klem",
+        "Kat",
+        "Volsung",
+        "Côme"
+      ]
     },
     {
       "videoId": "_T1rHLSlKTc",
@@ -5369,7 +5901,11 @@
       "url": "https://www.youtube.com/watch?v=_T1rHLSlKTc",
       "durationFormatted": "1:02:18",
       "index": 112,
-      "serie": "Spire"
+      "serie": "Spire",
+      "players": [
+        "JCN",
+        "Volsung"
+      ]
     },
     {
       "videoId": "pc0nU9abBZU",
@@ -5422,7 +5958,11 @@
       "url": "https://www.youtube.com/watch?v=pc0nU9abBZU",
       "durationFormatted": "1:17:28",
       "index": 113,
-      "serie": "Spire"
+      "serie": "Spire",
+      "players": [
+        "JCN",
+        "Volsung"
+      ]
     },
     {
       "videoId": "J2CnmOGiuFE",
@@ -5475,7 +6015,13 @@
       "url": "https://www.youtube.com/watch?v=J2CnmOGiuFE",
       "durationFormatted": "1:39:10",
       "index": 114,
-      "serie": "Magistrats & Manigances"
+      "serie": "Magistrats & Manigances",
+      "players": [
+        "LisaBanana",
+        "JCNau",
+        "Volsung",
+        "Lam Son"
+      ]
     },
     {
       "videoId": "v1p4ZGJkhsQ",
@@ -5527,7 +6073,13 @@
       "url": "https://www.youtube.com/watch?v=v1p4ZGJkhsQ",
       "durationFormatted": "2:05:03",
       "index": 115,
-      "serie": "Calliopé"
+      "serie": "Calliopé",
+      "players": [
+        "Kahylina",
+        "Mass",
+        "Volsung",
+        "Sacha"
+      ]
     },
     {
       "videoId": "NZFhnI1PUuo",
@@ -5580,7 +6132,11 @@
       "url": "https://www.youtube.com/watch?v=NZFhnI1PUuo",
       "durationFormatted": "57:02",
       "index": 116,
-      "serie": "Spire"
+      "serie": "Spire",
+      "players": [
+        "JCN",
+        "Volsung"
+      ]
     },
     {
       "videoId": "sJfOPEt7U6o",
@@ -5627,7 +6183,13 @@
       "url": "https://www.youtube.com/watch?v=sJfOPEt7U6o",
       "durationFormatted": "2:24:15",
       "index": 117,
-      "serie": "Deux étés"
+      "serie": "Deux étés",
+      "players": [
+        "Klem",
+        "Kat",
+        "Volsung",
+        "Côme"
+      ]
     },
     {
       "videoId": "h70Xkw26Mp4",
@@ -5674,7 +6236,13 @@
       "url": "https://www.youtube.com/watch?v=h70Xkw26Mp4",
       "durationFormatted": "2:50:51",
       "index": 118,
-      "serie": "Calliopé"
+      "serie": "Calliopé",
+      "players": [
+        "Kahylina",
+        "Mass",
+        "Volsung",
+        "Sacha"
+      ]
     },
     {
       "videoId": "odskMaApj94",
@@ -5727,7 +6295,11 @@
       "url": "https://www.youtube.com/watch?v=odskMaApj94",
       "durationFormatted": "51:10",
       "index": 119,
-      "serie": "Spire"
+      "serie": "Spire",
+      "players": [
+        "JCN",
+        "Volsung"
+      ]
     },
     {
       "videoId": "49EB9aKHoJg",
@@ -5780,7 +6352,13 @@
       "url": "https://www.youtube.com/watch?v=49EB9aKHoJg",
       "durationFormatted": "2:08:33",
       "index": 120,
-      "serie": "Demon Castle Dracula"
+      "serie": "Demon Castle Dracula",
+      "players": [
+        "Nivia",
+        "Myra",
+        "Morgenstern",
+        "Volsung"
+      ]
     },
     {
       "videoId": "5zZd3R3EQPo",
@@ -5833,7 +6411,13 @@
       "url": "https://www.youtube.com/watch?v=5zZd3R3EQPo",
       "durationFormatted": "1:52:34",
       "index": 121,
-      "serie": "White Witches"
+      "serie": "White Witches",
+      "players": [
+        "Kahylina",
+        "Mass",
+        "Volsung",
+        "Yohan"
+      ]
     },
     {
       "videoId": "EWzY0IFKflA",
@@ -5880,7 +6464,13 @@
       "url": "https://www.youtube.com/watch?v=EWzY0IFKflA",
       "durationFormatted": "2:59:45",
       "index": 122,
-      "serie": "Demon Castle Dracula"
+      "serie": "Demon Castle Dracula",
+      "players": [
+        "Nivia",
+        "Myra",
+        "Morgenstern",
+        "Volsung"
+      ]
     },
     {
       "videoId": "Fiz2vdBgUfQ",
@@ -5933,7 +6523,13 @@
       "url": "https://www.youtube.com/watch?v=Fiz2vdBgUfQ",
       "durationFormatted": "2:05:03",
       "index": 123,
-      "serie": "Magistrats & Manigances"
+      "serie": "Magistrats & Manigances",
+      "players": [
+        "LisaBanana",
+        "JCNau",
+        "Volsung",
+        "Lam Son"
+      ]
     },
     {
       "videoId": "jdQ_lPME44g",
@@ -5980,7 +6576,13 @@
       "url": "https://www.youtube.com/watch?v=jdQ_lPME44g",
       "durationFormatted": "23:29",
       "index": 124,
-      "serie": "White Witches"
+      "serie": "White Witches",
+      "players": [
+        "Kahylina",
+        "Mass",
+        "Volsung",
+        "Yohan"
+      ]
     },
     {
       "videoId": "NccY1d5MC-A",
@@ -6027,7 +6629,13 @@
       "url": "https://www.youtube.com/watch?v=NccY1d5MC-A",
       "durationFormatted": "2:34:33",
       "index": 125,
-      "serie": "White Witches"
+      "serie": "White Witches",
+      "players": [
+        "Kahylina",
+        "Mass",
+        "Volsung",
+        "Yohan"
+      ]
     },
     {
       "videoId": "ove2BglL-Zc",
@@ -6074,7 +6682,13 @@
       "url": "https://www.youtube.com/watch?v=ove2BglL-Zc",
       "durationFormatted": "2:10:51",
       "index": 126,
-      "serie": "Bois Dormant"
+      "serie": "Bois Dormant",
+      "players": [
+        "Morgane",
+        "Felondra",
+        "Volsung",
+        "Melville"
+      ]
     },
     {
       "videoId": "zHAHWvOXXso",
@@ -6121,7 +6735,13 @@
       "url": "https://www.youtube.com/watch?v=zHAHWvOXXso",
       "durationFormatted": "2:53:29",
       "index": 127,
-      "serie": "Bois Dormant"
+      "serie": "Bois Dormant",
+      "players": [
+        "Morgane",
+        "Felondra",
+        "Volsung",
+        "Melville"
+      ]
     },
     {
       "videoId": "le6spSWr6gM",
@@ -6173,7 +6793,13 @@
       "url": "https://www.youtube.com/watch?v=le6spSWr6gM",
       "durationFormatted": "2:03:14",
       "index": 128,
-      "serie": "Deux étés"
+      "serie": "Deux étés",
+      "players": [
+        "Klem",
+        "Kat",
+        "Volsung",
+        "Côme"
+      ]
     },
     {
       "videoId": "YgXunFoCG7o",
@@ -6210,7 +6836,13 @@
       "url": "https://www.youtube.com/watch?v=YgXunFoCG7o",
       "durationFormatted": "2:28:35",
       "index": 129,
-      "serie": "Deux étés"
+      "serie": "Deux étés",
+      "players": [
+        "Klem",
+        "Kat",
+        "Volsung",
+        "Côme"
+      ]
     },
     {
       "videoId": "vktBTPQQ-Zo",
@@ -6263,7 +6895,13 @@
       "url": "https://www.youtube.com/watch?v=vktBTPQQ-Zo",
       "durationFormatted": "2:00:10",
       "index": 130,
-      "serie": "Magistrats & Manigances"
+      "serie": "Magistrats & Manigances",
+      "players": [
+        "LisaBanana",
+        "JCNau",
+        "Volsung",
+        "Lam Son"
+      ]
     },
     {
       "videoId": "QHXv413EtOA",
@@ -6317,7 +6955,13 @@
       "url": "https://www.youtube.com/watch?v=QHXv413EtOA",
       "durationFormatted": "2:03:24",
       "index": 131,
-      "serie": "Plan séquence Zombie Run"
+      "serie": "Plan séquence Zombie Run",
+      "players": [
+        "Morgane",
+        "Max",
+        "Ramos",
+        "Volsung"
+      ]
     },
     {
       "videoId": "dV8oJmXmkmA",
@@ -6372,7 +7016,8 @@
       "url": "https://www.youtube.com/watch?v=dV8oJmXmkmA",
       "durationFormatted": "8:54",
       "index": 132,
-      "serie": "Grimace"
+      "serie": "Grimace",
+      "players": []
     },
     {
       "videoId": "8w5KgUhJHIE",
@@ -6419,7 +7064,8 @@
       "url": "https://www.youtube.com/watch?v=8w5KgUhJHIE",
       "durationFormatted": "2:46:43",
       "index": 133,
-      "serie": "Dragon Ball"
+      "serie": "Dragon Ball",
+      "players": []
     },
     {
       "videoId": "uIwtmg0UysE",
@@ -6472,7 +7118,11 @@
       "url": "https://www.youtube.com/watch?v=uIwtmg0UysE",
       "durationFormatted": "40:18",
       "index": 134,
-      "serie": "JayJay's Cool Adventures"
+      "serie": "JayJay's Cool Adventures",
+      "players": [
+        "Max",
+        "Volsung"
+      ]
     },
     {
       "videoId": "8yD9Os93aJI",
@@ -6526,7 +7176,13 @@
       "url": "https://www.youtube.com/watch?v=8yD9Os93aJI",
       "durationFormatted": "1:30:09",
       "index": 135,
-      "serie": "Zombie World"
+      "serie": "Zombie World",
+      "players": [
+        "Morgane",
+        "Max",
+        "Ramos",
+        "Volsung"
+      ]
     },
     {
       "videoId": "3q6WIFfYTIo",
@@ -6579,7 +7235,14 @@
       "url": "https://www.youtube.com/watch?v=3q6WIFfYTIo",
       "durationFormatted": "2:16:12",
       "index": 136,
-      "serie": "Exploirateurs de Bruines"
+      "serie": "Exploirateurs de Bruines",
+      "players": [
+        "Klem",
+        "Kat",
+        "Black",
+        "Volsung",
+        "Vivien"
+      ]
     },
     {
       "videoId": "pMrzHStLtC4",
@@ -6632,7 +7295,11 @@
       "url": "https://www.youtube.com/watch?v=pMrzHStLtC4",
       "durationFormatted": "36:46",
       "index": 137,
-      "serie": "JayJay's Cool Adventures"
+      "serie": "JayJay's Cool Adventures",
+      "players": [
+        "Max",
+        "Volsung"
+      ]
     },
     {
       "videoId": "kxE8LoxJWic",
@@ -6685,7 +7352,11 @@
       "url": "https://www.youtube.com/watch?v=kxE8LoxJWic",
       "durationFormatted": "28:41",
       "index": 138,
-      "serie": "JayJay's Cool Adventures"
+      "serie": "JayJay's Cool Adventures",
+      "players": [
+        "Max",
+        "Volsung"
+      ]
     },
     {
       "videoId": "NiJ-GbahPK4",
@@ -6738,7 +7409,11 @@
       "url": "https://www.youtube.com/watch?v=NiJ-GbahPK4",
       "durationFormatted": "53:25",
       "index": 139,
-      "serie": "Murderous Ghosts"
+      "serie": "Murderous Ghosts",
+      "players": [
+        "Antoine",
+        "Volsung"
+      ]
     },
     {
       "videoId": "ETEY6VR7-EU",
@@ -6791,7 +7466,14 @@
       "url": "https://www.youtube.com/watch?v=ETEY6VR7-EU",
       "durationFormatted": "2:05:32",
       "index": 140,
-      "serie": "Pour la gloire de l'Empereur-Dieu"
+      "serie": "Pour la gloire de l'Empereur-Dieu",
+      "players": [
+        "Sevastopol",
+        "Kialthalash",
+        "Jaguar flemmard",
+        "Blaad",
+        "Lucius"
+      ]
     },
     {
       "videoId": "8f3cHWKZjcw",
@@ -6838,7 +7520,8 @@
       "url": "https://www.youtube.com/watch?v=8f3cHWKZjcw",
       "durationFormatted": "3:19:57",
       "index": 141,
-      "serie": "Pour la gloire de l'Empereur-Dieu"
+      "serie": "Pour la gloire de l'Empereur-Dieu",
+      "players": []
     },
     {
       "videoId": "dONv3gzGAv0",
@@ -6891,7 +7574,13 @@
       "url": "https://www.youtube.com/watch?v=dONv3gzGAv0",
       "durationFormatted": "2:14:02",
       "index": 142,
-      "serie": "Wastburg"
+      "serie": "Wastburg",
+      "players": [
+        "Klem",
+        "Lisa",
+        "Volsung",
+        "Côme"
+      ]
     },
     {
       "videoId": "ikmK21P1bGI",
@@ -6944,7 +7633,13 @@
       "url": "https://www.youtube.com/watch?v=ikmK21P1bGI",
       "durationFormatted": "1:59:36",
       "index": 143,
-      "serie": "White Witches"
+      "serie": "White Witches",
+      "players": [
+        "Kahylina",
+        "Mass",
+        "Volsung",
+        "Yohan"
+      ]
     },
     {
       "videoId": "c1pofgfBXaU",
@@ -6997,7 +7692,13 @@
       "url": "https://www.youtube.com/watch?v=c1pofgfBXaU",
       "durationFormatted": "1:26:06",
       "index": 144,
-      "serie": "Oh Maker"
+      "serie": "Oh Maker",
+      "players": [
+        "LisaBanana",
+        "Mass",
+        "Belfeuil",
+        "Volsung"
+      ]
     },
     {
       "videoId": "IEuG9kb-mzk",
@@ -7050,7 +7751,13 @@
       "url": "https://www.youtube.com/watch?v=IEuG9kb-mzk",
       "durationFormatted": "1:46:11",
       "index": 145,
-      "serie": "White Witches"
+      "serie": "White Witches",
+      "players": [
+        "Kahylina",
+        "Mass",
+        "Volsung",
+        "Yohan"
+      ]
     },
     {
       "videoId": "k2e8oHPFmJ4",
@@ -7106,7 +7813,8 @@
       "url": "https://www.youtube.com/watch?v=k2e8oHPFmJ4",
       "durationFormatted": "1:10:50",
       "index": 146,
-      "serie": "D&D5 L'arbre des 7 pendus"
+      "serie": "D&D5 L'arbre des 7 pendus",
+      "players": []
     },
     {
       "videoId": "0SbxcGpSliQ",
@@ -7162,7 +7870,13 @@
       "url": "https://www.youtube.com/watch?v=0SbxcGpSliQ",
       "durationFormatted": "2:21:49",
       "index": 147,
-      "serie": "D&D5 L'arbre des 7 pendus"
+      "serie": "D&D5 L'arbre des 7 pendus",
+      "players": [
+        "Soloflow",
+        "StreetTiger",
+        "Volsung",
+        "Phane"
+      ]
     },
     {
       "videoId": "s2BGwVy4-C0",
@@ -7218,7 +7932,13 @@
       "url": "https://www.youtube.com/watch?v=s2BGwVy4-C0",
       "durationFormatted": "1:55:52",
       "index": 148,
-      "serie": "D&D5 L'arbre des 7 pendus"
+      "serie": "D&D5 L'arbre des 7 pendus",
+      "players": [
+        "Soloflow",
+        "StreetTiger",
+        "Volsung",
+        "Phane"
+      ]
     },
     {
       "videoId": "CSekdE9XpzI",
@@ -7271,7 +7991,13 @@
       "url": "https://www.youtube.com/watch?v=CSekdE9XpzI",
       "durationFormatted": "2:07:09",
       "index": 149,
-      "serie": "Wastburg"
+      "serie": "Wastburg",
+      "players": [
+        "Klem",
+        "Lisa",
+        "Volsung",
+        "Côme"
+      ]
     },
     {
       "videoId": "ZJL_s-NuEos",
@@ -7322,7 +8048,8 @@
       "url": "https://www.youtube.com/watch?v=ZJL_s-NuEos",
       "durationFormatted": "5:34",
       "index": 150,
-      "serie": "Souvenirs Rôlistes"
+      "serie": "Souvenirs Rôlistes",
+      "players": []
     },
     {
       "videoId": "pY4JF4B8gf8",
@@ -7375,7 +8102,11 @@
       "url": "https://www.youtube.com/watch?v=pY4JF4B8gf8",
       "durationFormatted": "44:10",
       "index": 151,
-      "serie": "A single moment Star Wars"
+      "serie": "A single moment Star Wars",
+      "players": [
+        "JCN",
+        "Volsung"
+      ]
     },
     {
       "videoId": "179kFCcp-vg",
@@ -7428,7 +8159,11 @@
       "url": "https://www.youtube.com/watch?v=179kFCcp-vg",
       "durationFormatted": "36:48",
       "index": 152,
-      "serie": "A single moment Star Wars"
+      "serie": "A single moment Star Wars",
+      "players": [
+        "JCN",
+        "Volsung"
+      ]
     },
     {
       "videoId": "zoucOOhLDgc",
@@ -7482,7 +8217,13 @@
       "url": "https://www.youtube.com/watch?v=zoucOOhLDgc",
       "durationFormatted": "1:45:17",
       "index": 153,
-      "serie": "Zombie World"
+      "serie": "Zombie World",
+      "players": [
+        "Morgane",
+        "Max",
+        "Ramos",
+        "Volsung"
+      ]
     },
     {
       "videoId": "Mi5YM9vJMes",
@@ -7535,7 +8276,13 @@
       "url": "https://www.youtube.com/watch?v=Mi5YM9vJMes",
       "durationFormatted": "2:02:00",
       "index": 154,
-      "serie": "Wastburg"
+      "serie": "Wastburg",
+      "players": [
+        "Klem",
+        "Lisa",
+        "Volsung",
+        "Côme"
+      ]
     },
     {
       "videoId": "qEatsFYsQYY",
@@ -7591,7 +8338,13 @@
       "url": "https://www.youtube.com/watch?v=qEatsFYsQYY",
       "durationFormatted": "1:37:34",
       "index": 155,
-      "serie": "D&D5 L'arbre des 7 pendus"
+      "serie": "D&D5 L'arbre des 7 pendus",
+      "players": [
+        "Soloflow",
+        "StreetTiger",
+        "Volsung",
+        "Phane"
+      ]
     },
     {
       "videoId": "vNfUgLRwLUM",
@@ -7647,7 +8400,13 @@
       "url": "https://www.youtube.com/watch?v=vNfUgLRwLUM",
       "durationFormatted": "1:29:13",
       "index": 156,
-      "serie": "D&D5 L'arbre des 7 pendus"
+      "serie": "D&D5 L'arbre des 7 pendus",
+      "players": [
+        "Soloflow",
+        "StreetTiger",
+        "Volsung",
+        "Phane"
+      ]
     },
     {
       "videoId": "qdbAi3f_9uk",
@@ -7700,7 +8459,11 @@
       "url": "https://www.youtube.com/watch?v=qdbAi3f_9uk",
       "durationFormatted": "35:45",
       "index": 157,
-      "serie": "A single moment Star Wars"
+      "serie": "A single moment Star Wars",
+      "players": [
+        "JCN",
+        "Volsung"
+      ]
     },
     {
       "videoId": "BNpv6bV82Bk",
@@ -7753,7 +8516,11 @@
       "url": "https://www.youtube.com/watch?v=BNpv6bV82Bk",
       "durationFormatted": "38:10",
       "index": 158,
-      "serie": "A single moment Star Wars"
+      "serie": "A single moment Star Wars",
+      "players": [
+        "JCN",
+        "Volsung"
+      ]
     },
     {
       "videoId": "nHFxK9tjwMU",
@@ -7807,7 +8574,13 @@
       "url": "https://www.youtube.com/watch?v=nHFxK9tjwMU",
       "durationFormatted": "1:46:12",
       "index": 159,
-      "serie": "Zombie World"
+      "serie": "Zombie World",
+      "players": [
+        "Morgane",
+        "Max",
+        "Ramos",
+        "Volsung"
+      ]
     },
     {
       "videoId": "XWvlZGHatMg",
@@ -7857,7 +8630,8 @@
       "url": "https://www.youtube.com/watch?v=XWvlZGHatMg",
       "durationFormatted": "5:44",
       "index": 160,
-      "serie": "Souvenirs Rôlistes"
+      "serie": "Souvenirs Rôlistes",
+      "players": []
     },
     {
       "videoId": "Nx-sRb0_JHA",
@@ -7913,7 +8687,13 @@
       "url": "https://www.youtube.com/watch?v=Nx-sRb0_JHA",
       "durationFormatted": "2:18:47",
       "index": 161,
-      "serie": "D&D5 L'arbre des 7 pendus"
+      "serie": "D&D5 L'arbre des 7 pendus",
+      "players": [
+        "Soloflow",
+        "StreetTiger",
+        "Volsung",
+        "Phane"
+      ]
     },
     {
       "videoId": "0lnM5atggbk",
@@ -7967,7 +8747,11 @@
       "url": "https://www.youtube.com/watch?v=0lnM5atggbk",
       "durationFormatted": "33:09",
       "index": 162,
-      "serie": "Dragon Ball"
+      "serie": "Dragon Ball",
+      "players": [
+        "Morgenstern",
+        "Volsung"
+      ]
     },
     {
       "videoId": "C_iAagDgnyw",
@@ -8020,7 +8804,11 @@
       "url": "https://www.youtube.com/watch?v=C_iAagDgnyw",
       "durationFormatted": "1:46:46",
       "index": 163,
-      "serie": "Saint Seiya"
+      "serie": "Saint Seiya",
+      "players": [
+        "Black",
+        "Volsung"
+      ]
     },
     {
       "videoId": "QVbyvtCvSpM",
@@ -8073,7 +8861,13 @@
       "url": "https://www.youtube.com/watch?v=QVbyvtCvSpM",
       "durationFormatted": "1:21:38",
       "index": 164,
-      "serie": "Star Wars : Le bon la brute et le truand"
+      "serie": "Star Wars : Le bon la brute et le truand",
+      "players": [
+        "Kahylina",
+        "Morgenstern",
+        "Kat",
+        "Volsung"
+      ]
     },
     {
       "videoId": "PMNcm4vKGL8",
@@ -8124,7 +8918,8 @@
       "url": "https://www.youtube.com/watch?v=PMNcm4vKGL8",
       "durationFormatted": "5:58",
       "index": 165,
-      "serie": "Souvenirs Rôlistes"
+      "serie": "Souvenirs Rôlistes",
+      "players": []
     },
     {
       "videoId": "sQ7CagTiyag",
@@ -8178,7 +8973,13 @@
       "url": "https://www.youtube.com/watch?v=sQ7CagTiyag",
       "durationFormatted": "1:57:18",
       "index": 166,
-      "serie": "Green Dawn Mall"
+      "serie": "Green Dawn Mall",
+      "players": [
+        "Mass",
+        "Black",
+        "Volsung",
+        "Côme"
+      ]
     },
     {
       "videoId": "eadui5BzrRI",
@@ -8231,7 +9032,13 @@
       "url": "https://www.youtube.com/watch?v=eadui5BzrRI",
       "durationFormatted": "1:34:37",
       "index": 167,
-      "serie": "Star Wars : Le bon la brute et le truand"
+      "serie": "Star Wars : Le bon la brute et le truand",
+      "players": [
+        "Kahylina",
+        "Morgenstern",
+        "Kat",
+        "Volsung"
+      ]
     },
     {
       "videoId": "M16hN4e1xFA",
@@ -8285,7 +9092,13 @@
       "url": "https://www.youtube.com/watch?v=M16hN4e1xFA",
       "durationFormatted": "1:44:02",
       "index": 168,
-      "serie": "Zombie World"
+      "serie": "Zombie World",
+      "players": [
+        "Morgane",
+        "Max",
+        "Ramos",
+        "Volsung"
+      ]
     },
     {
       "videoId": "a0ZfbA_4GE0",
@@ -8338,7 +9151,13 @@
       "url": "https://www.youtube.com/watch?v=a0ZfbA_4GE0",
       "durationFormatted": "1:34:21",
       "index": 169,
-      "serie": "Daitoshi Underground Jäger"
+      "serie": "Daitoshi Underground Jäger",
+      "players": [
+        "Kat",
+        "Kahylina",
+        "Volsung",
+        "Le Grumph"
+      ]
     },
     {
       "videoId": "rD786DoZFew",
@@ -8392,7 +9211,13 @@
       "url": "https://www.youtube.com/watch?v=rD786DoZFew",
       "durationFormatted": "1:46:59",
       "index": 170,
-      "serie": "Green Dawn Mall"
+      "serie": "Green Dawn Mall",
+      "players": [
+        "Mass",
+        "Black",
+        "Volsung",
+        "Côme"
+      ]
     },
     {
       "videoId": "RY1bBuK80RM",
@@ -8446,7 +9271,13 @@
       "url": "https://www.youtube.com/watch?v=RY1bBuK80RM",
       "durationFormatted": "1:53:33",
       "index": 171,
-      "serie": "De bile et d'acier"
+      "serie": "De bile et d'acier",
+      "players": [
+        "Kahylina",
+        "Erendis",
+        "Volsung",
+        "Vivien"
+      ]
     },
     {
       "videoId": "LHR5VdIlzbc",
@@ -8500,7 +9331,13 @@
       "url": "https://www.youtube.com/watch?v=LHR5VdIlzbc",
       "durationFormatted": "1:54:11",
       "index": 172,
-      "serie": "Marvel Heroic Roleplaying X-men"
+      "serie": "Marvel Heroic Roleplaying X-men",
+      "players": [
+        "Kat",
+        "StreetTiger",
+        "Volsung",
+        "Willy"
+      ]
     },
     {
       "videoId": "_a_TBjFkUrw",
@@ -8554,7 +9391,13 @@
       "url": "https://www.youtube.com/watch?v=_a_TBjFkUrw",
       "durationFormatted": "1:58:34",
       "index": 173,
-      "serie": "Donjon & Cie"
+      "serie": "Donjon & Cie",
+      "players": [
+        "Fabien",
+        "Pierre",
+        "Volsung",
+        "Sammael"
+      ]
     },
     {
       "videoId": "UJpEoLRmwlM",
@@ -8607,7 +9450,13 @@
       "url": "https://www.youtube.com/watch?v=UJpEoLRmwlM",
       "durationFormatted": "2:30:45",
       "index": 174,
-      "serie": "Fiasco"
+      "serie": "Fiasco",
+      "players": [
+        "Fabien",
+        "Pierre",
+        "Seb",
+        "LeMat"
+      ]
     },
     {
       "videoId": "VRAHGwEn4s0",
@@ -8658,7 +9507,8 @@
       "url": "https://www.youtube.com/watch?v=VRAHGwEn4s0",
       "durationFormatted": "1:45:17",
       "index": 175,
-      "serie": "Podcast Frankenstein"
+      "serie": "Podcast Frankenstein",
+      "players": []
     },
     {
       "videoId": "x-H4Mabdpf0",
@@ -8711,7 +9561,13 @@
       "url": "https://www.youtube.com/watch?v=x-H4Mabdpf0",
       "durationFormatted": "1:09:39",
       "index": 176,
-      "serie": "Daitoshi Underground Jäger"
+      "serie": "Daitoshi Underground Jäger",
+      "players": [
+        "Kat",
+        "Kahylina",
+        "Volsung",
+        "Le Grumph"
+      ]
     },
     {
       "videoId": "kA_eF8BtPss",
@@ -8760,7 +9616,13 @@
       "url": "https://www.youtube.com/watch?v=kA_eF8BtPss",
       "durationFormatted": "2:01:54",
       "index": 177,
-      "serie": "Donjon & Cie"
+      "serie": "Donjon & Cie",
+      "players": [
+        "Fabien",
+        "Pierre",
+        "Volsung",
+        "Sammael"
+      ]
     },
     {
       "videoId": "5Wr0gWEEMWI",
@@ -8814,7 +9676,13 @@
       "url": "https://www.youtube.com/watch?v=5Wr0gWEEMWI",
       "durationFormatted": "2:22:00",
       "index": 178,
-      "serie": "Voyages en pays fantastiques"
+      "serie": "Voyages en pays fantastiques",
+      "players": [
+        "Fabien",
+        "Pierre",
+        "Seb",
+        "LeMat"
+      ]
     },
     {
       "videoId": "ostb1H8rArg",
@@ -8868,7 +9736,13 @@
       "url": "https://www.youtube.com/watch?v=ostb1H8rArg",
       "durationFormatted": "1:37:10",
       "index": 179,
-      "serie": "Marvel Heroic Roleplaying X-men"
+      "serie": "Marvel Heroic Roleplaying X-men",
+      "players": [
+        "Kat",
+        "StreetTiger",
+        "Volsung",
+        "Willy"
+      ]
     },
     {
       "videoId": "gR5B-VrIyP8",
@@ -8922,7 +9796,13 @@
       "url": "https://www.youtube.com/watch?v=gR5B-VrIyP8",
       "durationFormatted": "2:02:02",
       "index": 180,
-      "serie": "De bile et d'acier"
+      "serie": "De bile et d'acier",
+      "players": [
+        "Kahylina",
+        "Erendis",
+        "Volsung",
+        "Vivien"
+      ]
     },
     {
       "videoId": "irsXOC4gEZc",
@@ -8969,7 +9849,14 @@
       "url": "https://www.youtube.com/watch?v=irsXOC4gEZc",
       "durationFormatted": "2:11:03",
       "index": 181,
-      "serie": "Shade-Faces"
+      "serie": "Shade-Faces",
+      "players": [
+        "Alain",
+        "Fabien",
+        "Pierre",
+        "Seb",
+        "LeMat"
+      ]
     },
     {
       "videoId": "cnaleeyU5u4",
@@ -9012,7 +9899,13 @@
       "url": "https://www.youtube.com/watch?v=cnaleeyU5u4",
       "durationFormatted": "2:04:01",
       "index": 182,
-      "serie": "Daitoshi Underground Jäger"
+      "serie": "Daitoshi Underground Jäger",
+      "players": [
+        "Kat",
+        "Kahylina",
+        "Volsung",
+        "Le Grumph"
+      ]
     },
     {
       "videoId": "d7xJxMqoUE8",
@@ -9066,7 +9959,14 @@
       "url": "https://www.youtube.com/watch?v=d7xJxMqoUE8",
       "durationFormatted": "1:45:16",
       "index": 183,
-      "serie": "Shade-Faces"
+      "serie": "Shade-Faces",
+      "players": [
+        "Alain",
+        "Fabien",
+        "Pierre",
+        "Seb",
+        "LeMat"
+      ]
     },
     {
       "videoId": "4K2nOdMd-Mw",
@@ -9120,7 +10020,13 @@
       "url": "https://www.youtube.com/watch?v=4K2nOdMd-Mw",
       "durationFormatted": "2:14:23",
       "index": 184,
-      "serie": "De bile et d'acier"
+      "serie": "De bile et d'acier",
+      "players": [
+        "Kahylina",
+        "Erendis",
+        "Volsung",
+        "Vivien"
+      ]
     },
     {
       "videoId": "aLzJqJR0nuE",
@@ -9167,7 +10073,8 @@
       "url": "https://www.youtube.com/watch?v=aLzJqJR0nuE",
       "durationFormatted": "54:56",
       "index": 185,
-      "serie": "2d6+Sharp"
+      "serie": "2d6+Sharp",
+      "players": []
     },
     {
       "videoId": "78yYnwT3i0o",
@@ -9221,7 +10128,14 @@
       "url": "https://www.youtube.com/watch?v=78yYnwT3i0o",
       "durationFormatted": "1:31:06",
       "index": 186,
-      "serie": "Shade-Faces"
+      "serie": "Shade-Faces",
+      "players": [
+        "Alain",
+        "Fabien",
+        "Pierre",
+        "Seb",
+        "LeMat"
+      ]
     },
     {
       "videoId": "9adWS57YD3s",
@@ -9274,7 +10188,13 @@
       "url": "https://www.youtube.com/watch?v=9adWS57YD3s",
       "durationFormatted": "1:42:23",
       "index": 187,
-      "serie": "Star Wars"
+      "serie": "Star Wars",
+      "players": [
+        "Morgane",
+        "Max",
+        "StreetTiger",
+        "Volsung"
+      ]
     },
     {
       "videoId": "U04lBwSP3Hk",
@@ -9325,7 +10245,8 @@
       "url": "https://www.youtube.com/watch?v=U04lBwSP3Hk",
       "durationFormatted": "6:18",
       "index": 188,
-      "serie": "Souvenirs Rôlistes"
+      "serie": "Souvenirs Rôlistes",
+      "players": []
     },
     {
       "videoId": "tXfEs4W-hgg",
@@ -9379,7 +10300,14 @@
       "url": "https://www.youtube.com/watch?v=tXfEs4W-hgg",
       "durationFormatted": "56:16",
       "index": 189,
-      "serie": "Shade-Faces"
+      "serie": "Shade-Faces",
+      "players": [
+        "Alain",
+        "Fabien",
+        "Pierre",
+        "Seb",
+        "LeMat"
+      ]
     },
     {
       "videoId": "6JdomMITRM4",
@@ -9433,7 +10361,11 @@
       "url": "https://www.youtube.com/watch?v=6JdomMITRM4",
       "durationFormatted": "37:22",
       "index": 190,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Kat",
+        "Volsung"
+      ]
     },
     {
       "videoId": "HItogFzyf3Y",
@@ -9487,7 +10419,14 @@
       "url": "https://www.youtube.com/watch?v=HItogFzyf3Y",
       "durationFormatted": "2:00:24",
       "index": 191,
-      "serie": "Shade-Faces"
+      "serie": "Shade-Faces",
+      "players": [
+        "Alain",
+        "Fabien",
+        "Pierre",
+        "Seb",
+        "LeMat"
+      ]
     },
     {
       "videoId": "IjlFkzm-_ts",
@@ -9531,7 +10470,13 @@
       "url": "https://www.youtube.com/watch?v=IjlFkzm-_ts",
       "durationFormatted": "2:34:59",
       "index": 192,
-      "serie": "De bile et d'acier"
+      "serie": "De bile et d'acier",
+      "players": [
+        "Kahylina",
+        "Erendis",
+        "Volsung",
+        "Vivien"
+      ]
     },
     {
       "videoId": "5sFrbo_LbBs",
@@ -9578,7 +10523,14 @@
       "url": "https://www.youtube.com/watch?v=5sFrbo_LbBs",
       "durationFormatted": "1:04:41",
       "index": 193,
-      "serie": "No Country For Old Kobolds"
+      "serie": "No Country For Old Kobolds",
+      "players": [
+        "Alain",
+        "Fabien",
+        "LeMat",
+        "Pierre",
+        "Seb"
+      ]
     },
     {
       "videoId": "uQnJnkFKvZA",
@@ -9631,7 +10583,14 @@
       "url": "https://www.youtube.com/watch?v=uQnJnkFKvZA",
       "durationFormatted": "32:39",
       "index": 194,
-      "serie": "No Country For Old Kobolds"
+      "serie": "No Country For Old Kobolds",
+      "players": [
+        "Alain",
+        "Fabien",
+        "LeMat",
+        "Pierre",
+        "Seb"
+      ]
     },
     {
       "videoId": "PXjTP9Jk6zU",
@@ -9683,7 +10642,8 @@
       "url": "https://www.youtube.com/watch?v=PXjTP9Jk6zU",
       "durationFormatted": "56:10",
       "index": 195,
-      "serie": "2d6+Sharp"
+      "serie": "2d6+Sharp",
+      "players": []
     },
     {
       "videoId": "v-qimevw1AY",
@@ -9736,7 +10696,14 @@
       "url": "https://www.youtube.com/watch?v=v-qimevw1AY",
       "durationFormatted": "36:37",
       "index": 196,
-      "serie": "No Country For Old Kobolds"
+      "serie": "No Country For Old Kobolds",
+      "players": [
+        "Alain",
+        "Fabien",
+        "LeMat",
+        "Pierre",
+        "Seb"
+      ]
     },
     {
       "videoId": "XscpYZ5T-jY",
@@ -9790,7 +10757,11 @@
       "url": "https://www.youtube.com/watch?v=XscpYZ5T-jY",
       "durationFormatted": "54:54",
       "index": 197,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Volsung",
+        "Morgane"
+      ]
     },
     {
       "videoId": "sBmminpK1MQ",
@@ -9844,7 +10815,14 @@
       "url": "https://www.youtube.com/watch?v=sBmminpK1MQ",
       "durationFormatted": "41:50",
       "index": 198,
-      "serie": "No Country For Old Kobolds"
+      "serie": "No Country For Old Kobolds",
+      "players": [
+        "Alain",
+        "Fabien",
+        "LeMat",
+        "Pierre",
+        "Seb"
+      ]
     },
     {
       "videoId": "ksMvwrT5ARg",
@@ -9897,7 +10875,14 @@
       "url": "https://www.youtube.com/watch?v=ksMvwrT5ARg",
       "durationFormatted": "40:06",
       "index": 199,
-      "serie": "No Country For Old Kobolds"
+      "serie": "No Country For Old Kobolds",
+      "players": [
+        "Alain",
+        "Fabien",
+        "LeMat",
+        "Pierre",
+        "Seb"
+      ]
     },
     {
       "videoId": "Ihnqyy93Qmo",
@@ -9950,7 +10935,13 @@
       "url": "https://www.youtube.com/watch?v=Ihnqyy93Qmo",
       "durationFormatted": "4:19:09",
       "index": 200,
-      "serie": "KNIGHT"
+      "serie": "KNIGHT",
+      "players": [
+        "S.Ziterman",
+        "StreetTiger",
+        "Volsung",
+        "Guillaume"
+      ]
     },
     {
       "videoId": "A_OEz4PBiIg",
@@ -10003,7 +10994,13 @@
       "url": "https://www.youtube.com/watch?v=A_OEz4PBiIg",
       "durationFormatted": "1:20:17",
       "index": 201,
-      "serie": "Dés de Sang"
+      "serie": "Dés de Sang",
+      "players": [
+        "Max",
+        "Mass",
+        "Volsung",
+        "Willy"
+      ]
     },
     {
       "videoId": "e2cS1X31f9I",
@@ -10054,7 +11051,8 @@
       "url": "https://www.youtube.com/watch?v=e2cS1X31f9I",
       "durationFormatted": "2:25:18",
       "index": 202,
-      "serie": "Podcast Frankenstein"
+      "serie": "Podcast Frankenstein",
+      "players": []
     },
     {
       "videoId": "Bu7p5rQY30A",
@@ -10107,7 +11105,13 @@
       "url": "https://www.youtube.com/watch?v=Bu7p5rQY30A",
       "durationFormatted": "1:19:20",
       "index": 203,
-      "serie": "Dés de Sang"
+      "serie": "Dés de Sang",
+      "players": [
+        "Max",
+        "Mass",
+        "Volsung",
+        "Willy"
+      ]
     },
     {
       "videoId": "dgYi5Jt__vM",
@@ -10158,7 +11162,11 @@
       "url": "https://www.youtube.com/watch?v=dgYi5Jt__vM",
       "durationFormatted": "1:04:04",
       "index": 204,
-      "serie": "2d6+Sharp"
+      "serie": "2d6+Sharp",
+      "players": [
+        "LeMat",
+        "Volsung"
+      ]
     },
     {
       "videoId": "yC8kWgbnGyg",
@@ -10212,7 +11220,13 @@
       "url": "https://www.youtube.com/watch?v=yC8kWgbnGyg",
       "durationFormatted": "3:36:30",
       "index": 205,
-      "serie": "FACES"
+      "serie": "FACES",
+      "players": [
+        "Nitz",
+        "Roberto",
+        "Volsung",
+        "LeMat"
+      ]
     },
     {
       "videoId": "eBwTRd5UV-A",
@@ -10266,7 +11280,11 @@
       "url": "https://www.youtube.com/watch?v=eBwTRd5UV-A",
       "durationFormatted": "45:59",
       "index": 206,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Kat",
+        "Volsung"
+      ]
     },
     {
       "videoId": "mxz4OL6yR4U",
@@ -10317,7 +11335,8 @@
       "url": "https://www.youtube.com/watch?v=mxz4OL6yR4U",
       "durationFormatted": "5:09",
       "index": 207,
-      "serie": "Podcast Frankenstein"
+      "serie": "Podcast Frankenstein",
+      "players": []
     },
     {
       "videoId": "SI7Oo3_24XA",
@@ -10371,7 +11390,11 @@
       "url": "https://www.youtube.com/watch?v=SI7Oo3_24XA",
       "durationFormatted": "44:10",
       "index": 208,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Morgane",
+        "Volsung"
+      ]
     },
     {
       "videoId": "Vd5gegt1hdo",
@@ -10416,7 +11439,12 @@
       "url": "https://www.youtube.com/watch?v=Vd5gegt1hdo",
       "durationFormatted": "1:12:10",
       "index": 209,
-      "serie": "Dragon Ball"
+      "serie": "Dragon Ball",
+      "players": [
+        "StreetTiger",
+        "Virevolte",
+        "Felondra"
+      ]
     },
     {
       "videoId": "vCgxq_gGoNY",
@@ -10470,7 +11498,11 @@
       "url": "https://www.youtube.com/watch?v=vCgxq_gGoNY",
       "durationFormatted": "46:21",
       "index": 210,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Cassandre",
+        "Volsung"
+      ]
     },
     {
       "videoId": "Q14x6iOUQqM",
@@ -10524,7 +11556,11 @@
       "url": "https://www.youtube.com/watch?v=Q14x6iOUQqM",
       "durationFormatted": "31:24",
       "index": 211,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Morgane",
+        "Volsung"
+      ]
     },
     {
       "videoId": "gntB3DXDDtM",
@@ -10575,7 +11611,8 @@
       "url": "https://www.youtube.com/watch?v=gntB3DXDDtM",
       "durationFormatted": "1:40:41",
       "index": 212,
-      "serie": "Podcast Frankenstein"
+      "serie": "Podcast Frankenstein",
+      "players": []
     },
     {
       "videoId": "wmDtbpkY7Ww",
@@ -10629,7 +11666,11 @@
       "url": "https://www.youtube.com/watch?v=wmDtbpkY7Ww",
       "durationFormatted": "37:30",
       "index": 213,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Cassandre",
+        "Volsung"
+      ]
     },
     {
       "videoId": "rJsSVkIwm9I",
@@ -10683,7 +11724,11 @@
       "url": "https://www.youtube.com/watch?v=rJsSVkIwm9I",
       "durationFormatted": "37:51",
       "index": 214,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Morgane",
+        "Volsung"
+      ]
     },
     {
       "videoId": "jJhNuD3NDgU",
@@ -10737,7 +11782,11 @@
       "url": "https://www.youtube.com/watch?v=jJhNuD3NDgU",
       "durationFormatted": "30:34",
       "index": 215,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Cassandre",
+        "Volsung"
+      ]
     },
     {
       "videoId": "uFP-mf62Egs",
@@ -10790,7 +11839,13 @@
       "url": "https://www.youtube.com/watch?v=uFP-mf62Egs",
       "durationFormatted": "1:34:48",
       "index": 216,
-      "serie": "Star Wars"
+      "serie": "Star Wars",
+      "players": [
+        "Morgane",
+        "Max",
+        "StreetTiger",
+        "Volsung"
+      ]
     },
     {
       "videoId": "l0C_GZvEmsw",
@@ -10844,7 +11899,11 @@
       "url": "https://www.youtube.com/watch?v=l0C_GZvEmsw",
       "durationFormatted": "34:40",
       "index": 217,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Morgane",
+        "Volsung"
+      ]
     },
     {
       "videoId": "mvMlQjC5QRU",
@@ -10898,7 +11957,11 @@
       "url": "https://www.youtube.com/watch?v=mvMlQjC5QRU",
       "durationFormatted": "28:02",
       "index": 218,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Cassandre",
+        "Volsung"
+      ]
     },
     {
       "videoId": "4mGqjEvbWng",
@@ -10953,7 +12016,12 @@
       "url": "https://www.youtube.com/watch?v=4mGqjEvbWng",
       "durationFormatted": "1:12:27",
       "index": 219,
-      "serie": "Dragon Ball"
+      "serie": "Dragon Ball",
+      "players": [
+        "StreetTiger",
+        "Virevolte",
+        "Felondra"
+      ]
     },
     {
       "videoId": "ErjXw9T7jWo",
@@ -11007,7 +12075,11 @@
       "url": "https://www.youtube.com/watch?v=ErjXw9T7jWo",
       "durationFormatted": "29:44",
       "index": 220,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Morgane",
+        "Volsung"
+      ]
     },
     {
       "videoId": "VA9-dJyuBBc",
@@ -11060,7 +12132,14 @@
       "url": "https://www.youtube.com/watch?v=VA9-dJyuBBc",
       "durationFormatted": "1:06:54",
       "index": 221,
-      "serie": "Dodecaedre"
+      "serie": "Dodecaedre",
+      "players": [
+        "Eugenie",
+        "Mass",
+        "Yoann",
+        "Volsung",
+        "Épiphanie"
+      ]
     },
     {
       "videoId": "Daos-VCyNFg",
@@ -11114,7 +12193,11 @@
       "url": "https://www.youtube.com/watch?v=Daos-VCyNFg",
       "durationFormatted": "29:06",
       "index": 222,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Cassandre",
+        "Volsung"
+      ]
     },
     {
       "videoId": "9FlWee77Fy8",
@@ -11167,7 +12250,14 @@
       "url": "https://www.youtube.com/watch?v=9FlWee77Fy8",
       "durationFormatted": "1:08:31",
       "index": 223,
-      "serie": "Dodecaedre"
+      "serie": "Dodecaedre",
+      "players": [
+        "Eugenie",
+        "Mass",
+        "Yoann",
+        "Volsung",
+        "Épiphanie"
+      ]
     },
     {
       "videoId": "TZFVrfn4DFc",
@@ -11221,7 +12311,11 @@
       "url": "https://www.youtube.com/watch?v=TZFVrfn4DFc",
       "durationFormatted": "43:55",
       "index": 224,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Morgane",
+        "Volsung"
+      ]
     },
     {
       "videoId": "M0TP8VYKlVY",
@@ -11275,7 +12369,11 @@
       "url": "https://www.youtube.com/watch?v=M0TP8VYKlVY",
       "durationFormatted": "28:58",
       "index": 225,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Cassandre",
+        "Volsung"
+      ]
     },
     {
       "videoId": "Bldl1AOdAj4",
@@ -11329,7 +12427,13 @@
       "url": "https://www.youtube.com/watch?v=Bldl1AOdAj4",
       "durationFormatted": "2:16:20",
       "index": 226,
-      "serie": "Tours de Garde"
+      "serie": "Tours de Garde",
+      "players": [
+        "Lola.D1",
+        "Joker",
+        "Julien P",
+        "Volsung"
+      ]
     },
     {
       "videoId": "wYPctEw1LIg",
@@ -11383,7 +12487,11 @@
       "url": "https://www.youtube.com/watch?v=wYPctEw1LIg",
       "durationFormatted": "31:58",
       "index": 227,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Morgane",
+        "Volsung"
+      ]
     },
     {
       "videoId": "ms0YSA2ifFk",
@@ -11437,7 +12545,11 @@
       "url": "https://www.youtube.com/watch?v=ms0YSA2ifFk",
       "durationFormatted": "28:54",
       "index": 228,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Cassandre",
+        "Volsung"
+      ]
     },
     {
       "videoId": "ON1s1JgqGQE",
@@ -11491,7 +12603,8 @@
       "url": "https://www.youtube.com/watch?v=ON1s1JgqGQE",
       "durationFormatted": "4:05:28",
       "index": 229,
-      "serie": "Dragon Ball"
+      "serie": "Dragon Ball",
+      "players": []
     },
     {
       "videoId": "rVaenJ3Mt7w",
@@ -11545,7 +12658,11 @@
       "url": "https://www.youtube.com/watch?v=rVaenJ3Mt7w",
       "durationFormatted": "39:17",
       "index": 230,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Morgane",
+        "Volsung"
+      ]
     },
     {
       "videoId": "CSJ4sz4mz60",
@@ -11599,7 +12716,11 @@
       "url": "https://www.youtube.com/watch?v=CSJ4sz4mz60",
       "durationFormatted": "27:20",
       "index": 231,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Cassandre",
+        "Volsung"
+      ]
     },
     {
       "videoId": "3g5ZNutDqp0",
@@ -11653,7 +12774,13 @@
       "url": "https://www.youtube.com/watch?v=3g5ZNutDqp0",
       "durationFormatted": "1:33:01",
       "index": 232,
-      "serie": "Night Witches"
+      "serie": "Night Witches",
+      "players": [
+        "JCN",
+        "MadMat",
+        "Volsung",
+        "Felondra"
+      ]
     },
     {
       "videoId": "mdRJt1MlUxI",
@@ -11700,7 +12827,8 @@
       "url": "https://www.youtube.com/watch?v=mdRJt1MlUxI",
       "durationFormatted": "3:00:41",
       "index": 233,
-      "serie": "2d6+Hot"
+      "serie": "2d6+Hot",
+      "players": []
     },
     {
       "videoId": "ZXPC3cvA07E",
@@ -11754,7 +12882,11 @@
       "url": "https://www.youtube.com/watch?v=ZXPC3cvA07E",
       "durationFormatted": "33:15",
       "index": 234,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Morgane",
+        "Volsung"
+      ]
     },
     {
       "videoId": "YduGxjsxslQ",
@@ -11808,7 +12940,11 @@
       "url": "https://www.youtube.com/watch?v=YduGxjsxslQ",
       "durationFormatted": "30:01",
       "index": 235,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": [
+        "Cassandre",
+        "Volsung"
+      ]
     },
     {
       "videoId": "HF-IUtQQraY",
@@ -11861,7 +12997,13 @@
       "url": "https://www.youtube.com/watch?v=HF-IUtQQraY",
       "durationFormatted": "1:22:11",
       "index": 236,
-      "serie": "Macadabre"
+      "serie": "Macadabre",
+      "players": [
+        "Nitz",
+        "Roberto",
+        "LeMat",
+        "Volsung"
+      ]
     },
     {
       "videoId": "gZovyKc7B34",
@@ -11915,7 +13057,11 @@
       "url": "https://www.youtube.com/watch?v=gZovyKc7B34",
       "durationFormatted": "21:33",
       "index": 237,
-      "serie": "The Sprawl"
+      "serie": "The Sprawl",
+      "players": [
+        "Khelren",
+        "Antoine"
+      ]
     },
     {
       "videoId": "hNyXYA4jaI8",
@@ -11969,7 +13115,11 @@
       "url": "https://www.youtube.com/watch?v=hNyXYA4jaI8",
       "durationFormatted": "23:21",
       "index": 238,
-      "serie": "The Sprawl"
+      "serie": "The Sprawl",
+      "players": [
+        "Khelren",
+        "Antoine"
+      ]
     },
     {
       "videoId": "d3VxQCJj_oQ",
@@ -12024,7 +13174,8 @@
       "url": "https://www.youtube.com/watch?v=d3VxQCJj_oQ",
       "durationFormatted": "3:00:20",
       "index": 239,
-      "serie": "Dungeon World"
+      "serie": "Dungeon World",
+      "players": []
     },
     {
       "videoId": "nohf-xyoZfY",
@@ -12078,7 +13229,11 @@
       "url": "https://www.youtube.com/watch?v=nohf-xyoZfY",
       "durationFormatted": "23:23",
       "index": 240,
-      "serie": "The Sprawl"
+      "serie": "The Sprawl",
+      "players": [
+        "Khelren",
+        "Antoine"
+      ]
     },
     {
       "videoId": "_ZeRHtv5MU4",
@@ -12131,7 +13286,13 @@
       "url": "https://www.youtube.com/watch?v=_ZeRHtv5MU4",
       "durationFormatted": "1:37:27",
       "index": 241,
-      "serie": "PSI RUN"
+      "serie": "PSI RUN",
+      "players": [
+        "Kitano",
+        "Gregory",
+        "Olivier",
+        "Volsung"
+      ]
     },
     {
       "videoId": "VaWJjiiGzlU",
@@ -12184,7 +13345,13 @@
       "url": "https://www.youtube.com/watch?v=VaWJjiiGzlU",
       "durationFormatted": "41:25",
       "index": 242,
-      "serie": "Macadabre"
+      "serie": "Macadabre",
+      "players": [
+        "Nitz",
+        "Roberto",
+        "LeMat",
+        "Volsung"
+      ]
     },
     {
       "videoId": "wKuXCT0fgK4",
@@ -12237,7 +13404,13 @@
       "url": "https://www.youtube.com/watch?v=wKuXCT0fgK4",
       "durationFormatted": "1:31:46",
       "index": 243,
-      "serie": "The Final Girl"
+      "serie": "The Final Girl",
+      "players": [
+        "Antoine",
+        "Mat",
+        "Sous-Colline",
+        "Volsung"
+      ]
     },
     {
       "videoId": "TC0ojNTcV0s",
@@ -12291,7 +13464,11 @@
       "url": "https://www.youtube.com/watch?v=TC0ojNTcV0s",
       "durationFormatted": "27:18",
       "index": 244,
-      "serie": "The Sprawl"
+      "serie": "The Sprawl",
+      "players": [
+        "Khelren",
+        "Antoine"
+      ]
     },
     {
       "videoId": "n36zHu3Ry-k",
@@ -12345,7 +13522,11 @@
       "url": "https://www.youtube.com/watch?v=n36zHu3Ry-k",
       "durationFormatted": "14:58",
       "index": 245,
-      "serie": "The Sprawl"
+      "serie": "The Sprawl",
+      "players": [
+        "Khelren",
+        "Antoine"
+      ]
     },
     {
       "videoId": "M4FrF-R0W5Y",
@@ -12398,7 +13579,13 @@
       "url": "https://www.youtube.com/watch?v=M4FrF-R0W5Y",
       "durationFormatted": "1:08:12",
       "index": 246,
-      "serie": "The Final Girl"
+      "serie": "The Final Girl",
+      "players": [
+        "Antoine",
+        "Mat",
+        "Sous-Colline",
+        "Volsung"
+      ]
     },
     {
       "videoId": "KPk8O443oyI",
@@ -12451,7 +13638,14 @@
       "url": "https://www.youtube.com/watch?v=KPk8O443oyI",
       "durationFormatted": "44:09",
       "index": 247,
-      "serie": "Dodecaedre"
+      "serie": "Dodecaedre",
+      "players": [
+        "Eugenie",
+        "Mass",
+        "Yoann",
+        "Volsung",
+        "Épiphanie"
+      ]
     },
     {
       "videoId": "Ylnr_COJ8A4",
@@ -12505,7 +13699,14 @@
       "url": "https://www.youtube.com/watch?v=Ylnr_COJ8A4",
       "durationFormatted": "1:15:36",
       "index": 248,
-      "serie": "Sagas of the Icelanders"
+      "serie": "Sagas of the Icelanders",
+      "players": [
+        "Cassandre",
+        "Xman",
+        "Come",
+        "Volsung",
+        "Kalysto"
+      ]
     },
     {
       "videoId": "KxmdRPwzHlo",
@@ -12559,7 +13760,11 @@
       "url": "https://www.youtube.com/watch?v=KxmdRPwzHlo",
       "durationFormatted": "23:32",
       "index": 249,
-      "serie": "The Sprawl"
+      "serie": "The Sprawl",
+      "players": [
+        "Khelren",
+        "Antoine"
+      ]
     },
     {
       "videoId": "OjolfYPoyxE",
@@ -12612,7 +13817,14 @@
       "url": "https://www.youtube.com/watch?v=OjolfYPoyxE",
       "durationFormatted": "46:12",
       "index": 250,
-      "serie": "Dodecaedre"
+      "serie": "Dodecaedre",
+      "players": [
+        "Eugenie",
+        "Mass",
+        "Yoann",
+        "Volsung",
+        "Épiphanie"
+      ]
     },
     {
       "videoId": "rIrWecT2zm8",
@@ -12666,7 +13878,13 @@
       "url": "https://www.youtube.com/watch?v=rIrWecT2zm8",
       "durationFormatted": "58:56",
       "index": 251,
-      "serie": "Libreté"
+      "serie": "Libreté",
+      "players": [
+        "JCN",
+        "Max",
+        "Volsung",
+        "Epiphanie"
+      ]
     },
     {
       "videoId": "GWJK_lkcbiA",
@@ -12720,7 +13938,11 @@
       "url": "https://www.youtube.com/watch?v=GWJK_lkcbiA",
       "durationFormatted": "23:29",
       "index": 252,
-      "serie": "The Sprawl"
+      "serie": "The Sprawl",
+      "players": [
+        "Khelren",
+        "Antoine"
+      ]
     },
     {
       "videoId": "PQdEX_3z2Ic",
@@ -12773,7 +13995,14 @@
       "url": "https://www.youtube.com/watch?v=PQdEX_3z2Ic",
       "durationFormatted": "46:29",
       "index": 253,
-      "serie": "Dodecaedre"
+      "serie": "Dodecaedre",
+      "players": [
+        "Eugenie",
+        "Mass",
+        "Yoann",
+        "Volsung",
+        "Épiphanie"
+      ]
     },
     {
       "videoId": "gzoy7_ow49c",
@@ -12826,7 +14055,12 @@
       "url": "https://www.youtube.com/watch?v=gzoy7_ow49c",
       "durationFormatted": "49:10",
       "index": 254,
-      "serie": "Firebrands"
+      "serie": "Firebrands",
+      "players": [
+        "Morgane",
+        "Max",
+        "Volsung"
+      ]
     },
     {
       "videoId": "Rv3j4iVmTDQ",
@@ -12881,7 +14115,12 @@
       "url": "https://www.youtube.com/watch?v=Rv3j4iVmTDQ",
       "durationFormatted": "1:15:41",
       "index": 255,
-      "serie": "Rocket City World"
+      "serie": "Rocket City World",
+      "players": [
+        "Antoine",
+        "MadMat",
+        "Loïc"
+      ]
     },
     {
       "videoId": "FL6uC3kaVtA",
@@ -12928,7 +14167,11 @@
       "url": "https://www.youtube.com/watch?v=FL6uC3kaVtA",
       "durationFormatted": "22:06",
       "index": 256,
-      "serie": "The Sprawl"
+      "serie": "The Sprawl",
+      "players": [
+        "Khelren",
+        "Antoine"
+      ]
     },
     {
       "videoId": "N31xcp_7Ba8",
@@ -12981,7 +14224,8 @@
       "url": "https://www.youtube.com/watch?v=N31xcp_7Ba8",
       "durationFormatted": "1:14:53",
       "index": 257,
-      "serie": "Foire aux questions"
+      "serie": "Foire aux questions",
+      "players": []
     },
     {
       "videoId": "NYdfQnXe55w",
@@ -13035,7 +14279,11 @@
       "url": "https://www.youtube.com/watch?v=NYdfQnXe55w",
       "durationFormatted": "17:03",
       "index": 258,
-      "serie": "The Sprawl"
+      "serie": "The Sprawl",
+      "players": [
+        "Khelren",
+        "Antoine"
+      ]
     },
     {
       "videoId": "yUQAaMkH95M",
@@ -13088,7 +14336,12 @@
       "url": "https://www.youtube.com/watch?v=yUQAaMkH95M",
       "durationFormatted": "1:06:51",
       "index": 259,
-      "serie": "Danger Patrol"
+      "serie": "Danger Patrol",
+      "players": [
+        "Antoine",
+        "MadMat",
+        "Loïc"
+      ]
     },
     {
       "videoId": "ZG4yYWRju-w",
@@ -13141,7 +14394,12 @@
       "url": "https://www.youtube.com/watch?v=ZG4yYWRju-w",
       "durationFormatted": "45:47",
       "index": 260,
-      "serie": "Firebrands"
+      "serie": "Firebrands",
+      "players": [
+        "Morgane",
+        "Max",
+        "Volsung"
+      ]
     },
     {
       "videoId": "-TUx9p7bSwo",
@@ -13195,7 +14453,11 @@
       "url": "https://www.youtube.com/watch?v=-TUx9p7bSwo",
       "durationFormatted": "26:37",
       "index": 261,
-      "serie": "The Sprawl"
+      "serie": "The Sprawl",
+      "players": [
+        "Khelren",
+        "Antoine"
+      ]
     },
     {
       "videoId": "gfDe0FYszfo",
@@ -13248,7 +14510,13 @@
       "url": "https://www.youtube.com/watch?v=gfDe0FYszfo",
       "durationFormatted": "1:11:02",
       "index": 262,
-      "serie": "Loué soit Soth"
+      "serie": "Loué soit Soth",
+      "players": [
+        "Eugénie",
+        "Max",
+        "Epiphanie",
+        "Volsung"
+      ]
     },
     {
       "videoId": "m2rq9-4PpEI",
@@ -13301,7 +14569,12 @@
       "url": "https://www.youtube.com/watch?v=m2rq9-4PpEI",
       "durationFormatted": "52:09",
       "index": 263,
-      "serie": "Firebrands"
+      "serie": "Firebrands",
+      "players": [
+        "Morgane",
+        "Max",
+        "Volsung"
+      ]
     },
     {
       "videoId": "HgDw-SzRa7s",
@@ -13354,7 +14627,13 @@
       "url": "https://www.youtube.com/watch?v=HgDw-SzRa7s",
       "durationFormatted": "1:14:19",
       "index": 264,
-      "serie": "Loué soit Soth"
+      "serie": "Loué soit Soth",
+      "players": [
+        "Eugénie",
+        "Max",
+        "Epiphanie",
+        "Volsung"
+      ]
     },
     {
       "videoId": "UIJ_zWa4ozY",
@@ -13408,7 +14687,11 @@
       "url": "https://www.youtube.com/watch?v=UIJ_zWa4ozY",
       "durationFormatted": "20:06",
       "index": 265,
-      "serie": "The Sprawl"
+      "serie": "The Sprawl",
+      "players": [
+        "Khelren",
+        "Antoine"
+      ]
     },
     {
       "videoId": "zj4G6fPZbXA",
@@ -13461,7 +14744,13 @@
       "url": "https://www.youtube.com/watch?v=zj4G6fPZbXA",
       "durationFormatted": "1:36:24",
       "index": 266,
-      "serie": "Loué soit Soth"
+      "serie": "Loué soit Soth",
+      "players": [
+        "Eugénie",
+        "Max",
+        "Epiphanie",
+        "Volsung"
+      ]
     },
     {
       "videoId": "RPtg2WuYmq4",
@@ -13515,7 +14804,11 @@
       "url": "https://www.youtube.com/watch?v=RPtg2WuYmq4",
       "durationFormatted": "32:49",
       "index": 267,
-      "serie": "The Sprawl"
+      "serie": "The Sprawl",
+      "players": [
+        "Khelren",
+        "Antoine"
+      ]
     },
     {
       "videoId": "KCo4ZfS1lDY",
@@ -13568,7 +14861,13 @@
       "url": "https://www.youtube.com/watch?v=KCo4ZfS1lDY",
       "durationFormatted": "40:17",
       "index": 268,
-      "serie": "Macadabre"
+      "serie": "Macadabre",
+      "players": [
+        "Nitz",
+        "Roberto",
+        "LeMat",
+        "Volsung"
+      ]
     },
     {
       "videoId": "zg4IRz7_msA",
@@ -13622,7 +14921,11 @@
       "url": "https://www.youtube.com/watch?v=zg4IRz7_msA",
       "durationFormatted": "26:08",
       "index": 269,
-      "serie": "Dungeon World"
+      "serie": "Dungeon World",
+      "players": [
+        "Volsung",
+        "Antoine"
+      ]
     },
     {
       "videoId": "SlOJI9B5v54",
@@ -13676,7 +14979,13 @@
       "url": "https://www.youtube.com/watch?v=SlOJI9B5v54",
       "durationFormatted": "1:13:17",
       "index": 270,
-      "serie": "Saint Seiya"
+      "serie": "Saint Seiya",
+      "players": [
+        "Laurent",
+        "Nicolas",
+        "Acritarche",
+        "Volsung"
+      ]
     },
     {
       "videoId": "_LKR97rtjdU",
@@ -13729,7 +15038,13 @@
       "url": "https://www.youtube.com/watch?v=_LKR97rtjdU",
       "durationFormatted": "41:25",
       "index": 271,
-      "serie": "Macadabre"
+      "serie": "Macadabre",
+      "players": [
+        "Nitz",
+        "Roberto",
+        "LeMat",
+        "Volsung"
+      ]
     },
     {
       "videoId": "lCIFRGsxgIg",
@@ -13783,7 +15098,13 @@
       "url": "https://www.youtube.com/watch?v=lCIFRGsxgIg",
       "durationFormatted": "1:37:17",
       "index": 272,
-      "serie": "Saint Seiya"
+      "serie": "Saint Seiya",
+      "players": [
+        "Laurent",
+        "Nicolas",
+        "Acritarche",
+        "Volsung"
+      ]
     },
     {
       "videoId": "IPnlgUtbaZM",
@@ -13837,7 +15158,11 @@
       "url": "https://www.youtube.com/watch?v=IPnlgUtbaZM",
       "durationFormatted": "29:38",
       "index": 273,
-      "serie": "Dungeon World"
+      "serie": "Dungeon World",
+      "players": [
+        "Volsung",
+        "Antoine"
+      ]
     },
     {
       "videoId": "YQiT8Z9QhxY",
@@ -13890,7 +15215,14 @@
       "url": "https://www.youtube.com/watch?v=YQiT8Z9QhxY",
       "durationFormatted": "43:26",
       "index": 274,
-      "serie": "Dodecaedre"
+      "serie": "Dodecaedre",
+      "players": [
+        "Eugenie",
+        "Mass",
+        "Yoann",
+        "Volsung",
+        "Épiphanie"
+      ]
     },
     {
       "videoId": "rFWdP_WsLLw",
@@ -13944,7 +15276,13 @@
       "url": "https://www.youtube.com/watch?v=rFWdP_WsLLw",
       "durationFormatted": "1:00:01",
       "index": 275,
-      "serie": "Saint Seiya"
+      "serie": "Saint Seiya",
+      "players": [
+        "Laurent",
+        "Nicolas",
+        "Acritarche",
+        "Volsung"
+      ]
     },
     {
       "videoId": "MXSbKcIkODE",
@@ -13998,7 +15336,11 @@
       "url": "https://www.youtube.com/watch?v=MXSbKcIkODE",
       "durationFormatted": "21:38",
       "index": 276,
-      "serie": "Dungeon World"
+      "serie": "Dungeon World",
+      "players": [
+        "Volsung",
+        "Antoine"
+      ]
     },
     {
       "videoId": "M8fA59j3WSM",
@@ -14051,7 +15393,14 @@
       "url": "https://www.youtube.com/watch?v=M8fA59j3WSM",
       "durationFormatted": "44:40",
       "index": 277,
-      "serie": "Dodecaedre"
+      "serie": "Dodecaedre",
+      "players": [
+        "Eugenie",
+        "Mass",
+        "Yoann",
+        "Volsung",
+        "Épiphanie"
+      ]
     },
     {
       "videoId": "AUkJcTd5ETM",
@@ -14105,7 +15454,13 @@
       "url": "https://www.youtube.com/watch?v=AUkJcTd5ETM",
       "durationFormatted": "1:28:11",
       "index": 278,
-      "serie": "Saint Seiya"
+      "serie": "Saint Seiya",
+      "players": [
+        "Laurent",
+        "Nicolas",
+        "Acritarche",
+        "Volsung"
+      ]
     },
     {
       "videoId": "LJ3yo9VT9FU",
@@ -14159,7 +15514,11 @@
       "url": "https://www.youtube.com/watch?v=LJ3yo9VT9FU",
       "durationFormatted": "20:20",
       "index": 279,
-      "serie": "Dungeon World"
+      "serie": "Dungeon World",
+      "players": [
+        "Volsung",
+        "Antoine"
+      ]
     },
     {
       "videoId": "L5QvrXqWkoM",
@@ -14212,7 +15571,14 @@
       "url": "https://www.youtube.com/watch?v=L5QvrXqWkoM",
       "durationFormatted": "49:31",
       "index": 280,
-      "serie": "Dodecaedre"
+      "serie": "Dodecaedre",
+      "players": [
+        "Eugenie",
+        "Mass",
+        "Yoann",
+        "Volsung",
+        "Épiphanie"
+      ]
     },
     {
       "videoId": "GW3XhowFccM",
@@ -14266,7 +15632,10 @@
       "url": "https://www.youtube.com/watch?v=GW3XhowFccM",
       "durationFormatted": "1:39:19",
       "index": 281,
-      "serie": "Saint Seiya"
+      "serie": "Saint Seiya",
+      "players": [
+        "endossent leur armure de bronze pour la cause"
+      ]
     },
     {
       "videoId": "e3uSIRpzoVk",
@@ -14320,7 +15689,11 @@
       "url": "https://www.youtube.com/watch?v=e3uSIRpzoVk",
       "durationFormatted": "23:33",
       "index": 282,
-      "serie": "Dungeon World"
+      "serie": "Dungeon World",
+      "players": [
+        "Volsung",
+        "Antoine"
+      ]
     },
     {
       "videoId": "cVlr91732Ro",
@@ -14373,7 +15746,13 @@
       "url": "https://www.youtube.com/watch?v=cVlr91732Ro",
       "durationFormatted": "44:29",
       "index": 283,
-      "serie": "Macadabre"
+      "serie": "Macadabre",
+      "players": [
+        "Nitz",
+        "Roberto",
+        "LeMat",
+        "Volsung"
+      ]
     },
     {
       "videoId": "hT6Tv81FgcI",
@@ -14426,7 +15805,13 @@
       "url": "https://www.youtube.com/watch?v=hT6Tv81FgcI",
       "durationFormatted": "44:35",
       "index": 284,
-      "serie": "Macadabre"
+      "serie": "Macadabre",
+      "players": [
+        "Nitz",
+        "Roberto",
+        "LeMat",
+        "Volsung"
+      ]
     },
     {
       "videoId": "kigCQIKW-x4",
@@ -14480,7 +15865,11 @@
       "url": "https://www.youtube.com/watch?v=kigCQIKW-x4",
       "durationFormatted": "20:44",
       "index": 285,
-      "serie": "Dungeon World"
+      "serie": "Dungeon World",
+      "players": [
+        "Volsung",
+        "Antoine"
+      ]
     },
     {
       "videoId": "5JzXCdSodPI",
@@ -14534,7 +15923,13 @@
       "url": "https://www.youtube.com/watch?v=5JzXCdSodPI",
       "durationFormatted": "1:48:59",
       "index": 286,
-      "serie": "Monsterhearts"
+      "serie": "Monsterhearts",
+      "players": [
+        "Xiam",
+        "JC",
+        "Juce",
+        "Volsung"
+      ]
     },
     {
       "videoId": "1hrD81GCaMY",
@@ -14588,7 +15983,13 @@
       "url": "https://www.youtube.com/watch?v=1hrD81GCaMY",
       "durationFormatted": "1:34:22",
       "index": 287,
-      "serie": "Monsterhearts"
+      "serie": "Monsterhearts",
+      "players": [
+        "Xiam",
+        "JC",
+        "Juce",
+        "Volsung"
+      ]
     },
     {
       "videoId": "ZMrRDNiWJPc",
@@ -14641,7 +16042,14 @@
       "url": "https://www.youtube.com/watch?v=ZMrRDNiWJPc",
       "durationFormatted": "42:15",
       "index": 288,
-      "serie": "Dodecaedre"
+      "serie": "Dodecaedre",
+      "players": [
+        "Eugenie",
+        "Mass",
+        "Yoann",
+        "Volsung",
+        "Épiphanie"
+      ]
     },
     {
       "videoId": "W1-azJ3f77s",
@@ -14695,7 +16103,11 @@
       "url": "https://www.youtube.com/watch?v=W1-azJ3f77s",
       "durationFormatted": "26:20",
       "index": 289,
-      "serie": "Dungeon World"
+      "serie": "Dungeon World",
+      "players": [
+        "Volsung",
+        "Antoine"
+      ]
     },
     {
       "videoId": "giPO_24lQxU",
@@ -14748,7 +16160,14 @@
       "url": "https://www.youtube.com/watch?v=giPO_24lQxU",
       "durationFormatted": "39:14",
       "index": 290,
-      "serie": "Dodecaedre"
+      "serie": "Dodecaedre",
+      "players": [
+        "Eugenie",
+        "Mass",
+        "Yoann",
+        "Volsung",
+        "Épiphanie"
+      ]
     },
     {
       "videoId": "EybHg0oNZTw",
@@ -14802,7 +16221,13 @@
       "url": "https://www.youtube.com/watch?v=EybHg0oNZTw",
       "durationFormatted": "1:19:13",
       "index": 291,
-      "serie": "Monsterhearts"
+      "serie": "Monsterhearts",
+      "players": [
+        "Xiam",
+        "JC",
+        "Juce",
+        "Volsung"
+      ]
     },
     {
       "videoId": "QXV_lS2QwKw",
@@ -14856,7 +16281,11 @@
       "url": "https://www.youtube.com/watch?v=QXV_lS2QwKw",
       "durationFormatted": "25:41",
       "index": 292,
-      "serie": "Dungeon World"
+      "serie": "Dungeon World",
+      "players": [
+        "Volsung",
+        "Antoine"
+      ]
     },
     {
       "videoId": "6TaetobZbug",
@@ -14909,7 +16338,14 @@
       "url": "https://www.youtube.com/watch?v=6TaetobZbug",
       "durationFormatted": "1:01:30",
       "index": 293,
-      "serie": "Dodecaedre"
+      "serie": "Dodecaedre",
+      "players": [
+        "Eugenie",
+        "Mass",
+        "Yoann",
+        "Volsung",
+        "Épiphanie"
+      ]
     },
     {
       "videoId": "PNVZA-rVZCo",
@@ -14962,7 +16398,14 @@
       "url": "https://www.youtube.com/watch?v=PNVZA-rVZCo",
       "durationFormatted": "1:37:52",
       "index": 294,
-      "serie": "Dodecaedre"
+      "serie": "Dodecaedre",
+      "players": [
+        "Eugenie",
+        "Mass",
+        "Yoann",
+        "Volsung",
+        "Épiphanie"
+      ]
     },
     {
       "videoId": "pBLLpymV2Yw",
@@ -15016,7 +16459,11 @@
       "url": "https://www.youtube.com/watch?v=pBLLpymV2Yw",
       "durationFormatted": "21:30",
       "index": 295,
-      "serie": "Dungeon World"
+      "serie": "Dungeon World",
+      "players": [
+        "Volsung",
+        "Antoine"
+      ]
     },
     {
       "videoId": "shB11UjNQcg",
@@ -15069,7 +16516,13 @@
       "url": "https://www.youtube.com/watch?v=shB11UjNQcg",
       "durationFormatted": "40:14",
       "index": 296,
-      "serie": "Macadabre"
+      "serie": "Macadabre",
+      "players": [
+        "Nitz",
+        "Roberto",
+        "LeMat",
+        "Volsung"
+      ]
     },
     {
       "videoId": "m-72gMf7azo",
@@ -15123,7 +16576,11 @@
       "url": "https://www.youtube.com/watch?v=m-72gMf7azo",
       "durationFormatted": "22:36",
       "index": 297,
-      "serie": "Dungeon World"
+      "serie": "Dungeon World",
+      "players": [
+        "Volsung",
+        "Antoine"
+      ]
     },
     {
       "videoId": "pUZALe8u2xE",
@@ -15177,7 +16634,13 @@
       "url": "https://www.youtube.com/watch?v=pUZALe8u2xE",
       "durationFormatted": "1:44:16",
       "index": 298,
-      "serie": "Monsterhearts"
+      "serie": "Monsterhearts",
+      "players": [
+        "Xiam",
+        "JC",
+        "Juce",
+        "Volsung"
+      ]
     },
     {
       "videoId": "295TS4qWS_Y",
@@ -15230,7 +16693,13 @@
       "url": "https://www.youtube.com/watch?v=295TS4qWS_Y",
       "durationFormatted": "39:09",
       "index": 299,
-      "serie": "Macadabre"
+      "serie": "Macadabre",
+      "players": [
+        "Nitz",
+        "Roberto",
+        "LeMat",
+        "Volsung"
+      ]
     },
     {
       "videoId": "ZZDBgTt-w7E",
@@ -15284,7 +16753,11 @@
       "url": "https://www.youtube.com/watch?v=ZZDBgTt-w7E",
       "durationFormatted": "24:29",
       "index": 300,
-      "serie": "Dungeon World"
+      "serie": "Dungeon World",
+      "players": [
+        "Volsung",
+        "Antoine"
+      ]
     },
     {
       "videoId": "GnMW6eSXLSk",
@@ -15338,7 +16811,13 @@
       "url": "https://www.youtube.com/watch?v=GnMW6eSXLSk",
       "durationFormatted": "1:46:10",
       "index": 301,
-      "serie": "Monsterhearts"
+      "serie": "Monsterhearts",
+      "players": [
+        "Xiam",
+        "JC",
+        "Juce",
+        "Volsung"
+      ]
     },
     {
       "videoId": "u5NG4WpgKj8",
@@ -15380,7 +16859,8 @@
       "url": "https://www.youtube.com/watch?v=u5NG4WpgKj8",
       "durationFormatted": "1:20:30",
       "index": 302,
-      "serie": "Monster of the Week"
+      "serie": "Monster of the Week",
+      "players": []
     },
     {
       "videoId": "erbQB-Mxsww",
@@ -15436,7 +16916,8 @@
       "url": "https://www.youtube.com/watch?v=erbQB-Mxsww",
       "durationFormatted": "2:21:00",
       "index": 303,
-      "serie": "Apocalypse World Bloody tears"
+      "serie": "Apocalypse World Bloody tears",
+      "players": []
     },
     {
       "videoId": "DE49Nx8gcjg",
@@ -15492,7 +16973,8 @@
       "url": "https://www.youtube.com/watch?v=DE49Nx8gcjg",
       "durationFormatted": "3:35:36",
       "index": 304,
-      "serie": "Apocalypse World Bloody tears"
+      "serie": "Apocalypse World Bloody tears",
+      "players": []
     },
     {
       "videoId": "G-rRvCVzq_c",
@@ -15543,7 +17025,8 @@
       "url": "https://www.youtube.com/watch?v=G-rRvCVzq_c",
       "durationFormatted": "3:14:20",
       "index": 305,
-      "serie": "Apocalypse World Bloody tears"
+      "serie": "Apocalypse World Bloody tears",
+      "players": []
     },
     {
       "videoId": "V5Tn8Ww5JsA",
@@ -15592,7 +17075,8 @@
       "url": "https://www.youtube.com/watch?v=V5Tn8Ww5JsA",
       "durationFormatted": "3:19:51",
       "index": 306,
-      "serie": "Apocalypse World Bloody tears"
+      "serie": "Apocalypse World Bloody tears",
+      "players": []
     },
     {
       "videoId": "H3a5UpVTX-k",
@@ -15639,7 +17123,8 @@
       "url": "https://www.youtube.com/watch?v=H3a5UpVTX-k",
       "durationFormatted": "3:46:36",
       "index": 307,
-      "serie": "Apocalypse World Bloody tears"
+      "serie": "Apocalypse World Bloody tears",
+      "players": []
     },
     {
       "videoId": "PhH0zD4GkD8",
@@ -15686,7 +17171,8 @@
       "url": "https://www.youtube.com/watch?v=PhH0zD4GkD8",
       "durationFormatted": "3:08:36",
       "index": 308,
-      "serie": "Apocalypse World Bloody tears"
+      "serie": "Apocalypse World Bloody tears",
+      "players": []
     },
     {
       "videoId": "5RDcG2rOGJ4",
@@ -15735,7 +17221,8 @@
       "url": "https://www.youtube.com/watch?v=5RDcG2rOGJ4",
       "durationFormatted": "3:01:51",
       "index": 309,
-      "serie": "Apocalypse World Bloody tears"
+      "serie": "Apocalypse World Bloody tears",
+      "players": []
     },
     {
       "videoId": "E9UsjbtXoOM",
@@ -15782,7 +17269,8 @@
       "url": "https://www.youtube.com/watch?v=E9UsjbtXoOM",
       "durationFormatted": "3:57:21",
       "index": 310,
-      "serie": "Apocalypse World Bloody tears"
+      "serie": "Apocalypse World Bloody tears",
+      "players": []
     },
     {
       "videoId": "n9CiGhGOZfY",
@@ -15829,7 +17317,8 @@
       "url": "https://www.youtube.com/watch?v=n9CiGhGOZfY",
       "durationFormatted": "2:02:11",
       "index": 311,
-      "serie": "Apocalypse World Bloody tears"
+      "serie": "Apocalypse World Bloody tears",
+      "players": []
     }
   ]
 }

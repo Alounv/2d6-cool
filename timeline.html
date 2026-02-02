@@ -281,6 +281,12 @@
                 align-items: center;
                 gap: 4px;
             }
+            .tooltip-players {
+                color: var(--accent);
+                font-size: 12px;
+                margin-bottom: 8px;
+                line-height: 1.4;
+            }
             .tooltip-description {
                 color: var(--text-muted);
                 font-size: 12px;
@@ -671,7 +677,10 @@
                                         month: "long",
                                         day: "numeric",
                                     });
-                                    return `<div class="episode" style="left:${pos}%;background:${color};color:${color}" data-title="${ep.title.replace(/"/g, "&quot;")}" data-date="${date}" data-duration="${ep.durationFormatted}" data-views="${ep.viewCount || 0}" data-likes="${ep.likeCount || 0}" data-comments="${ep.commentCount || 0}" data-thumbnail="${thumb}" data-description="${desc}" data-url="${ep.url}"></div>`;
+                                    const players = (ep.players || []).join(
+                                        ", ",
+                                    );
+                                    return `<div class="episode" style="left:${pos}%;background:${color};color:${color}" data-title="${ep.title.replace(/"/g, "&quot;")}" data-date="${date}" data-duration="${ep.durationFormatted}" data-views="${ep.viewCount || 0}" data-likes="${ep.likeCount || 0}" data-comments="${ep.commentCount || 0}" data-thumbnail="${thumb}" data-description="${desc}" data-url="${ep.url}" data-players="${players}"></div>`;
                                 })
                                 .join("");
                             return `<div class="series-row"><div class="series-label" title="${s.name}">${s.name}</div><div class="series-timeline"><div class="series-line" style="left:${firstPos}%;width:${lastPos - firstPos}%;background:${color}"></div>${circles}</div></div>`;
@@ -687,7 +696,10 @@
                         const desc = ep.dataset.description
                             ? `<div class="tooltip-description">${ep.dataset.description}</div>`
                             : "";
-                        tooltip.innerHTML = `${thumb}<div class="tooltip-title">${ep.dataset.title}</div><div class="tooltip-meta"><span>📅 ${ep.dataset.date}</span><span>⏱️ ${ep.dataset.duration}</span><span>👁️ ${(+ep.dataset.views).toLocaleString()}</span><span>👍 ${(+ep.dataset.likes).toLocaleString()}</span><span>💬 ${(+ep.dataset.comments).toLocaleString()}</span></div>${desc}`;
+                        const players = ep.dataset.players
+                            ? `<div class="tooltip-players">🎭 ${ep.dataset.players}</div>`
+                            : "";
+                        tooltip.innerHTML = `${thumb}<div class="tooltip-title">${ep.dataset.title}</div><div class="tooltip-meta"><span>📅 ${ep.dataset.date}</span><span>⏱️ ${ep.dataset.duration}</span><span>👁️ ${(+ep.dataset.views).toLocaleString()}</span><span>👍 ${(+ep.dataset.likes).toLocaleString()}</span><span>💬 ${(+ep.dataset.comments).toLocaleString()}</span></div>${players}${desc}`;
                         tooltip.style.display = "block";
                     };
                     ep.onmousemove = (e) => {
