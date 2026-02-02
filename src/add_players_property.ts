@@ -35,13 +35,16 @@ function findPlayersInDescription(description: string): string[] {
   // Use word boundaries to avoid partial matches
   const foundPlayers: string[] = [];
 
+  // Remove URLs to avoid false positives (e.g., "khelren.itch.io" matching "Khelren")
+  const descriptionWithoutUrls = description.replace(/https?:\/\/[^\s]+/gi, "");
+
   for (const { pattern, canonical } of playerPatterns) {
     // Skip very short names (2 chars or less) to avoid false positives
     if (pattern.length <= 2) continue;
 
     // Create a regex with word boundaries
     const regex = new RegExp(`\\b${escapeRegex(pattern)}\\b`, "i");
-    if (regex.test(description)) {
+    if (regex.test(descriptionWithoutUrls)) {
       if (!foundPlayers.includes(canonical)) {
         foundPlayers.push(canonical);
       }
