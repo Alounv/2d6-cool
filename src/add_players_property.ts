@@ -32,7 +32,6 @@ const playerPatterns = players
 
 function findPlayersInDescription(description: string): string[] {
   // Search for known player names anywhere in the description
-  // Use word boundaries to avoid partial matches
   const foundPlayers: string[] = [];
 
   // Remove URLs to avoid false positives (e.g., "khelren.itch.io" matching "Khelren")
@@ -42,8 +41,13 @@ function findPlayersInDescription(description: string): string[] {
     // Skip very short names (2 chars or less) to avoid false positives
     if (pattern.length <= 2) continue;
 
-    // Create a regex with word boundaries
-    const regex = new RegExp(`\\b${escapeRegex(pattern)}\\b`, "i");
+    // Use Unicode-aware word boundary matching
+    // \b doesn't work correctly with accented characters, so we use a custom approach
+    // that checks for non-letter characters (or start/end of string) around the pattern
+    const regex = new RegExp(
+      `(?<![\\p{L}\\p{N}])${escapeRegex(pattern)}(?![\\p{L}\\p{N}])`,
+      "iu",
+    );
     if (regex.test(descriptionWithoutUrls)) {
       if (!foundPlayers.includes(canonical)) {
         foundPlayers.push(canonical);

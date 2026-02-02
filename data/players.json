@@ -63,7 +63,7 @@
   "Ours",
   "Phane",
   "Pierre",
-  "Ramos",
+  ["Taliesin", "Ramos"],
   "Roberto",
   "S.Ziterman",
   "Sacha",
@@ -74,7 +74,6 @@
   "Soloflow",
   "Sous-Colline",
   "StreetTiger",
-  "Taliesin",
   "Thomas Munier",
   "Ulfric",
   "Virevolte",
@@ -84,6 +83,6 @@
   "Willy",
   "Xiam",
   "Xman",
-  ["Yohan", "Yohann"],
+  ["Yohan", "Yohann", "Yoann"],
   "kF"
 ]
