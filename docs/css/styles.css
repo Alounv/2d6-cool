@@ -471,18 +471,23 @@ h1 {
     .series-count {
         display: none;
     }
-    .size-option[data-value="standard"] {
-        display: none;
+    .chart-wrapper {
+        display: flex;
+        flex-direction: column;
     }
-    .control-group:has(.sort-option) {
-        display: none;
+    .chart-controls {
+        position: static;
+        flex-wrap: wrap;
+        justify-content: center;
+        order: 1;
+        margin-top: 10px;
+        gap: 12px 8px;
     }
-    .control-group:has(.size-option) {
+    .control-group:not(:last-child) {
         border-right: none;
         padding-right: 0;
     }
-    .chart-controls {
-        right: 50%;
-        transform: translateX(50%);
+    .year-header-wrapper {
+        padding-bottom: 10px;
     }
 }
